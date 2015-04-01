@@ -6,3 +6,5 @@ The DocentEDU Website - Powered by Jekyll
  - Would take less space too.
 
 Might not give Matt enough freedom though.
+
+Webhook deployment is also a bit technical.
