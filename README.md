@@ -7,8 +7,6 @@ The DocentEDU Website - Powered by Jekyll
 
 Might not give Matt enough freedom though.
 
-Webhook deployment is also a bit technical?
-
-Webhook test: Success!!
+Webhook is working.
 
 Verifying X-Hub-Signature with PHP is not working... but is working fine for Node.js
