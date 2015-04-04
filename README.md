@@ -11,4 +11,4 @@ Webhook deployment is also a bit technical?
 
 Webhook test: Success!!
 
-Verifying X-Hub-Signature with PHP is not working...
+Verifying X-Hub-Signature with PHP is not working... but is working fine for Node.js
