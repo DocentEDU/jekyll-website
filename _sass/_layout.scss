@@ -17,7 +17,8 @@
     float: left;
     background-image: url('../images/logo.png');
     background-size: 44px 44px;
-    text-indent: -999px;
+    background-repeat: no-repeat;
+    color: transparent;
 
     &,
     &:visited {
