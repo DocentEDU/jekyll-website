@@ -5,7 +5,5 @@ The DocentEDU Website - Powered by Jekyll
 - Would be much faster and more stable.
 - Would take less disk space too.
 
-Might not give Matt enough freedom though.
-
 Webhook is working, prototyping with Node.js
 - Can run as user with appropriate permissions to move files around
