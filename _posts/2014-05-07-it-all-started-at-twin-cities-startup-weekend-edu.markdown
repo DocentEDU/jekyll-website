@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: It all started at Twin Cities Startup Weekend EDU….
-author:
-  display_name: Karin Hogen
-  login: Karin
-  email: karinhogen@gmail.com
-  url: ''
-author_login: Karin
-author_email: karinhogen@gmail.com
-wordpress_id: 299
-wordpress_url: http://96.126.124.186/?p=299
+author: Karin Hogen
 date: '2014-05-07 11:42:05 +0000'
 date_gmt: '2014-05-07 11:42:05 +0000'
 categories:
