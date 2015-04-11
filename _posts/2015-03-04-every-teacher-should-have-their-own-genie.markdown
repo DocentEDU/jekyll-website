@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: Every teacher should have their own genie
-author:
-  display_name: Matt Nupen
-  login: matt
-  email: matt.nupen@gmail.com
-  url: ''
-author_login: matt
-author_email: matt.nupen@gmail.com
-wordpress_id: 701
-wordpress_url: http://docentedu.com/?p=701
+author: Matt Nupen
 date: '2015-03-04 18:27:40 +0000'
 date_gmt: '2015-03-05 00:27:40 +0000'
 categories:
