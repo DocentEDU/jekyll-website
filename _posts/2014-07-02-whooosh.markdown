@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: Whooosh!!!
-author:
-  display_name: Karin Hogen
-  login: Karin
-  email: karinhogen@gmail.com
-  url: ''
-author_login: Karin
-author_email: karinhogen@gmail.com
-wordpress_id: 295
-wordpress_url: http://96.126.124.186/?p=295
+author: Karin Hogen
 date: '2014-07-02 11:47:58 +0000'
 date_gmt: '2014-07-02 11:47:58 +0000'
 categories:
