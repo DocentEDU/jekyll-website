@@ -1,0 +1,45 @@
+---
+layout: post
+status: publish
+published: true
+title: Whooosh!!!
+author:
+  display_name: Karin Hogen
+  login: Karin
+  email: karinhogen@gmail.com
+  url: ''
+author_login: Karin
+author_email: karinhogen@gmail.com
+wordpress_id: 295
+wordpress_url: http://96.126.124.186/?p=295
+date: '2014-07-02 11:47:58 +0000'
+date_gmt: '2014-07-02 11:47:58 +0000'
+categories:
+- News
+tags: []
+comments: []
+---
+<p>you hear that? That’s the sound of DocentEDU’s future rushing towards you.</p>
+<p>&nbsp;</p>
+<p>There’s so much to update since our last post, but we want to let you know of several main things:</p>
+<ul>
+<li>The Alpha version will be tested this fall</li>
+<li>You can sign up to be a Beta tester this winter</li>
+<li>We added a new team member, Ben Pedersen as a programmer</li>
+<li>We were lucky enough to be invited to present at EdTech Venture Day with Golden Angel Investors in Milwaukee, Wisonsin</li>
+</ul>
+<p>As per point three, we want to welcome <a href="https://twitter.com/Ben_Pedersen">Ben</a> onto the team. Ben is an awesome programmer who has tons of startup programming experience. He also has a degree in Economics from the University of Minnesota, so that’s helpful. : ) Ben has been working so hard to get Docent some great new features!</p>
+<p>&nbsp;</p>
+<p>As a result of adding Ben on the team, we will be ready to roll out an Alpha version for testing to a select group of about 50 teachers this school year. The features that will be available in the alpha will be:</p>
+<ul>
+<li>Highlights</li>
+<li>Comments</li>
+<li>Sticky Notes</li>
+<li>Questions</li>
+<li>Discussions</li>
+<li>Assigning to students and classes</li>
+</ul>
+<p>&nbsp;</p>
+<p>We will take the feedback from our Alpha testing and roll that into our Beta version for this winter. If you want to be part of our Beta testing, <b>please contact us! </b>We are looking for great, enthusiastic teachers who want a simple way to bring engaging and relevant online content to their students.</p>
+<p>Finally, we were so flattered and excited to present to the <a href="http://www.goldenangelsinvestors.com/">Golden Angel Investor group</a> in Milwaukee, Wisconsin. We got to present alongside some amazing companies who already have millions in funding, and were so lucky to have such a great opportunity. It was wonderful meeting all of the other EdTech founders and picking their brains about how to start a great company that will positively impact education.  We also really appreciated all the great advice and help we got from Tim from Golden Angel Investors as well.</p>
+<p>&nbsp;</p>
