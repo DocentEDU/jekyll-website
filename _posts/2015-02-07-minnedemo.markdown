@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: MinneDemo
-author:
-  display_name: Matt Nupen
-  login: matt
-  email: matt.nupen@gmail.com
-  url: ''
-author_login: matt
-author_email: matt.nupen@gmail.com
-wordpress_id: 618
-wordpress_url: http://docentedu.com/?p=618
+author: Matt Nupen
 date: '2015-02-07 08:43:14 +0000'
 date_gmt: '2015-02-07 14:43:14 +0000'
 categories:
