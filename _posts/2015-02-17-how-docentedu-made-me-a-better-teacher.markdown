@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: How DocentEDU made me a better teacher
-author:
-  display_name: Matt Nupen
-  login: matt
-  email: matt.nupen@gmail.com
-  url: ''
-author_login: matt
-author_email: matt.nupen@gmail.com
-wordpress_id: 620
-wordpress_url: http://docentedu.com/?p=620
+author: Matt Nupen
 date: '2015-02-17 08:43:39 +0000'
 date_gmt: '2015-02-17 14:43:39 +0000'
 categories:
