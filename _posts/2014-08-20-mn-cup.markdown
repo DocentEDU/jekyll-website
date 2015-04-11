@@ -3,15 +3,7 @@ layout: post
 status: publish
 published: true
 title: MN Cup
-author:
-  display_name: Karin Hogen
-  login: Karin
-  email: karinhogen@gmail.com
-  url: ''
-author_login: Karin
-author_email: karinhogen@gmail.com
-wordpress_id: 297
-wordpress_url: http://96.126.124.186/?p=297
+author: Karin Hogen
 date: '2014-08-20 11:47:14 +0000'
 date_gmt: '2014-08-20 11:47:14 +0000'
 categories:
