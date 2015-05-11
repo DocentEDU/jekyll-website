@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Masters in Education: Founding a Company on Sound Pedagogy
+title: "Masters in Education: Founding a Company on Sound Pedagogy"
 author: Karin Hogen
 ---
 I have just recieved, after much hard work and research and writing, my Masters in Education from the College of St. Scholastica in Duluth, Minnesota. My educational technology startup, DocentEDU has also just passed 1000 users. Things are looking great!
