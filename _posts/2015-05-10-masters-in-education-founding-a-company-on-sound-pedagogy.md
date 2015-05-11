@@ -5,7 +5,7 @@ author: Karin Hogen
 ---
 I have just received, after much hard work and research and writing, my Masters in Education from the College of St. Scholastica in Duluth, Minnesota. DocentEDU has also just passed 1000 users. Things are looking great!
 
-As you probably already know, I cofounded DocentEDU with another talented teacher, Matt Nupen. Not to knock other edtech companies, but many of them are founded, designed, and run by people who’ve never been in a classroom in a teaching capacity. This shows in not only the user design, but more importantly, the product’s lack of connection to pedagogical best practices.
+As you may already know, I cofounded DocentEDU with another talented teacher, Matt Nupen. Not to knock other edtech companies, but many of them are founded, designed, and run by people who’ve never been in a classroom in a teaching capacity. This shows in not only the user design, but more importantly, the product’s lack of connection to pedagogical best practices.
 
 Matt and I started DocentEDU based on a pedagogical need, not out of a business opportunity. Throughout DocentEDU’s frenetic and fast development, pedagogical practices have always been our guiding principals. This is true from user experience, to our grading dashboard, to every feature we develop.
 
