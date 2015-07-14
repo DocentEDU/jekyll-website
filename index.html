@@ -6,6 +6,7 @@ layout: default
     text-align: center;
   }
   .signup-as-student, .signup-as-teacher {
+    line-height: 1;
     padding: 18px;
     border-radius: 10px;
     border: 0;
@@ -20,12 +21,12 @@ layout: default
       content: 'Sign up as a \A';
     }
   .signup-as-student {
-    background-color: #ed6f23 !important;
-    margin-left: 0 !important;
+    background-color: #ed6f23;
+    margin-left: 0;
   }
   .signup-as-teacher {
-    background-color: #3498DB !important;
-    margin-right: 0 !important;
+    background-color: #3498DB;
+    margin-right: 0;
   }
   @media (max-width: 480px) {
     .signup-as-student:before, .signup-as-teacher:before {
@@ -42,7 +43,7 @@ layout: default
 
 <div class="home center">
   <img width="240" height="134" src="http://docentedu.com/wp-content/uploads/2014/09/homepage.png" />
-  <h2>Save Time, Increase Learning</h2>
+  <h2 style="margin-top: 25px;">Save Time, Increase Learning</h2>
   <button type="button" class="signup-as-student">Student</button>
   <button type="button" class="signup-as-teacher">Teacher</button>
 </div>
