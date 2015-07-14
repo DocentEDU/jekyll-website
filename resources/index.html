@@ -2,10 +2,26 @@
 layout: default
 ---
 
-<div>
-  <a title="Text Sources" href="{{ site.baseurl}}/resources/text-sources.html">Find quality online text</a>
-</div>
+<style>
+  .col {
+    float: left;
+    width: 50%;
+    margin-top: 44px;
+  }
+  @media-query (max-width: 600px) {
+    .col {
+      width: 100%;
+    }
+  }
+  .center {
+    text-align: center;
+  }
+</style>
 
-<div>
+<h2 class="col center">
+  <a title="Text Sources" href="{{ site.baseurl}}/resources/text-sources.html">Find quality online text</a>
+</h2>
+
+<h2 class="col center">
   <a title="Resources to Embed" href="{{ site.baseurl}}/resources/resources-to-embed.html">Find great resources to embed</a>
-</div>
+</h2>
