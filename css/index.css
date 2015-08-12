@@ -1,0 +1,333 @@
+body {
+    padding-top: 50px;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-top: -5px;
+}
+
+.divider {
+    border-bottom: 1px solid #CCC;
+}
+
+.container {
+    font-family: lato;
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+
+.container h2 {
+    text-align: center;
+    font-family: lato;
+    font-size: 30px;
+    margin-bottom: 35px;
+}
+
+  .signup-as-student, .signup-as-teacher {
+    font-family: Lato;
+    font-size: 14px;
+    color: #FFF;
+    margin: 18px;
+  }
+    .signup-as-student:before, .signup-as-teacher:before {
+      content: 'Sign up as a \A';
+    }
+
+  .signup-as-student {
+    background-color: #ed6f23;
+
+  }
+  .signup-as-teacher {
+    background-color: #3498DB;
+  }
+  @media (max-width: 480px) {
+    .signup-as-student:before, .signup-as-teacher:before {
+      white-space: pre;
+      font-size: 0.75em;
+      line-height: 22px;
+    }
+    .signup-as-student, .signup-as-teacher {
+      padding-top: 4px;
+      padding-bottom: 10px;
+    }
+  }
+
+
+#header {
+    background-color: #FFD6A0;
+}
+
+#devices {
+   
+}
+
+#devices a .hidden {
+    font-size: 14px;
+    background: #FFF;
+    color: #CCC;
+    border-radius: 3px;
+}
+
+#devices a:hover .hidden {
+    visibility: visible;
+        display:block;
+}
+
+.block-link {
+    display: block;
+}
+
+#devices .row .row {
+    margin-bottom: 20px;
+}
+
+#devices a, #devices a i {
+    color: #000;
+    text-decoration: none;
+    transition:all 0.3s ease;
+}
+
+#devices a:hover, #devices a:hover i {
+    color: #DC682D ;
+    text-decoration: none;
+}
+
+
+#features {
+   
+}
+
+#testimonial1 {
+    background: #FFD6A0;
+}
+
+#google {
+    
+}
+
+#google .fa-circle, #google .googleRed {
+    color: rgb(219,76,62);
+}
+
+#google .container {
+    //border-top: 1px solid #CCC;
+}
+
+#howItWorks {
+    background: #FFF;
+}
+
+#howItWorks .container {
+    border-top: 1px solid #CCC;
+}
+
+#cta1 {
+    background: #DB5E0A;
+    color:#FFF;
+}
+
+#examples {
+    
+}
+
+#pricing {
+    
+}
+
+.price-teachers, .price-schools {
+    padding: 0px 20px 0px 20px;
+    margin-top: 10px;
+    margin-bottom: 30px;
+}
+
+.price-teachers h3, .price-schools h3 {
+    margin-top: 0px;
+}
+
+.price-teachers {
+    border-right: 1px dotted #CCC;
+}
+
+
+
+#cta2 {
+    background: #DB5E0A;
+    color: #FFF;
+}
+
+#mission {
+    
+}
+
+#footer {
+    background: #888;
+    color: #FFF;
+}
+
+.featuresCentered {
+    text-align: center
+}
+
+/*
+    FOOTER
+*/
+#footer {
+    background: #888;
+    color: #FFF;
+}
+
+#footer a {
+    color: #FFF;
+}
+
+#footer ul {
+    list-style-type: none;
+    margin: 0px;
+    padding: 0px;
+}
+
+#footer ul a {
+    text-decoration: none;
+    display: block;
+    padding: 2px 0 2px 10px;
+}
+
+#footer ul a:hover {
+    background-color: #999;
+}
+
+.social-icons {
+    padding: 0px;
+    margin: 0px;
+}
+
+.social-icons a {
+    color: #FFF;
+}
+
+.social-icons a:hover, .social-icons a:hover i {
+    text-decoration: none;
+}
+
+.social-icons a i {
+    display:block;
+    padding: 10px 0;
+    transition:all 0.3s ease;
+}
+
+.social-icons a:hover i {
+    background-color: #777;
+}
+
+
+/* 
+    Vertical Tabs
+    custom inclusion of right, left and below tabs 
+    http://www.bootply.com/74926 
+*/
+.tabs-right .nav-tabs {
+  border-bottom: 0;
+}
+
+.tab-content > .tab-pane,
+.pill-content > .pill-pane {
+  display: none;
+}
+
+.tab-content > .active,
+.pill-content > .active {
+  display: block;
+}
+
+/*
+.tabs-below > .nav-tabs {
+  border-top: 1px solid #ddd;
+}
+
+.tabs-below > .nav-tabs > li {
+  margin-top: -1px;
+  margin-bottom: 0;
+}
+
+.tabs-below > .nav-tabs > li > a {
+  -webkit-border-radius: 0 0 4px 4px;
+     -moz-border-radius: 0 0 4px 4px;
+          border-radius: 0 0 4px 4px;
+}
+
+.tabs-below > .nav-tabs > li > a:hover,
+.tabs-below > .nav-tabs > li > a:focus {
+  border-top-color: #ddd;
+  border-bottom-color: transparent;
+}
+
+.tabs-below > .nav-tabs > .active > a,
+.tabs-below > .nav-tabs > .active > a:hover,
+.tabs-below > .nav-tabs > .active > a:focus {
+  border-color: transparent #ddd #ddd #ddd;
+}
+*/
+.tabs-right .nav-tabs > li {
+  float: none;
+}
+
+.tabs-right .nav-tabs > li > a {
+  min-width: 74px;
+  margin-right: 0;
+  margin-bottom: 3px;
+}
+/*
+.tabs-left > .nav-tabs {
+  float: left;
+  margin-right: 19px;
+  border-right: 1px solid #ddd;
+}
+
+.tabs-left > .nav-tabs > li > a {
+  margin-right: -1px;
+  -webkit-border-radius: 4px 0 0 4px;
+     -moz-border-radius: 4px 0 0 4px;
+          border-radius: 4px 0 0 4px;
+}
+
+.tabs-left > .nav-tabs > li > a:hover,
+.tabs-left > .nav-tabs > li > a:focus {
+  border-color: #eeeeee #dddddd #eeeeee #eeeeee;
+}
+
+.tabs-left > .nav-tabs .active > a,
+.tabs-left > .nav-tabs .active > a:hover,
+.tabs-left > .nav-tabs .active > a:focus {
+  border-color: #ddd transparent #ddd #ddd;
+  *border-right-color: #ffffff;
+}
+*/
+.tabs-right .nav-tabs {
+  //float: right;
+  margin-left: 19px;
+  //border-left: 1px solid #ddd;
+}
+
+.tabs-right .nav-tabs > li > a {
+  margin-left: -1px;
+  -webkit-border-radius: 0 0px 0px 0;
+     -moz-border-radius: 0 0px 0px 0;
+          border-radius: 0 0px 0px 0;
+}
+
+.tabs-right .nav-tabs > li > a:hover,
+.tabs-right .nav-tabs > li > a:focus {
+  border-color: transparent;
+    background-color: #eee;
+}
+
+.tabs-right .nav-tabs .active > a,
+.tabs-right .nav-tabs .active > a:hover,
+.tabs-right .nav-tabs .active > a:focus {
+  border-color: transparent;
+  
+    background-color: #ddd;
+}
+
