@@ -1,81 +1,404 @@
 ---
 layout: default
 ---
-<style>
-  .center {
-    text-align: center;
-  }
-  .signup-as-student, .signup-as-teacher {
-    line-height: 1;
-    padding: 18px;
-    border-radius: 10px;
-    border: 0;
-    color: #fff;
-    font-family: Lato;
-    font-size: 14px;
-    cursor: pointer;
-    outline: 0;
-    margin: 18px;
-  }
-    .signup-as-student:before, .signup-as-teacher:before {
-      content: 'Sign up as a \A';
-    }
-  .signup-as-student {
-    background-color: #ed6f23;
-    margin-left: 0;
-  }
-  .signup-as-teacher {
-    background-color: #3498DB;
-    margin-right: 0;
-  }
-  @media (max-width: 480px) {
-    .signup-as-student:before, .signup-as-teacher:before {
-      white-space: pre;
-      font-size: 0.75em;
-      line-height: 22px;
-    }
-    .signup-as-student, .signup-as-teacher {
-      padding-top: 4px;
-      padding-bottom: 10px;
-    }
-  }
-</style>
+<div class="jumbotron">
+           <h1 class="text-center">
+                <img src="images/logo_lg_hori.png" alt="DocentEDU Logo, three orange overlapping squares">
+          </h1>
+        <p class="text-center">Make the Internet Your Lesson</p>
+          <div class="row">
+            <div class="col-md-3 col-md-offset-3 text-center">
+                <a class="signup-as-student btn btn-primary btn-lg" href="#" role="button">Student</a>
+            </div>
+             <div class="col-md-3 text-center">
+                <a class="signup-as-teacher btn btn-primary btn-lg" href="#" role="button">Teacher</a>
+            </div>
+        </div>
+</div>
+     
+      </div>
 
-<div class="home center">
-  <img width="240" height="134" src="http://docentedu.com/wp-content/uploads/2014/09/homepage.png" />
-  <h1 style="margin-top: 25px;">Save Time, Increase Learning</h1>
-  <button type="button" class="signup-as-student">Student</button>
-  <button type="button" class="signup-as-teacher">Teacher</button>
+
+
+
+ <div class="container-fluid" id="features">
+        <div class="container divider">
+            <div class="row">
+                <div class="tabbable tabs-right">
+                    <div class="col-md-7 tab-content text-center">
+                        <div class="tab-pane active" id="1">
+                            <video id="video1" preload="auto" autoplay="autoplay" loop="loop" style="width: 500px; height: 400px;"  poster="poster.png">
+                                <source src="//i.imgur.com/jct25gw.webm" type="video/webm"></source>
+                            </video>
+                        </div>
+                        <div class="tab-pane" id="2">
+                            <video id="video2" preload="auto" autoplay="autoplay" loop="loop" style="width: 500px; height: 400px;"  poster="poster.png">
+                                <source src="//i.imgur.com/sy9PhTa.webm" type="video/webm"></source>
+                            </video>
+                        </div>
+                        <div class="tab-pane" id="3">
+                            <video id="video3" preload="auto" autoplay="autoplay" loop="loop" style="width: 500px; height: 400px;"  poster="poster.png">
+                                <source src="//i.imgur.com/5rSWTQz.webm" type="video/webm"></source>
+                            </video>
+                        </div>
+                    </div>
+                    <div class="col-md-5">
+                        <h2 class="text-uppercase">How DocentEDU Works</h2>
+                        <p>Turn almost any website into an engaging lesson by adding questions, discuss, and insight and more into the text.</p>
+                        <p>see it in action:</p>
+                    <ul class="nav nav-tabs">
+                        <li class="active video1"><a href="#1" data-toggle="tab">Questions</a></li>
+                        <li class="video2"><a href="#2" data-toggle="tab">Discussions</a></li>
+                        <li class="video3"><a href="#3" data-toggle="tab">Insight</a></li>
+                    </ul>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+
 </div>
 
-<div class="features">
-  <h2>Features</h2>
-  
-  <b>Save Time</b>
-  <p>Create and assign a lesson in minutes. Find your text, add questions, assign. It’s that simple</p>
-  
-  <b>Engage Students</b>
-  <p>Add discussions, videos, questions, and interactive content from other sites directly to any webpage</p>
-  
-  <b>Assess</b>
-  <p>Assess student learning with different question types, quizzes, and auto-grading.</p>
-  
-  <b>Class Discussions</b>
-  <p>Turn text into private whole class discussions that are focused on specific topics.</p>
+
+            
+      
+<!-- Devices -->
+<div class="container-fluid" id="devices">
+    <div class="container divider">
+        
+        <div class="row">
+            <h2>Get DocentEDU for your device</h2>
+             <div class="col-md-2 col-md-offset-2 text-center">
+                 <div class="row">
+                     <div class="col-md-12">
+                         <a class="block-link" href="#">
+                        <i class="fa fa-apple fa-5x"><span class="hidden">Coming Soon</span></i>
+                        <h4>iOS Devices</h4>
+                         </a>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                 <div class="row">
+                     <div class="col-md-12">
+                         <a class="block-link" href="#">
+                        <i class="fa fa-android fa-5x"><span class="hidden">Coming Soon</span></i>
+                       <h4>Android</h4>
+                             </a>
+                     </div>
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                 <div class="row">
+                     <div class="col-md-12">
+                        <a class="block-link" href="https://chrome.google.com/webstore/detail/docentedu/dehajjkfchegiinhcmoclkfbnmpgcahj">
+                            <i class="fa fa-chrome fa-5x"></i>
+                            <h4>Chromebooks</h4>
+                     </a>
+                            </div>
+                     
+                </div>
+            </div>
+            
+            <div class="col-md-2 text-center">
+                 <div class="row">
+                     <div class="col-md-12">
+                        <i class="fa fa-desktop fa-5x"></i>
+                        <h4>Computer with <a href="https://chrome.google.com/webstore/detail/docentedu/dehajjkfchegiinhcmoclkfbnmpgcahj">Chrome</a> or <a href="https://addons.mozilla.org/en-US/firefox/addon/docentedu/">Firefox</a></h4>
+                     </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
 </div>
-<br>
-<div class="google-integration">
-  <h2>Google Integration</h2>
+
+
   
-  <b>Google Sign-In</b>
-  <p>Safe and secure Google log in. Teachers and students sign in with their school’s google account. No need to remember another password!</p>
-  
-  <b>One-click video</b>
-  <p>Add YouTube videos anywhere with DocentEDU. Just paste a link to the video and DocentEDU will automatically load the video for you and your students.</p>
+<!-- Google Integration -->
+    <div class="container-fluid" id="google">
+        <div class="container">
+        
+            <div class="row">
+                <h2 class="text-uppercase">Google Integration</h2>
+            
+            <div class="row">
+                
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-3x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                            </span>
+                            
+                        </div>
+                        <div class="col-md-12">
+                            <h4>YouTube</h4>
+                            <p>Add Youtube videos anywhere by pasting a link to the video and DocentEDU will automatically load the video for you and students.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-3x googleRed">
+                              <i class="fa fa-square-o fa-stack-2x"></i>
+                              <i class="fa fa-users fa-stack-1x"></i>
+                            </span>
+                        </div>
+                        <div class="col-md-12">
+                            <h4>Classroom</h4>
+                            <p>Easy to assign, fast and efficient to grade.  We a great addition to Google Classroom</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-3x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+                            </span>
+                            
+                        </div>
+                        <div class="col-md-12">
+                            <h4>Google Sign-In</h4>
+                            <p>Teachers and Students sign in with their School’s Google Account.  No need to remember another password!</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+            <div class="row">
+                
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <span class="fa-stack fa-3x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-file fa-stack-1x fa-inverse"></i>
+                            </span>
+                        <div class="col-md-12">
+                            <h4>Google Docs</h4>
+                            <p>Enhance published Google Docs with videos and interactive content.  Turn digital worksheets into a richer learning experience.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                              <span class="fa-stack fa-3x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-chrome fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="col-md-12">
+                            <h4>Chrome</h4>
+                            <p>Chromebook or browser, our extension follows students wherever they log in, making setup simple.</p>
+                        </div>
+                    </div>
+                </div>
+                
+                <div class="col-md-4 text-center">
+                    <div class="row">
+                        <div class="col-md-12">
+                            <span class="fa-stack fa-3x">
+                              <i class="fa fa-circle fa-stack-2x"></i>
+                              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                            </span>
+                        </div>
+                        <div class="col-md-12">
+                            <h4>Secure</h4>
+                            <p>Protected behind Google’s sign-in, student data is private and only accessible to their teacher.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                
+                
+
+
+                
+            
+            </div>
+        </div>
+    </div>
+ 
+
+        <!-- CTA 1 -->
+          <div class="container-fluid" id="cta1">
+              <div class="container">
+        <div class="row">
+            <div>Get started now</div>
+            <button class="btn btn-success btn-lg" >Sign up for Free</button>
+        </div>
+              </div>
+          </div>
+        
+        <!-- Pricing -->
+          <div class="container-fluid" id="pricing">
+              <div class="container">
+        <div class="row">
+            <div class="col-md-12">
+                <h2 class="text-uppercase">Pricing</h2>
+            </div>
+            <div class="col-md-3 col-md-offset-3 text-center price-teachers">
+                <h3>Teachers</h3>
+                <p>unlimited everything</p>
+                <p>$40 / Year</p>
+                <p>$8 / month</p>
+            </div>
+            <div class="col-md-3 col-md-offset-0 text-center price-schools">
+                <h3>Schools</h3>
+                <p>We offer discounts and training for schools and districts.</p>
+                <a class="btn btn-default" href="mailto:support@docentedu.com" role="button">Contact Us</a>
+            </div>
+        </div>
+<div class="row">
+    <div class="col-md-6 col-lg-4 col-lg-offset-1 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <i class="fa fa-cubes fa-4x"></i>
+            </div>
+            <div class="col-md-12">
+                <h4>Unlimited Lessons</h4>
+                <p>The Internet is limitless and you have a lot of topics to teach, that’s why you get unlimited lessons.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-4 col-lg-offset-1 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <i class="fa fa-user-plus fa-4x"></i>
+            </div>
+            <div class="col-md-12">
+                <h4>Unlimited Students</h4>
+                <p>No need to guess how many students you’ll have during the school year.</p>
+            </div>
+        </div>
+    </div>
+            
+            </div>
+            <div class="row">
+    
+    <div class="col-md-6 col-lg-4 col-lg-offset-1 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <i class="fa fa-money fa-4x"></i>
+            </div>
+            <div class="col-md-12">
+                <h4>Free Trial</h4>
+                <p>Try us for free.  Create and assign up to 5 docents before paying anything.</p>
+            </div>
+        </div>
+    </div>
+    
+    <div class="col-md-6 col-lg-4 col-lg-offset-1 text-center">
+        <div class="row">
+            <div class="col-md-12">
+                <i class="fa fa-life-ring fa-4x"></i>
+            </div>
+            <div class="col-md-12">
+                <h4>Support and Training</h4>
+                <p>We want to empower you to make amazing lessons. Personal support and training is included. </p>
+            </div>
+        </div>
+    </div>
+            
+           
+
+    </div>
 </div>
-<br>
-<div class="our-story">
-  <h2>Our Story</h2>
-  <p>DocentEDU was created by teachers to solve one of the biggest problems they faced. Creating quality online assignments required too many steps and was still difficult to make sure students were understanding the information.</p>
-  <p>The idea of having text, questions, discussions, and guidance as separate parts of a lesson was outdated and cumbersome. We needed a modern tool that let teachers guide students through online material just as if the teacher was sitting right next to the student. DocentEDU combines the essential ingredients of a good lesson in a natural and easy to use way never before possible.</p>
 </div>
+</div>
+        
+
+      <!-- Testimonials 1 -->
+      <div class="container-fluid" id="testimonial1">
+          <div class="container">
+        
+        <div class="row">
+            <div class="col-xs-2 col-sm-1 col-sm-offset-1">
+                <img src="images/testimonials/1.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-md-3">
+                <p>Embedding content within a website with @DocentEDU keeps students on task and helps prevent them from going down the rabbit hole</p>
+            </div>
+            
+            <div class="col-xs-2 col-sm-1 col-sm-offset-0 col-md-offset-2">
+                <img src="images/testimonials/1.jpg">
+            </div>
+            <div class="col-xs-10 col-sm-4 col-md-3">
+                <p>Embedding content within a website with @DocentEDU keeps students on task and helps prevent them from going down the rabbit hole</p>
+            </div>
+        </div>
+              </div>
+        </div>
+    
+        <!-- Mission and our Team -->
+          <div class="container-fluid" id="mission">
+              <div class="container">
+        <div class="row">
+            <div class="col-xs-12 col-md-5">
+                <h2>Our Mission</h2>
+                <p>Our mission is to help teachers turn the unlimited but unwieldy information of the Internet into engaging and coherent lessons that meet their lesson objectives, teaching style, and most importantly student’s needs. </p>
+                <h2>Our Story</h2>
+                <p>DocentEDU was created by two teachers to solve one of the biggest problems they faced. Creating quality online assignments required too many steps and was still difficult to make sure students were understanding the information.
+                </p>
+                <p>
+The idea of having text, questions, discussions, and guidance as separate parts of a lesson was outdated and cumbersome. So we created a modern tool that let teachers guide students through online material just as if the teacher was sitting right next to the student. DocentEDU combines the essential ingredients of a good lesson in a natural and easy to use way never before possible.
+</p>
+            </div>
+            <div class="col-xs-12 col-md-5 col-md-offset-1">
+                <h2>Our Team</h2>
+                <div class="row">
+                    <div class="col-sm-2 col-md-3 text-center">
+                        <img src="images/team/karin.jpg" class="img-circle img-responsive center-block">
+                        
+                        <p>Karin Hogen</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-10 col-md-9">
+                        <h4>Community Manager<br>Curriculum Advisor</h4>
+                        <p>
+                            Karin brings her years of teaching experience and never ending pursuit of finding teaching best practices to DocentEDU’s team. You’ll find her sending out new tweets and working with teachers to get the most out DocentEDU.
+
+                        </p>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-sm-2 col-md-3 text-center">
+                        <img src="images/team/ben.jpg" class="img-circle img-responsive center-block">
+                        
+                        <p>Ben Pedersen</p>
+                    </div>
+                    <div class="col-sm-10 col-md-9 ">
+                        <h4>CTO</h4>
+                        <p>
+                            Ben is our lead developer who is turning DocentEDU into the tool teachers and students love to use.
+
+                        </p>
+                    </div>
+                    </div>
+                <div class="row">
+                    <div class="col-sm-2 col-md-3 text-center">
+                        <img src="images/team/matt.jpg" class="img-circle img-responsive center-block">
+                        <p><strong>Matt Nupen</strong></5>
+                    </div>
+                    <div class="col-sm-10 col-md-9">
+                        <h4>CEO<br>Training, Science Advisor</h4>
+                        <p>Matt thought of DocentEDU when he first started teaching high school science 8 years ago. In addition to still teaching, he is in charge of marketing, training, and buying post-its for DocentEDU.</p>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+              </div>
+          </div>
+         
+    </div>
