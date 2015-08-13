@@ -7,6 +7,14 @@ body {
     margin-top: -5px;
 }
 
+.jumbotron {
+    background: url('/images/stock.jpg') no-repeat 0px -140px;
+}
+
+.jumbotron h1 small {
+    color: #FFF;
+}
+
 .divider {
     border-bottom: 1px solid #CCC;
 }
