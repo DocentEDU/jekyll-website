@@ -9,7 +9,7 @@ body {
 }
 
 .jumbotron {
-    background: url('/images/stock.jpg') no-repeat 0px -140px;
+    background: url('/images/banner.jpg') no-repeat center center;
 }
 
 .jumbotron h1 small {
