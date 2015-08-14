@@ -3,32 +3,11 @@ body {
     font-family: Lato;
 }
 
-.navbar-brand img {
-    height: 30px;
-    margin-top: -5px;
-}
-
-.jumbotron {
-    background: url('/images/banner.jpg') no-repeat center center;
-}
-
-.jumbotron h1 small {
-    color: #FFF;
-    font-size: 24px;
-}
-
 video {
     width: 100%    !important;
     height: auto   !important;
 }
 
-.attribution {
-    position: absolute;
-    bottom: 0px;
-    right: 0px;
-    color: #FFF;
-    font-size: 8px;
-}
 .divider {
     border-bottom: 1px solid #CCC;
 }
@@ -39,13 +18,44 @@ video {
     padding-bottom: 20px;
 }
 
-
 .container h2 {
     text-align: center;
     font-family: lato;
     font-size: 30px;
     margin-bottom: 35px;
 }
+
+/**************************
+        TOP MENU
+***************************/
+.navbar-brand img {
+    height: 30px;
+    margin-top: -5px;
+}
+
+
+
+/**************************
+        BANNER
+***************************/
+
+.jumbotron {
+    background: url('/images/banner.jpg') no-repeat center center;
+}
+
+.jumbotron h1 small {
+    color: #FFF;
+    font-size: 24px;
+}
+
+.attribution {
+    position: absolute;
+    bottom: 0px;
+    right: 0px;
+    color: #FFF;
+    font-size: 8px;
+}
+
 
   .signup-as-student, .signup-as-teacher {
     font-family: Lato;
@@ -81,6 +91,9 @@ video {
     background-color: #FFD6A0;
 }
 
+/**************************
+        DEVICES
+***************************/
 #devices {
    
 }
@@ -116,15 +129,17 @@ video {
     text-decoration: none;
 }
 
-
-#features {
-   
-}
-
+/**************************
+        TESTIMONIALS
+***************************/
 #testimonial1 {
     background: #FFD6A0;
 }
 
+
+/**************************
+        GOOGLE
+***************************/
 #google {
     
 }
@@ -145,14 +160,23 @@ video {
     border-top: 1px solid #CCC;
 }
 
+
+/**************************
+        CTA
+***************************/
 #cta1 {
     background: #DB5E0A;
     color:#FFF;
 }
 
-#examples {
-    
+#cta2 {
+    background: #DB5E0A;
+    color: #FFF;
 }
+
+/**************************
+        PRICING
+***************************/
 
 #pricing {
     
@@ -173,16 +197,17 @@ video {
 }
 
 
-
-#cta2 {
-    background: #DB5E0A;
-    color: #FFF;
-}
-
+/**************************
+        ABOUT/MISSION
+***************************/
 #mission {
     
 }
 
+
+/**************************
+        FOOTER
+***************************/
 #footer {
     background: #888;
     color: #FFF;
@@ -192,9 +217,6 @@ video {
     text-align: center
 }
 
-/*
-    FOOTER
-*/
 #footer {
     background: #888;
     color: #FFF;
@@ -244,11 +266,13 @@ video {
 }
 
 
-/* 
-    Vertical Tabs
+
+/**************************
+        TABS
+Vertical Tabs
     custom inclusion of right, left and below tabs 
     http://www.bootply.com/74926 
-*/
+***************************/
 .tabs-right .nav-tabs {
   border-bottom: 0;
 }
@@ -296,7 +320,7 @@ video {
 }
 
 .tabs-right .nav-tabs > li > a {
-  min-width: 74px;
+  //min-width: 74px;
   margin-right: 0;
   margin-bottom: 3px;
 }
