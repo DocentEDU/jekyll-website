@@ -95,6 +95,33 @@ video {
     background-color: #FFD6A0;
 }
 
+
+/**************************
+        How it Works
+***************************/
+.vid-mini-nav .col-sm-4 {
+    margin: 0px;
+    padding: 0px;
+}
+
+.vid-mini-nav a {
+    display:block;
+    color: #000;
+    text-decoration: none;
+    padding: 10px;
+    text-align: center;
+    background-color: #EEE;
+    border-right: 2px solid #FFF;
+}
+
+.vid-mini-nav a:last {
+    border-right: none;
+}
+
+.vid-mini-nav a:hover {
+    background-color: #DDD;
+}
+
 /**************************
         DEVICES
 ***************************/
