@@ -17,6 +17,11 @@ body {
     font-size: 24px;
 }
 
+video {
+    width: 100%    !important;
+    height: auto   !important;
+}
+
 .attribution {
     position: absolute;
     bottom: 0px;
