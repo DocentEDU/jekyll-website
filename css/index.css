@@ -45,7 +45,7 @@ body {
   .signup-as-student, .signup-as-teacher {
     font-family: Lato;
     font-size: 14px;
-    color: #FFF;
+    color: #FFF !important;
     margin: 18px;
   }
     .signup-as-student:before, .signup-as-teacher:before {
