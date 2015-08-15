@@ -18,6 +18,11 @@ $( document ).ready(function() {
     });
 });
 
+$('body').scrollspy({ target: '#navbar-example' })
+
+$('[data-spy="scroll"]').each(function () {
+  var $spy = $(this).scrollspy('refresh')
+})
 
 $("#nav ul li a[href^='#']").on('click', function(e) {
 
