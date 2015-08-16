@@ -88,6 +88,7 @@ float: right;
 
 .jumbotron {
     background: #333 url('/images/banner.jpg') no-repeat center center;
+    position: relative;
 }
 
 .jumbotron h1 small {
@@ -100,7 +101,7 @@ float: right;
     bottom: 0px;
     right: 0px;
     color: #FFF;
-    font-size: 8px;
+    font-size: 10px;
 }
 
 .attribution a {
