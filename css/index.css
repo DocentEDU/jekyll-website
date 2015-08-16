@@ -62,8 +62,8 @@ video {
   text-decoration: none;
 }
 
-.nav-top ul li.active a {
-  background: #58c7d0 ;
+.navbar-default .navbar-nav > .active > a {
+  background: #58c7d0;
 }
 
 // scrollTop Styles
