@@ -30,6 +30,48 @@ video {
     margin-bottom: 35px;
 }
 
+
+/** Scrolling Nav **/
+.nav-top a:hover {
+    
+  &:hover {
+    color: #4fb3e8;
+    -webkit-transition: all .1s ease-in-out;
+       -moz-transition: all .1s ease-in-out;
+        -ms-transition: all .1s ease-in-out;
+         -o-transition: all .1s ease-in-out;
+            transition: all .1s ease-in-out;
+  }
+  text-decoration: none;
+}
+
+
+
+.nav-top ul li a {
+    
+  &:hover {
+    color: #fff;
+    background: #e6764e;
+    -webkit-transition: all .2s ease-in-out;
+       -moz-transition: all .2s ease-in-out;
+        -ms-transition: all .2s ease-in-out;
+         -o-transition: all .2s ease-in-out;
+            transition: all .2s ease-in-out;
+  }
+  color: #fff;
+  text-decoration: none;
+}
+
+.nav-top ul li.active a {
+  background: #58c7d0 ;
+}
+
+// scrollTop Styles
+.nav-top ul li.scrollTop {
+float: right;
+}
+
+
 /**************************
         TOP MENU
 ***************************/
@@ -93,13 +135,14 @@ video {
 
 
 #header {
-    background-color: #FFD6A0;
+    
 }
 
 
 /**************************
         How it Works
 ***************************/
+/*
 .vid-mini-nav .col-sm-4 {
     margin: 0px;
     padding: 0px;
@@ -122,6 +165,7 @@ video {
 .vid-mini-nav a:hover {
     background-color: #DDD;
 }
+*/
 
 /**************************
         DEVICES
@@ -347,10 +391,11 @@ Vertical Tabs
   border-color: transparent #ddd #ddd #ddd;
 }
 */
+/*
 .tabs-right .nav-tabs > li {
   float: none;
 }
-
+*/
 .tabs-right .nav-tabs > li > a {
   //min-width: 74px;
   margin-right: 0;

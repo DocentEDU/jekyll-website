@@ -18,28 +18,25 @@ $( document ).ready(function() {
     });
 });
 
-$('body').scrollspy({ target: '#navbar-example' })
+// ------------------------------
+// Scroll Nav
+// http://twitter.com/mattsince87
+// http://codepen.io/mattsince87/pen/exByn
+// ------------------------------
 
-$('[data-spy="scroll"]').each(function () {
-  var $spy = $(this).scrollspy('refresh')
-})
-
-$("#nav ul li a[href^='#']").on('click', function(e) {
-
-   // prevent default anchor click behavior
-   e.preventDefault();
-
-   // store hash
-   var hash = this.hash;
-
-   // animate
-   $('html, body').animate({
-       scrollTop: $(hash).offset().top
-     }, 300, function(){
-
-       // when done, add hash to url
-       // (default click behaviour)
-       window.location.hash = hash;
-     });
-
-});
+function scrollNav() {
+  $('.nav-top a').click(function(){  
+    //Toggle Class
+    $(".active").removeClass("active");      
+    $(this).closest('li').addClass("active");
+    var theClass = $(this).attr("class");
+    $('.'+theClass).parent('li').addClass('active');
+    //Animate
+    $('html, body').stop().animate({
+        scrollTop: $( $(this).attr('href') ).offset().top - 30
+    }, 400);
+    return false;
+  });
+  $('.scrollTop a').scrollTop();
+}
+scrollNav();
