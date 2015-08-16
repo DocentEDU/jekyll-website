@@ -103,6 +103,10 @@ float: right;
     font-size: 8px;
 }
 
+.attribution a {
+    color: #FFF;
+    text-decoration: underline;
+}
 
   .signup-as-student, .signup-as-teacher {
     font-family: Lato;
