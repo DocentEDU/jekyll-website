@@ -87,7 +87,7 @@ float: right;
 ***************************/
 
 .jumbotron {
-    background: url('/images/banner2.jpg') no-repeat center center;
+    background: #333 url('/images/banner.jpg') no-repeat center center;
 }
 
 .jumbotron h1 small {
