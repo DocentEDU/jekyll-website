@@ -1,6 +1,8 @@
 ---
 layout: default
 ---
+
+
 <div class="container">
     <div class="row">
         <div class="col-md-12">
@@ -8,14 +10,176 @@ layout: default
         </div>
     </div>
     <div class="row">
-        <h3>Open Source Textbooks</h3>
-        <ul>
-            <li><a href="http://www.ck12.org/">Ck-12</a> – Hight School, Middle School</li>
-            <li><a href="https://www.oercommons.org/courses/material_types/textbooks?f.edu_level=primary&amp;f.edu_level=secondary">OER Commons</a> – K-12</li>
-            <li><a href="http://openstaxcollege.org/">OpenStax</a> – High School, College</li>
-            <li><a href="https://www.boundless.com/">Boundless</a> – College (look for free boundless versions)</li>
-            <li><a href="https://www.bighistoryproject.com/home">Big History Project</a></li>
-            <li><a href="http://www.ozy.com/">OZY</a></li>
-        </ul>
+        <h3>Free Text Sources</h3>
+        <p>
+            Search: <input id="filter" type="text"/>
+            
+            Type: <select class="filter-type">
+            <option></option>
+            <option value="news">news</option>
+            <option value="textbook">Textbook</option>
+            <option value="lit">Literature</option>
+          </select>
+            
+            Age Level: <select class="filter-type">
+            <option></option>
+            <option value="High School">High School</option>
+            <option value="Middle School">Middle School</option>
+            <option value="Elementary">Elementary</option>
+          </select>
+            <a href="#clear" class="clear-filter" title="clear filter">[clear]</a>
+          </p>
+<table class="footable table demo" data-filter="#filter" data-filter-text-only="true">
+<thead>
+    <tr>
+    <th>Resource</th>
+    <th>Type</th>
+    <th>Age level</th>
+    <th data-hide="all" data-ignore="highlight">Reading level(s)</th>
+    <th data-hide="phone">Great for</th>
+    <th data-hide="phone,tablet">Good to know&#8230;</th>
+    </tr>
+</thead>
+<tbody>
+    <tr>
+        <td><a href="http://tweentribune.com/">TweenTribune</a></td>
+        <td>News</td>
+        <td>Middle/High school</td>
+        <td>3rd to 12th grade</td>
+        <td>Daily news stories are selected by professional journalists working closely with teens, tweens and teachers.</td>
+        <td></td>
+    </tr>
+    <tr>
+        <td><a href="https://newsela.com/">Newsela</a></td>
+        <td>News</td>
+        <td>Middle/High school</td>
+        <td>3rd to 12th grade</td>
+        <td>engaging students in relevant, recent topics</td>
+        <td>Can create classes and track student progress</td>
+    </tr>
+    <tr>
+        <td><a href="https://news.google.com/">Google News</a></td>
+        <td>News</td>
+        <td>Middle/High School</td>
+        <td>Usually 5th-12th grade</td>
+        <td>searching for multiple sources</td>
+        <td>You can search for specific topics and even by source and geogprahical point and time</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.npr.org/sections/news/">NPR News</a></td>
+        <td>News</td>
+        <td>Middle/High School</td>
+        <td>5th-10th</td>
+        <td>relevant, recent topics</td>
+        <td>Majority of stories include audio</td>
+    </tr>
+    <tr>
+        <td><a href="http://learning.blogs.nytimes.com/?_r=0">NY Times Learning Network</a></td>
+        <td>News Magazine</td>
+        <td>High School</td>
+        <td>8th-12th</td>
+        <td>bringing relevant news to your classroom</td>
+        <td>Has pre-made lesson plans using news articles; includes some video and audio for differentiation</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.npr.org/blogs/goatsandsoda/">NPR Goats and Soda Blog</a></td>
+        <td>News stories about living life in a life-changing world</span></td>
+        <td>Middle/High School</td>
+        <td>5th-10th</td>
+        <td>Inspiring students through the news</td>
+        <td>Usually has audio for differentiation</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.npr.org/blogs/codeswitch/">NPR Code Switch Blog</a></td>
+        <td>News stories about race, culture, and ethnicity</td>
+        <td>Middle/High School</td>
+        <td>5th-10th</td>
+        <td>Engage students in difficult topics in an accessible manner</td>
+        <td>Usually has audio for differentiation</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.ted.com/">TED</a></td>
+        <td>Great ideas to change the world</td>
+        <td>Middle/High School</td>
+        <td>Usually 5th-10th grade</td>
+        <td>inspiring students and making them think</td>
+        <td>Includes time-stamped transcripts of every talk including video</td>
+    </tr>
+    <tr>
+        <td><a href="http://bigthink.com/articles">The Big Think</a></td>
+        <td>Articles from experts about world-changing ideas and policies</td>
+        <td>Middle/High School</td>
+        <td>5th-10th</td>
+        <td>inspiring students and making them think</td>
+        <td>every article chosen for significance, relevance, and application</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.npr.org/series/4538138/this-i-believe">This I Believe</a></td>
+        <td>Personal Essays about life</td>
+        <td>Middle/High School</td>
+        <td>5th-8th</td>
+        <td>using memoir to engage students</td>
+        <td>Has audio of every story for differentiation</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.npr.org/blogs/npr-history-dept/">NPR History Dept. Blog</a></td>
+        <td>Non-Fiction</td>
+        <td>Middle/High School</td>
+        <td>8th-12th</td>
+        <td>New research to inform history</td>
+        <td>Brings new insights into historical concepts</td>
+    </tr>
+    <tr>
+        <td><a href="http://memory.loc.gov/ammem/today/today.html">Daily History</a></td>
+        <td>Non-Fiction</td>
+        <td>High School</td>
+        <td>High School</td>
+        <td>Teaching history using primary sources</td>
+        <td>Includes primary source images as well as documents; publishes one new concept every day</td>
+    </tr>
+    <tr>
+        <td><a href="http://www.americanrhetoric.com/top100speechesall.html">American Rhetoric Top 100 Speeches</a></td>
+        <td>Non-Fiction</td>
+        <td>High School</td>
+        <td>9th-12th</td>
+        <td>Inspiring students while teaching history and rhetoric</td>
+        <td>Has audio/video as well as text for most speeches</td>
+    </tr>
+</tbody>
+</table>
     </div>
 </div>
+
+<script src="../js/footable/footable.js" type="text/javascript"></script>
+<script src="../js/footable/footable.filter.js" type="text/javascript"></script>
+<script src="../js/footable/footable.sort.js" type="text/javascript"></script>
+
+
+<script type="text/javascript">
+/* FooTable init code */
+$(function () {
+    $('table').footable().bind('footable_filtering', function (e) {
+      var selected = $('.filter-type').find(':selected').text();
+      if (selected && selected.length > 0) {
+        e.filter += (e.filter && e.filter.length > 0) ? ' ' + selected : selected;
+        e.clear = !e.filter;
+      }
+    });
+
+    $('.clear-filter').click(function (e) {
+      e.preventDefault();
+      $('.filter-type').val('');
+      $('table.demo').trigger('footable_clear_filter');
+    });
+    
+    $('.filter-type').change(function (e) {
+      e.preventDefault();
+      $('table.demo').trigger('footable_filter', {filter: $('#filter').val()});
+    });
+    
+    $('.footable').footable();
+
+});
+
+</script>
+      
