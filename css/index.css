@@ -246,6 +246,10 @@ float: right;
     border-top: 1px solid #CCC;
 }
 
+#google > .row > .row > div {
+    height: 200px;
+}
+
 
 /**************************
         CTA
