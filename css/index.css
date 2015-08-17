@@ -127,6 +127,9 @@ float: right;
     background-color: #3498DB;
   }
   @media (max-width: 480px) {
+    .jumbotron {
+        background-size: cover;
+    }
     .signup-as-student:before, .signup-as-teacher:before {
       white-space: pre;
       font-size: 0.75em;
