@@ -1,6 +1,8 @@
 body {
     padding-top: 50px;
     font-family: Lato;
+    -mox-osz-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     position: relative; //for scoll-spy
 }
 
