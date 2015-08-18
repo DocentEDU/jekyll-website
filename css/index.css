@@ -250,6 +250,16 @@ float: right;
     height: 200px;
 }
 
+@media (max-width: 779px) {
+    #google > .row {
+        padding: 0 15px;
+    }
+    #google > .row > .row > div > .row > div:last-of-type {
+        max-width: 420px;
+        margin: 0 auto;
+    }
+}
+
 
 /**************************
         CTA
