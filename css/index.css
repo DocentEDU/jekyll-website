@@ -32,7 +32,24 @@ video {
     margin-bottom: 35px;
 }
 
+.btn-clear {
+    border: 1px solid #FFF;
+    color: #FFF;
+    font-size: 18px;
+    background: rgb(20, 0, 0);
+    background: rgba(20, 0, 0, 0.0);
+    transition:all 0.3s ease;
+    padding: 10px;
+    margin-top: 20px;
+}
 
+.btn-clear:hover {
+    color: #FFF;
+    cursor: pointer;
+    background: rgb(100, 100, 100);
+    background: rgba(255, 255, 255, 0.3);
+
+}
 /** Scrolling Nav **/
 .nav-top a:hover {
     
@@ -82,7 +99,14 @@ float: right;
     margin-top: -5px;
 }
 
-
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
 
 /**************************
         BANNER
