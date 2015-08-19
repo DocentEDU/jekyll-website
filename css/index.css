@@ -50,11 +50,33 @@ video {
     background: rgba(255, 255, 255, 0.3);
 
 }
+
+/**************************
+        TOP NAVIGATION
+***************************/
+.navbar {
+    background-color: #FFF;
+}
+
+.navbar-brand img {
+    height: 30px;
+    margin-top: -5px;
+}
+
+@media (min-width: 768px){
+    .navbar-nav{
+        float:none;
+        margin: 0 auto;
+        display: table;
+        table-layout: fixed;
+    }
+}
+
 /** Scrolling Nav **/
 .nav-top a:hover {
     
   &:hover {
-    color: #4fb3e8;
+    color: #CCC;
     -webkit-transition: all .1s ease-in-out;
        -moz-transition: all .1s ease-in-out;
         -ms-transition: all .1s ease-in-out;
@@ -71,18 +93,13 @@ video {
   &:hover {
     color: #fff;
     background: #e6764e;
-    -webkit-transition: all .2s ease-in-out;
-       -moz-transition: all .2s ease-in-out;
-        -ms-transition: all .2s ease-in-out;
-         -o-transition: all .2s ease-in-out;
-            transition: all .2s ease-in-out;
+    transition: all .2s ease-in-out;
   }
   color: #fff;
   text-decoration: none;
 }
-
-.navbar-default .navbar-nav > .active > a {
-  background: #58c7d0;
+.navbar-nav > .active > a {
+  background: #CCC;
 }
 
 // scrollTop Styles
@@ -90,23 +107,6 @@ video {
 float: right;
 }
 
-
-/**************************
-        TOP MENU
-***************************/
-.navbar-brand img {
-    height: 30px;
-    margin-top: -5px;
-}
-
-@media (min-width: 768px){
-    .navbar-nav{
-        float:none;
-        margin: 0 auto;
-        display: table;
-        table-layout: fixed;
-    }
-}
 
 /**************************
         BANNER
@@ -368,6 +368,24 @@ float: right;
     background-color: #777;
 }
 
+#legalFooter {
+    background-color: #222;
+    color: #DDD;
+}
+
+#legalFooter .container {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#legalFooter a {
+    color: #DDD;
+    text-decoration: underline;
+}
+
+#legalFooter a:hover {
+    color: #FFF;
+}
 
 
 /**************************
