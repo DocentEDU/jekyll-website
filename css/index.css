@@ -99,11 +99,13 @@ video {
   text-decoration: none;
 }
 
+.navbar-default .navbar-nav > .active > a {
+    color: #777;
+}
 .navbar-default .navbar-nav > .active > a,
 .navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > .active > a:hover {
   background: inherit;
-  color: #777;
 }
 
 // scrollTop Styles
