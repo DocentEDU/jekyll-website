@@ -1,4 +1,11 @@
 
+function startVideoPlayer($videoPlayer) {
+	$('.jquery-youtube-tubeplayer').each(function() {
+		$(this).tubeplayer("pause");
+	});
+	$videoPlayer.tubeplayer("seek",0).tubeplayer("mute").tubeplayer("play");
+}
+
 //Questions
 jQuery("#videoPlayer1").tubeplayer({
 	width: 480, // the width of the player
@@ -15,9 +22,7 @@ jQuery("#videoPlayer1").tubeplayer({
 });
 
 $(".video1").click(function(){
-    $("#videoPlayer1").tubeplayer("pause");
-    $("#videoPlayer1").tubeplayer("seek",0);
-    $("#videoPlayer1").tubeplayer("play");
+    startVideoPlayer($("#videoPlayer1"));
 });
 
 
@@ -37,10 +42,7 @@ jQuery("#videoPlayer2").tubeplayer({
 });
 
 $(".video2").click(function(){
-    $("#videoPlayer2").tubeplayer("pause");
-    $("#videoPlayer2").tubeplayer("seek",0);
-    $("#videoPlayer2").tubeplayer("play");
-    $("#videoPlayer2").tubeplayer("mute");
+    startVideoPlayer($("#videoPlayer2"));
 });
 
 //Insight
@@ -59,9 +61,7 @@ jQuery("#videoPlayer3").tubeplayer({
 });
 
 $(".video3").click(function(){
-    $("#videoPlayer3").tubeplayer("pause");
-    $("#videoPlayer3").tubeplayer("seek",0);
-    $("#videoPlayer3").tubeplayer("play");
+    startVideoPlayer($("#videoPlayer3"));
 });
 
 // ------------------------------
