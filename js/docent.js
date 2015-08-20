@@ -1,22 +1,68 @@
-$( document ).ready(function() {
-    $('.video1').click(function() {
-        $('#video1').get(0).pause();
-        $('#video1').get(0).currentTime=0;
-        $('#video1').get(0).play();
-    });
-    
-    $('.video2').click(function() {
-        $('#video2').get(0).pause();
-        $('#video2').get(0).currentTime=0;
-        $('#video2').get(0).play();
-    });
-    
-    $('.video3').click(function() {
-        $('#video3').get(0).pause();
-        $('#video3').get(0).currentTime=0;
-        $('#video3').get(0).play();
-    });
+
+
+jQuery("#videoPlayer1").tubeplayer({
+	width: 480, // the width of the player
+	height: 320, // the height of the player
+	allowFullScreen: "true", // true by default, allow user to go full screen
+	initialVideo: "75SsDVZNipY", // the video that is loaded into the player
+	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
+	onPlay: function(id){}, // after the play method is called
+	onPause: function(){}, // after the pause method is called
+	onStop: function(){}, // after the player is stopped
+	onSeek: function(time){}, // after the video has been seeked to a defined point
+	onMute: function(){}, // after the player is muted
+	onUnMute: function(){} // after the player is unmuted
 });
+
+$(".video1").click(function(){
+    $("#videoPlayer1").tubeplayer("pause");
+    $("#videoPlayer1").tubeplayer("seek",0);
+    $("#videoPlayer1").tubeplayer("play");
+});
+
+
+jQuery("#videoPlayer2").tubeplayer({
+	width: 480, // the width of the player
+	height: 320, // the height of the player
+	allowFullScreen: "true", // true by default, allow user to go full screen
+	initialVideo: "8iP3EakrVLo", // the video that is loaded into the player
+	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
+	onPlay: function(id){}, // after the play method is called
+	onPause: function(){}, // after the pause method is called
+	onStop: function(){}, // after the player is stopped
+	onSeek: function(time){}, // after the video has been seeked to a defined point
+	onMute: function(){}, // after the player is muted
+	onUnMute: function(){} // after the player is unmuted
+});
+
+$(".video2").click(function(){
+    $("#videoPlayer2").tubeplayer("pause");
+    $("#videoPlayer2").tubeplayer("seek",0);
+    $("#videoPlayer2").tubeplayer("play");
+});
+
+
+jQuery("#videoPlayer3").tubeplayer({
+	width: 480, // the width of the player
+	height: 320, // the height of the player
+	allowFullScreen: "true", // true by default, allow user to go full screen
+	initialVideo: "cUqNru9YADw", // the video that is loaded into the player
+	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
+	onPlay: function(id){}, // after the play method is called
+	onPause: function(){}, // after the pause method is called
+	onStop: function(){}, // after the player is stopped
+	onSeek: function(time){}, // after the video has been seeked to a defined point
+	onMute: function(){}, // after the player is muted
+	onUnMute: function(){} // after the player is unmuted
+});
+
+$(".video3").click(function(){
+    $("#videoPlayer3").tubeplayer("pause");
+    $("#videoPlayer3").tubeplayer("seek",0);
+    $("#videoPlayer3").tubeplayer("play");
+});
+
+
 
 // ------------------------------
 // Scroll Nav
