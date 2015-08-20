@@ -54,7 +54,7 @@ function scrollNav() {
     $('#navbar-collapse-1').collapse('hide');
     //Make sure at least one video is showing
     if ($(".active > .jquery-youtube-tubeplayer").length == 0) {
-    	$("#videoPlayer1").parent().addClass("active");
+    	$("#videoPlayer1").parent().add(".video1").addClass("active");
     }
     return false;
   });
