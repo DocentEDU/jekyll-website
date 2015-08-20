@@ -1,4 +1,23 @@
 
+function setupVideoPlayer($videoPlayer, $videoStarter, initialVideo) {
+	$videoPlayer.tubeplayer({
+		width: 480, // the width of the player
+		height: 320, // the height of the player
+		allowFullScreen: "true", // true by default, allow user to go full screen
+		initialVideo: initialVideo, // the video that is loaded into the player
+		preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
+		onPlay: function(id){}, // after the play method is called
+		onPause: function(){}, // after the pause method is called
+		onStop: function(){}, // after the player is stopped
+		onSeek: function(time){}, // after the video has been seeked to a defined point
+		onMute: function(){}, // after the player is muted
+		onUnMute: function(){} // after the player is unmuted
+	});
+	$videoStarter.on('click', function() {
+		startVideoPlayer($videoPlayer);	
+	});
+}
+
 function startVideoPlayer($videoPlayer) {
 	$('.jquery-youtube-tubeplayer').each(function() {
 		$(this).tubeplayer("pause");
@@ -7,62 +26,13 @@ function startVideoPlayer($videoPlayer) {
 }
 
 //Questions
-jQuery("#videoPlayer1").tubeplayer({
-	width: 480, // the width of the player
-	height: 320, // the height of the player
-	allowFullScreen: "true", // true by default, allow user to go full screen
-	initialVideo: "75SsDVZNipY", // the video that is loaded into the player
-	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
-	onPlay: function(id){}, // after the play method is called
-	onPause: function(){}, // after the pause method is called
-	onStop: function(){}, // after the player is stopped
-	onSeek: function(time){}, // after the video has been seeked to a defined point
-	onMute: function(){}, // after the player is muted
-	onUnMute: function(){} // after the player is unmuted
-});
-
-$(".video1").click(function(){
-    startVideoPlayer($("#videoPlayer1"));
-});
-
+setupVideoPlayer($("#videoPlayer1"), $(".video1"), "75SsDVZNipY");
 
 //Discussions
-jQuery("#videoPlayer2").tubeplayer({
-	width: 480, // the width of the player
-	height: 320, // the height of the player
-	allowFullScreen: "true", // true by default, allow user to go full screen
-	initialVideo: "5HkPUz_2cco", // the video that is loaded into the player
-	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
-	onPlay: function(id){}, // after the play method is called
-	onPause: function(){}, // after the pause method is called
-	onStop: function(){}, // after the player is stopped
-	onSeek: function(time){}, // after the video has been seeked to a defined point
-	onMute: function(){}, // after the player is muted
-	onUnMute: function(){} // after the player is unmuted
-});
-
-$(".video2").click(function(){
-    startVideoPlayer($("#videoPlayer2"));
-});
+setupVideoPlayer($("#videoPlayer2"), $(".video2"), "5HkPUz_2cco");
 
 //Insight
-jQuery("#videoPlayer3").tubeplayer({
-	width: 480, // the width of the player
-	height: 320, // the height of the player
-	allowFullScreen: "true", // true by default, allow user to go full screen
-	initialVideo: "rSfwgK-k_z0", // the video that is loaded into the player
-	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
-	onPlay: function(id){}, // after the play method is called
-	onPause: function(){}, // after the pause method is called
-	onStop: function(){}, // after the player is stopped
-	onSeek: function(time){}, // after the video has been seeked to a defined point
-	onMute: function(){}, // after the player is muted
-	onUnMute: function(){} // after the player is unmuted
-});
-
-$(".video3").click(function(){
-    startVideoPlayer($("#videoPlayer3"));
-});
+setupVideoPlayer($("#videoPlayer3"), $(".video3"), "rSfwgK-k_z0");
 
 // ------------------------------
 // Scroll Nav
