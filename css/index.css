@@ -24,8 +24,22 @@ video {
     width: 100%;
     max-width: 480px;
 }
-.embed-responsive-3by2 {
+.jquery-youtube-tubeplayer {
+    position: relative;
+    display: block;
+    height: 0px;
+    padding: 0px;
+    overflow: hidden;
     padding-bottom: 66.6667%;
+}
+.jquery-youtube-tubeplayer > iframe {
+    position: absolute;
+    top: 0px;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    border: 0px none;
 }
 
 .divider-top {
