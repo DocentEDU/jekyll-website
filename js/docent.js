@@ -6,6 +6,7 @@ function setupVideoPlayer($videoPlayer, $videoStarter, initialVideo) {
 		allowFullScreen: "true", // true by default, allow user to go full screen
 		initialVideo: initialVideo, // the video that is loaded into the player
 		preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
+		protocol: "https",//set to "https" for compatibility on SSL-enabled pages
 		onPlay: function(id){}, // after the play method is called
 		onPause: function(){}, // after the pause method is called
 		onStop: function(){}, // after the player is stopped
