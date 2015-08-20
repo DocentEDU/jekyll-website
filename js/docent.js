@@ -1,5 +1,5 @@
 
-
+//Questions
 jQuery("#videoPlayer1").tubeplayer({
 	width: 480, // the width of the player
 	height: 320, // the height of the player
@@ -21,11 +21,12 @@ $(".video1").click(function(){
 });
 
 
+//Discussions
 jQuery("#videoPlayer2").tubeplayer({
 	width: 480, // the width of the player
 	height: 320, // the height of the player
 	allowFullScreen: "true", // true by default, allow user to go full screen
-	initialVideo: "8iP3EakrVLo", // the video that is loaded into the player
+	initialVideo: "5HkPUz_2cco", // the video that is loaded into the player
 	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
 	onPlay: function(id){}, // after the play method is called
 	onPause: function(){}, // after the pause method is called
@@ -41,12 +42,12 @@ $(".video2").click(function(){
     $("#videoPlayer2").tubeplayer("play");
 });
 
-
+//Insight
 jQuery("#videoPlayer3").tubeplayer({
 	width: 480, // the width of the player
 	height: 320, // the height of the player
 	allowFullScreen: "true", // true by default, allow user to go full screen
-	initialVideo: "cUqNru9YADw", // the video that is loaded into the player
+	initialVideo: "rSfwgK-k_z0", // the video that is loaded into the player
 	preferredQuality: "default",// preferred quality: default, small, medium, large, hd720
 	onPlay: function(id){}, // after the play method is called
 	onPause: function(){}, // after the pause method is called
