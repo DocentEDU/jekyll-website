@@ -79,8 +79,9 @@ function scrollNav() {
     $('.'+theClass).parent('li').addClass('active');
     //Animate
     $('html, body').stop().animate({
-        scrollTop: $( $(this).attr('href') ).offset().top - 30
+        scrollTop: $( $(this).attr('href').slice(1) ).offset().top - 30
     }, 400);
+    $('.nav-collapse').collapse('hide');
     return false;
   });
   $('.scrollTop a').scrollTop();
