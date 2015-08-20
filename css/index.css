@@ -6,10 +6,12 @@ body {
     position: relative; //for scoll-spy
 }
 
+/*
 .subPage .container {
     padding-left: 100px;
     padding-right: 100px;
 }
+*/
 video {
     width: 100%    !important;
     height: auto   !important;
