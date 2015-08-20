@@ -101,7 +101,7 @@ video {
 
 .navbar-default .navbar-nav > .active > a {
   background: inherit;
-  color: inherit;
+  color: #777;
 }
 
 // scrollTop Styles
