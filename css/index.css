@@ -98,8 +98,9 @@ video {
   color: #fff;
   text-decoration: none;
 }
-.navbar-nav > .active > a {
-  background: #CCC;
+.nav > .navbar-nav > .active > a {
+  background: inherit;
+  color: inherit;
 }
 
 // scrollTop Styles
