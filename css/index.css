@@ -7,7 +7,8 @@ body {
 }
 
 .subPage .container {
-    padding: inherit 30px;
+    padding-left: 30px;
+    padding-right: 30px;
 }
 video {
     width: 100%    !important;
