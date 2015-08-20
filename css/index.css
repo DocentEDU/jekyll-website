@@ -391,6 +391,7 @@ float: right;
 #legalFooter {
     background-color: #222;
     color: #DDD;
+    line-height: 24px;
 }
 
 #legalFooter .container {
