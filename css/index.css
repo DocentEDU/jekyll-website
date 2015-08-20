@@ -20,9 +20,12 @@ video {
     display: table-cell;
     width: 1%;
 }
-.jquery-youtube-tubeplayer > iframe {
+#features .tab-pane {
     width: 100%;
     max-width: 480px;
+}
+.embed-responsive-3by2 {
+    padding-bottom: 66.6667%;
 }
 
 .divider-top {
