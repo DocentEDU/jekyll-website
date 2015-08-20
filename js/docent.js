@@ -70,6 +70,7 @@ $(document).ready(function() {
 		var $visibleVideo = $videos.filter(':visible');
 		$videos.height($visibleVideo.attr('height') / $visibleVideo.attr('width') * $visibleVideo.width());
 	});
+	$(window).resize();
 });
 
 // ------------------------------
