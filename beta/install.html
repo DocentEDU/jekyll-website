@@ -106,7 +106,7 @@ layout: default
 </style>
 
 <div class="container force-footer-to-bottom" id="install-container" data-version="<?= $version ?>">
-    <div class="teacher-container" style="display: <?= $version == 'teacher' ? 'block' : 'none' ?>; text-align: center;">
+    <div class="teacher-container" style="display: none; display: <?= $version == 'teacher' ? 'block' : 'none' ?>; text-align: center;">
         <h3>Teacher Sign Up</h1>
         <button type="button" class="google-login">Sign up with Google</button>
         <div class="newsletter-opt-in">
@@ -131,7 +131,7 @@ layout: default
             <a class="bookmarklet">DocentEDU Beta</a>
         </div>
     </div>
-    <div class="student-container" style="display: <?= $version == 'student' ? 'block' : 'none' ?>; text-align: center;">
+    <div class="student-container" style="display: none; display: <?= $version == 'student' ? 'block' : 'none' ?>; text-align: center;">
         <h3>Student Sign Up</h1>
         <button type="button" class="google-login">Sign up with Google</button>
         
@@ -153,7 +153,7 @@ layout: default
             <a class="bookmarklet">DocentEDU Beta</a>
         </div>
     </div>
-    <div class="noversion-container"  style="display: <?= $version == 'noversion' ? 'block' : 'none' ?>; text-align: center;">
+    <div class="noversion-container"  style="display: block; display: <?= $version == 'noversion' ? 'block' : 'none' ?>; text-align: center;">
         <button class="signup-as-student" onclick="switchView('student')">Student</button>
         <button class="signup-as-teacher" onclick="switchView('teacher')">Teacher</button>
     </div>
