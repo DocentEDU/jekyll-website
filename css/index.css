@@ -6,7 +6,7 @@ body {
     position: relative; //for scoll-spy
 }
 
-.subPages .container {
+.subPage .container {
     padding: inherit 30px;
 }
 video {
