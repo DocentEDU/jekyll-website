@@ -64,11 +64,18 @@ video {
 }
 
 @media (min-width: 768px){
+    .navbar-brand {
+        position: absolute;
+    }
     .navbar-nav{
         float:none;
         margin: 0 auto;
         display: table;
         table-layout: fixed;
+    }
+    .navbar-right {
+        position: absolute;
+        right: 0;
     }
 }
 
