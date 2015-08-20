@@ -16,6 +16,10 @@ video {
     width: 100%    !important;
     height: auto   !important;
 }
+.jquery-youtube-tubeplayer {
+    width: 100%;
+    max-width: 480px;
+}
 
 .divider-top {
     border-top: 1px solid #CCC;
