@@ -98,7 +98,7 @@ video {
   color: #fff;
   text-decoration: none;
 }
-.nav > .navbar-nav > .active > a {
+.nav > .navbar-nav > .active {
   background: inherit;
   color: inherit;
 }
