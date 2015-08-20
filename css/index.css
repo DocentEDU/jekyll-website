@@ -99,12 +99,12 @@ video {
   text-decoration: none;
 }
 
-.navbar-default .navbar-nav > .active:not(.dropdown) > a {
+.navbar-default .navbar-nav > .active:not(.open) > a {
     background: inherit;
     color: #777;
 }
-.navbar-default .navbar-nav > .active:not(.dropdown) > a:focus,
-.navbar-default .navbar-nav > .active:not(.dropdown) > a:hover {
+.navbar-default .navbar-nav > .active:not(.open) > a:focus,
+.navbar-default .navbar-nav > .active:not(.open) > a:hover {
   background: inherit;
   color: #333;
 }
