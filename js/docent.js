@@ -81,7 +81,7 @@ function scrollNav() {
     $('html, body').stop().animate({
         scrollTop: $( $(this).attr('href').slice(1) ).offset().top - 30
     }, 400);
-    $('.nav-collapse').collapse('hide');
+    $('#navbar-collapse-1').collapse('hide');
     return false;
   });
   $('.scrollTop a').scrollTop();
