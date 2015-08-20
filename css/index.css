@@ -99,7 +99,8 @@ video {
   text-decoration: none;
 }
 
-.navbar-default .navbar-nav > .active > a {
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:focus {
   background: inherit;
   color: #777;
 }
