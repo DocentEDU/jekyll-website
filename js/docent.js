@@ -64,7 +64,13 @@ $(".video3").click(function(){
     $("#videoPlayer3").tubeplayer("play");
 });
 
-
+$(document).ready(function() {
+	$(window).on('resize', function(event) {
+		var $videos = $('.jquery-youtube-tubeplayer > iframe');
+		var $visibleVideo = $videos.filter(':visible');
+		$videos.height($visibleVideo.attr('height') / $visibleVideo.attr('width') * $visibleVideo.width());
+	});
+});
 
 // ------------------------------
 // Scroll Nav
