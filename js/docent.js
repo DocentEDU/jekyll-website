@@ -40,6 +40,7 @@ $(".video2").click(function(){
     $("#videoPlayer2").tubeplayer("pause");
     $("#videoPlayer2").tubeplayer("seek",0);
     $("#videoPlayer2").tubeplayer("play");
+    $("#videoPlayer2").tubeplayer("mute");
 });
 
 //Insight
