@@ -1,0 +1,320 @@
+---
+layout: default
+---
+<style>
+    .signup-as-student, .signup-as-teacher, .google-login, #install-button {
+        line-height: 1;
+        padding: 18px;
+        margin: 18px;
+        border-radius: 10px;
+        border: 0;
+        color: white;
+        background-color: #ed6f23;
+        font-family: Lato;
+        font-size: 14px;
+        cursor: pointer;
+        outline: 0;
+    }
+    .signup-as-teacher {
+        background-color: #3498DB;
+    }
+    .google-login {
+        background-color: #DB4437;
+    }
+    .newsletter-opt-in > label {
+        font-size: 15px;
+        font-weight: 400;
+        line-height: 150%;
+        margin-top: 15px;
+        cursor: pointer;
+    }
+    .newsletter-opt-in input {
+        margin-right: 5px;
+    }
+    #install-button {
+        background-color: #36AE4F;
+    }
+    .enroll-wrapper,
+    .create-course-wrapper {
+        margin: 0 auto;
+        position: relative;
+        border-radius: 8px;
+        padding: 20px;
+        height: 110px;
+        width: 160px;
+        font-family: Lato;
+    }
+        .enroll-label,
+        .create-course-label {
+            display: block;
+            width: 160px;
+            text-align: center;
+            white-space: nowrap;
+            font-weight: 300 !important;
+            font-size: 16px !important;
+        }
+        .enroll-input {
+            font-size: 14px;
+            font-family: Menlo,Consolas,monospace;
+            margin-left: 10px;
+            padding: 10px;
+            font-weight: 300 !important;
+        }
+        .enroll-button, .enroll-cancel,
+        .create-course-button, .create-course-cancel {
+            font-size: 14px;
+            font-family: Lato;
+            height: 44px;
+            width: 70px;
+            background-color: #3498DB;
+            color: #F5F5F5;
+            border: 0;
+            border-radius: 4px;
+            position: absolute;
+            bottom: 20px;
+            right: 20px;
+            cursor: pointer;
+        }
+        .enroll-cancel,
+        .create-course-cancel {
+            left: 20px;
+            right: auto;
+            background-color: #555;
+            padding: 0;
+        }
+    .create-course-wrapper {
+        height: 140px;
+        width: 226px;
+    }
+        .create-course-label {
+            width: 226px;
+            text-align: left;
+        }
+        .create-course-input {
+            width: 100%;
+            padding: 10px;
+            box-sizing: border-box;
+            -webkit-box-sizing: border-box;     
+            margin-top: 5px;
+            font-family: Lato;
+            font-weight: 400;
+            font-size: 17px;
+        }
+        .create-course-button, .create-course-cancel {
+            width: 103px;
+        }
+</style>
+
+<div style="margin: 18px 0;" id="install-container" data-version="<?= $version ?>">
+    <div class="teacher-container" style="display: <?= $version == 'teacher' ? 'block' : 'none' ?>; text-align: center;">
+        <h3>Teacher Sign Up</h1>
+        <button type="button" class="google-login">Sign up with Google</button>
+        <div class="newsletter-opt-in">
+            <label><input type="checkbox" /> Send me weekly emails with lesson <br>ideas, resources, and updates</label>
+        </div>
+        
+        <div class="create-course-wrapper" style="display: none; box-sizing: content-box; -webkit-box-sizing: content-box;">
+            <label class="create-course-label">
+                Name of Class:<br>
+                <input class="create-course-input" type="text" />
+            </label>
+            <button type="button" class="create-course-cancel" onclick="showExtension();">Not Now</button>
+            <button type="button" class="create-course-button" onclick="postCourse();">Create</button>
+        </div>
+        
+        <div class="extension-wrapper" style="display: none;">
+            <button onclick="installExtension()" id="install-button">Install Extension</button>
+        </div>
+        
+        <div class="bookmarklet-wrapper" style="display: none;">
+            <p>Drag this to your bookmark bar or add it to your favorites: </p>
+            <a class="bookmarklet">DocentEDU Beta</a>
+        </div>
+    </div>
+    <div class="student-container" style="display: <?= $version == 'student' ? 'block' : 'none' ?>; text-align: center;">
+        <h3>Student Sign Up</h1>
+        <button type="button" class="google-login">Sign up with Google</button>
+        
+        <div class="enroll-wrapper" style="display: none; box-sizing: content-box; -webkit-box-sizing: content-box;">
+            <label class="enroll-label">
+                Class Code:
+                <input class="enroll-input" type="text" size="4" maxlength="4" />
+            </label>
+            <button type="button" class="enroll-cancel" onclick="showExtension();">Not Now</button>
+            <button type="button" class="enroll-button" onclick="enroll();">Enroll</button>
+        </div>
+        
+        <div class="extension-wrapper" style="display: none;">
+            <button onclick="installExtension()" id="install-button">Install Extension</button>
+        </div>
+        
+        <div class="bookmarklet-wrapper" style="display: none;">
+            <p>Drag this to your bookmark bar or add it to your favorites: </p>
+            <a class="bookmarklet">DocentEDU Beta</a>
+        </div>
+    </div>
+    <div class="noversion-container"  style="display: <?= $version == 'noversion' ? 'block' : 'none' ?>; text-align: center;">
+        <button class="signup-as-student" onclick="switchView('student')">Sign up as a Student</button>
+        <button class="signup-as-teacher" onclick="switchView('teacher')">Sign up as a Teacher</button>
+    </div>
+    
+    <script>
+        var baseURL = {
+            domain: 'https://docentedu.com/',
+            version: 'beta'
+        };
+        baseURL.api = baseURL.domain + baseURL.version + '/api/';
+        
+        function onSignIn(googleUser) {
+            if (!googleUser.isSignedIn()) {
+                jQuery('.google-login').show();
+                return false;
+            }
+            var token = googleUser.getAuthResponse();
+            jQuery.ajaxSetup({
+                beforeSend: function(xhr) {
+                    xhr.setRequestHeader('Authorization', 'Bearer ' + token.access_token);
+                    xhr.setRequestHeader('X-Id-Token', token.id_token);
+                }
+            });
+            userSignup();
+        }
+        function switchView(newView) {
+            jQuery('#install-container').attr('data-version', newView);
+            jQuery('.' + newView + '-container').show();
+            jQuery('.noversion-container').hide();
+        }
+        function userSignup() {
+            var url = baseURL.api + 'user';
+            var data = {
+                user_type: jQuery('#install-container').attr('data-version')
+            };
+            jQuery.post(url, data, function(response) {
+                if (response) {
+                    jQuery('.google-login,.newsletter-opt-in').hide();
+                    console.log('Signed up as:', response.userType);
+                    if (jQuery('#install-container').attr('data-version') != response.userType) {
+                        showExtension();
+                    }
+                    else if (response.userType == 'student') {
+                        jQuery('.extension-wrapper').hide();
+                        jQuery('.enroll-wrapper').show();
+                    }
+                    else if (response.userType == 'teacher') {
+                        jQuery('.extension-wrapper').hide();
+                        jQuery('.create-course-wrapper').show();
+                    }
+                }
+                if (jQuery('#install-container').attr('data-version') == 'student') {
+                    return;
+                }
+                var data = {
+                    status: jQuery('.newsletter-opt-in input').prop('checked') ? 'subscribed' : 'unsubscribed'
+                };
+                var url = baseURL.api + 'user/newsletter';
+                jQuery.post(url, data, function(response) {
+                    console.log(response);
+                });
+            });
+        }
+        function postCourse() {
+            var url = baseURL.api + 'courses';
+            var data = {
+                courseName: jQuery('.create-course-input').val()
+            }
+            jQuery.post(url, data, function(response) {
+                console.log('Course was successfully added.');
+
+                if (response) {
+                    showExtension();
+                }
+            })
+            .fail(function(response) {
+                console.log('Error:',response.status,response.statusText);
+            });
+        }
+        function enroll() {
+            var url = baseURL.api + 'courses';
+            var data = {
+                class_code: jQuery('.enroll-input').val()
+            };
+            jQuery.post(url, data, function(response) {
+                if (response) {
+                    if (response.ok) {
+                        if (response.n == 1) {
+                            if (response.nModified == 1) {
+                                showExtension();
+                                alert('Success! You are now enrolled.');
+                            }
+                            else if (response.nModified == 0) {
+                                showExtension();
+                                alert('You are already in that class.');
+                            }
+                            else console.log(response);
+                        }
+                        else if (response.n == 0) {
+                            alert("Couldn't find your class. Please check that you have the correct class code.");
+                        }
+                        else console.log(response);
+                    }
+                }
+                else alert('Something went wrong, please try again.');
+            });
+        }
+        function showExtension() {
+            jQuery('.enroll-wrapper,.create-course-wrapper').hide();
+            jQuery('.extension-wrapper').show();
+        }
+        function installExtension() {
+            if (window.chrome) {
+                chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', function() {
+                    window.location = 'https://docentedu.com/beta/dashboard';
+                });
+            }
+            else if (window.InstallTrigger) {
+                var xpi = {
+                    DocentEDU: {
+                        URL: 'https://addons.mozilla.org/downloads/latest/579384/addon-579384-latest.xpi?src=external-signup',
+                        IconURL: 'https://docentedu.com/images/logo.png'
+                    }
+                };
+                InstallTrigger.install(xpi);
+                // Delete the next line for v0.10.3+
+                window.location = 'https://docentedu.com/beta/dashboard';
+            }
+            else {
+                showBookmarklet();
+            }
+        }
+        function showBookmarklet() {
+            var f = function(doc) {
+                var t = (new Date()).valueOf();
+                var s = doc.createElement('script');
+                s.src = 'https://docentedu.com/beta/toolbar/docent.js?t=' + t;
+                s.async = true;
+                doc.getElementsByTagName('head')[0].appendChild(s);
+            };
+            var href = encodeURI('javascript:(' + f.toString().replace(/\s{2,}/g, '') + ')(document)');
+            jQuery('.bookmarklet').attr('href', href);
+            window.location.hash = href;
+            
+            jQuery('.extension-wrapper').hide();
+            jQuery('.bookmarklet-wrapper').show();
+        }
+
+    </script>
+    <script src="https://apis.google.com/js/api:client.js"></script>
+    <script>
+        gapi.load('auth2', function(){
+            var auth2 = gapi.auth2.init({
+                client_id: '127401089900-16iceoabvgceg2vlahnp8ulgu2gsksen.apps.googleusercontent.com',
+                scope: 'profile email'
+            });
+            jQuery('.google-login').each(function() {
+                auth2.attachClickHandler(this, {}, onSignIn, function(error) {
+                    console.log(error);
+                });
+            });
+        });
+    </script>
+</div>
