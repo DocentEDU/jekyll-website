@@ -23,6 +23,7 @@ video {
 #features .tab-pane {
     width: 100%;
     max-width: 480px;
+    margin: 0 auto;
 }
 .jquery-youtube-tubeplayer {
     position: relative;
