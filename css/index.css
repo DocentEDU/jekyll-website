@@ -393,6 +393,12 @@ float: right;
     color: #DDD;
     line-height: 24px;
 }
+@media (max-width: 361px) {
+    #legalFooter {
+        font-size: 12px;
+        line-height: 26px;
+    }
+}
 
 #legalFooter .container {
     padding-top: 5px;
