@@ -52,6 +52,10 @@ function scrollNav() {
         scrollTop: $( $(this).attr('href').slice(1) ).offset().top - 30
     }, 400);
     $('#navbar-collapse-1').collapse('hide');
+    //Make sure at least one video is showing
+    if ($(".active > .jquery-youtube-tubeplayer").length == 0) {
+    	$("#videoPlayer1").parent().addClass("active");
+    }
     return false;
   });
   $('.scrollTop a').scrollTop();
