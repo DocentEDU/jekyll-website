@@ -16,6 +16,10 @@ video {
     width: 100%    !important;
     height: auto   !important;
 }
+.nav-justified > li {
+    display: table-cell;
+    width: 1%;
+}
 .jquery-youtube-tubeplayer > iframe {
     width: 100%;
     max-width: 480px;
