@@ -13,4 +13,4 @@ This change will take full effect October 1st.  As a thank you to our current us
 
 DocentEDU is a tool which allows you, the great educators who are our users, to create amazing and engaging lessons to teach your students great things. We’re honored to be a part of that, and we plan to be around for a long time.
 
-Email us with any questions or comments you have at support@docentedu.com
+Email us with any questions or comments you have at [support@docentedu.com](mailto:support@docentedu.com)
