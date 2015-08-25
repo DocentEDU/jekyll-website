@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Pricing Update
+title: Building a Stronger Future
 author: DocentEDU
 ---
 Can you feel the palpable excitement? We sure can here at DocentEDU. We are so excited about the new 2015-2016 school year. We’ve heard so many wonderful plans from our users this summer and we’re excited to be a part of so many classrooms this year.
