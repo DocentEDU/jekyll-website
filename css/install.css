@@ -99,3 +99,6 @@
     .create-course-button, .create-course-cancel {
         width: 103px;
     }
+#ssIFrame_google {
+    top: 0;
+}
