@@ -64,7 +64,7 @@ layout: default
             client_id: '127401089900-16iceoabvgceg2vlahnp8ulgu2gsksen.apps.googleusercontent.com',
             scope: 'profile email'
         });
-        jQuery('.google-login').each(function() {
+        $('.google-login').each(function() {
             auth2.attachClickHandler(this, {}, onSignIn, function(error) {
                 console.log(error);
             });
