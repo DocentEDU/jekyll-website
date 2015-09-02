@@ -57,17 +57,4 @@ layout: default
 
 <link rel="stylesheet" href="/css/install.css" />
 <script src="/js/install.js"></script>
-<script src="https://apis.google.com/js/api:client.js"></script>
-<script>
-    gapi.load('auth2', function(){
-        var auth2 = gapi.auth2.init({
-            client_id: '127401089900-16iceoabvgceg2vlahnp8ulgu2gsksen.apps.googleusercontent.com',
-            scope: 'profile email'
-        });
-        $('.google-login').each(function() {
-            auth2.attachClickHandler(this, {}, onSignIn, function(error) {
-                console.log(error);
-            });
-        });
-    });
-</script>
+<script src="https://apis.google.com/js/api:client.js?onload=initGoogle"></script>
