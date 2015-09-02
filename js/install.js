@@ -4,6 +4,20 @@ var baseURL = {
 };
 baseURL.api = baseURL.domain + baseURL.version + '/api/';
 
+function initGoogle() {
+    gapi.load('auth2', function(){
+        var auth2 = gapi.auth2.init({
+            client_id: '127401089900-16iceoabvgceg2vlahnp8ulgu2gsksen.apps.googleusercontent.com',
+            scope: 'profile email'
+        });
+        $('.google-login').each(function() {
+            auth2.attachClickHandler(this, {}, onSignIn, function(error) {
+                console.log(error);
+            });
+        });
+    });
+}
+
 function onSignIn(googleUser) {
     if (!googleUser.isSignedIn()) {
         jQuery('.google-login').show();
