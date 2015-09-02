@@ -1,110 +1,6 @@
 ---
 layout: default
 ---
-<style>
-    .signup-as-student, .signup-as-teacher, .google-login, #install-button {
-        line-height: 1;
-        padding: 18px;
-        margin: 18px;
-        border-radius: 10px;
-        border: 0;
-        color: white;
-        background-color: #ed6f23;
-        font-family: Lato;
-        font-size: 14px;
-        cursor: pointer;
-        outline: 0;
-    }
-    .signup-as-teacher {
-        background-color: #3498DB;
-    }
-    .google-login {
-        background-color: #DB4437;
-    }
-    .newsletter-opt-in > label {
-        font-size: 15px;
-        font-weight: 400;
-        line-height: 150%;
-        margin-top: 15px;
-        cursor: pointer;
-    }
-    .newsletter-opt-in input {
-        margin-right: 5px;
-    }
-    #install-button {
-        background-color: #36AE4F;
-    }
-    .enroll-wrapper,
-    .create-course-wrapper {
-        margin: 0 auto;
-        position: relative;
-        border-radius: 8px;
-        padding: 20px;
-        height: 110px;
-        width: 160px;
-        font-family: Lato;
-    }
-        .enroll-label,
-        .create-course-label {
-            display: block;
-            width: 160px;
-            text-align: center;
-            white-space: nowrap;
-            font-weight: 300 !important;
-            font-size: 16px !important;
-        }
-        .enroll-input {
-            font-size: 14px;
-            font-family: Menlo,Consolas,monospace;
-            margin-left: 10px;
-            padding: 10px;
-            font-weight: 300 !important;
-        }
-        .enroll-button, .enroll-cancel,
-        .create-course-button, .create-course-cancel {
-            font-size: 14px;
-            font-family: Lato;
-            height: 44px;
-            width: 70px;
-            background-color: #3498DB;
-            color: #F5F5F5;
-            border: 0;
-            border-radius: 4px;
-            position: absolute;
-            bottom: 20px;
-            right: 20px;
-            cursor: pointer;
-        }
-        .enroll-cancel,
-        .create-course-cancel {
-            left: 20px;
-            right: auto;
-            background-color: #555;
-            padding: 0;
-        }
-    .create-course-wrapper {
-        height: 140px;
-        width: 226px;
-    }
-        .create-course-label {
-            width: 226px;
-            text-align: left;
-        }
-        .create-course-input {
-            width: 100%;
-            padding: 10px;
-            box-sizing: border-box;
-            -webkit-box-sizing: border-box;     
-            margin-top: 5px;
-            font-family: Lato;
-            font-weight: 400;
-            font-size: 17px;
-        }
-        .create-course-button, .create-course-cancel {
-            width: 103px;
-        }
-</style>
-
 <div class="container force-footer-to-bottom" id="install-container" data-version="<?= $version ?>">
     <div class="teacher-container" style="display: none; display: <?= $version == 'teacher' ? 'block' : 'none' ?>; text-align: center;">
         <h3>Teacher Sign Up</h1>
@@ -303,6 +199,7 @@ layout: default
         }
 
     </script>
+    <link rel="stylesheet" href="/css/install.css" />
     <script src="https://apis.google.com/js/api:client.js"></script>
     <script>
         gapi.load('auth2', function(){
