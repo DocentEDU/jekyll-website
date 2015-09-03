@@ -3,9 +3,10 @@ layout: default
 permalink: /bookmarklet/
 ---
 <div class="container force-footer-to-bottom" style="text-align: center;">
-    <div class="bookmarklet-wrapper" onload="showBookmarklet();">
+    <div class="bookmarklet-wrapper">
         <p>Drag this to your bookmark bar or add it to your favorites: </p>
         <a class="bookmarklet">DocentEDU Toolbar</a>
     </div>
 </div>
 <script src="/js/install.js"></script>
+<script>document.body.addEventListener('load', showBookmarklet, false);</script>
