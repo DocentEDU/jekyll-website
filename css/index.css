@@ -186,6 +186,7 @@ a.attribution:hover {
         font-size: 27px;
         background-color: #3498DB;
         color: #FFF !important;
+        margin: 18px 0;
         white-space: normal;
     }
         .signup > span {
