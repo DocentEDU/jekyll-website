@@ -181,7 +181,14 @@ a.attribution:hover {
     color: #FFF;
     text-decoration: underline;
 }
-
+    .signup {
+        font-family: Lato;
+        font-size: 27px;
+        color: #FFF !important;
+    }
+        .signup > span {
+            white-space: nowrap;
+        }
   .signup-as-student, .signup-as-teacher {
     font-family: Lato;
     font-size: 14px;
