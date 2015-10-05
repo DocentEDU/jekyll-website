@@ -189,9 +189,9 @@ a.attribution:hover {
         margin: 18px 0;
         white-space: normal;
     }
-        .signup > span {
-            white-space: nowrap;
-        }
+    @media (max-width: 568px) {
+        width: 290px;
+    }
   .signup-as-student, .signup-as-teacher {
     font-family: Lato;
     font-size: 14px;
