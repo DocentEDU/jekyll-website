@@ -176,7 +176,8 @@ float: right;
     font-size: 10px;
 }
 
-.attribution a {
+.attribution a,
+.attribution a:hover {
     color: #FFF;
     text-decoration: underline;
 }
