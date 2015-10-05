@@ -184,7 +184,9 @@ a.attribution:hover {
     .signup {
         font-family: Lato;
         font-size: 27px;
+        background-color: #3498DB;
         color: #FFF !important;
+        white-space: normal;
     }
         .signup > span {
             white-space: nowrap;
