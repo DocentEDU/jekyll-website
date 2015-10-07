@@ -162,6 +162,16 @@ float: right;
     background: #333 url('/images/banner.jpg') no-repeat center center;
     position: relative;
 }
+@media (min-width: 960px) and (max-width: 1440px) {
+    .jumbotron {
+        background-size: 150%;
+    }
+}
+@media (min-width: 1441px) {
+    .jumbotron {
+        background-size: 2160px;
+    }
+}
 
 .jumbotron h1 small {
     color: #FFF;
