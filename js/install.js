@@ -127,7 +127,7 @@ function installExtension() {
     else if (window.InstallTrigger) {
         var xpi = {
             DocentEDU: {
-                URL: 'https://addons.mozilla.org/downloads/latest/579384/addon-579384-latest.xpi?src=external-signup',
+                URL: 'https://addons.mozilla.org/firefox/downloads/file/354308/docentedu-0.11.1-fx.xpi?src=external-signup',
                 IconURL: 'https://docentedu.com/images/logo.png'
             }
         };
