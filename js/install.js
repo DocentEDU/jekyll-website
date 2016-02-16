@@ -120,24 +120,23 @@ function showExtension() {
 }
 function installExtension() {
     if (window.chrome) {
-        chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', function() {
-            window.location = 'https://docentedu.com/beta/dashboard';
-        });
+        chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', onExtensionInstalled);
     }
     else if (window.InstallTrigger) {
         var xpi = {
             DocentEDU: {
-                URL: 'https://addons.mozilla.org/firefox/downloads/file/354308/docentedu-0.11.1-fx.xpi?src=external-signup',
+                URL: 'https://addons.mozilla.org/firefox/downloads/file/392939/docentedu-0.13.0-fx.xpi?src=external-signup',
                 IconURL: 'https://docentedu.com/images/logo.png'
             }
         };
         InstallTrigger.install(xpi);
-        // Delete the next line for v0.10.3+
-        window.location = 'https://docentedu.com/beta/dashboard';
     }
     else {
         showBookmarklet();
     }
+}
+function onExtensionInstalled() {
+    window.location = 'https://docentedu.com/beta/dashboard';
 }
 function showBookmarklet() {
     var f = function(doc) {
