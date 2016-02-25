@@ -2,9 +2,7 @@
 layout: post
 author: Ben Pedersen
 title: New Features: Co-Teaching, Real-Time Updates, and Lesson Links
-tags: [technology]
 ---
-
 We've made some big changes in the past week, and now that they've rolled out on all our platforms, I wanted to take a little time to tell you about them.
 
 First, you may have noticed the Classes section of your dashboard looks differently. Your classes are now organized in rows to help accommodate the new "Invite Co-Teacher" button. A co-teacher is able to assigned docents to a class, edit any assigned docents, and grade assignments. We had this as a private feature for our pilot in NYC, and we're excited for it to public. Yay collaboration!
