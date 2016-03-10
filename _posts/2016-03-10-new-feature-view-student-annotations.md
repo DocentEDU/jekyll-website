@@ -3,6 +3,7 @@ layout: post
 author: Ben Pedersen
 title: "New Feature: View Student Annotations"
 tags: [technology]
+image: student-annotations-1.png
 ---
 <style>
 .screen-img {
