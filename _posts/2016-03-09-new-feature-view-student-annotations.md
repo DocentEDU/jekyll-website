@@ -8,4 +8,12 @@ Today, I'm excited to announce a feature that's been a long time coming: viewing
 
 Well, we finally have.
 
-If you're viewing a docent and your student have made annotations, you'll see this button <img style="vertical-align: middle;" src="https://docentedu.com/images/view-student-annotations.png" height="44" /> at the top left of your screen. If you click on that button, it will expand into a drop-down where you can select a student to view her annotations.
+If you're viewing a docent and your student have made annotations, your screen will look like this:
+
+<img width="400" src="https://docentedu.com/images/student-annotations-1.png" />
+
+Click on that button on the top left and it will expand like this:
+
+<img width="400" src="https://docentedu.com/images/student-annotations-2.png" />
+
+And now you can choose which student's annotations you want to view.
