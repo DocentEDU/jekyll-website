@@ -24,3 +24,5 @@ Click on that button on the top left and it will expand like this:
 <img class="screen-img" src="https://docentedu.com/images/student-annotations-2.png" />
 
 And now you can choose which student's annotations you want to view.
+
+Currently, this feature is only available with our browser extension, (sorry mobile app users) and you'll need version 0.15.0 of the extension (your browser should auto-update). 
