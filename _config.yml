@@ -8,6 +8,7 @@ url: "http://docentedu.com:3000" # the base hostname & protocol for your site
 twitter_username: DocentEDU
 github_username:  DocentEDU
 permalink: /blog/:year/:month/:day/:title.html
+imgae: og.png
 
 # Build settings
 markdown: kramdown
