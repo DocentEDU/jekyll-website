@@ -2,6 +2,7 @@
 layout: post
 author: Karin Hogen
 title: "Engaging reluctant readers through technology"
+published: false
 ---
 Secondary school students are awesome. However, a secondary classroom full of students can be a classroom sprinkled with reluctant readers and one frustrated teacher. What’s more, the students’ reluctance can come from many issues including reading levels, lack of interesting texts, low-level questions, and lack of interactive and collaborative opportunities for learning. 
 
