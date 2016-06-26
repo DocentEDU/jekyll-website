@@ -12,7 +12,7 @@ Secondary school students are awesome. However, a secondary classroom full of st
 
 Although these may seem like overwhelming obstacles, technology can help solve them and create a classroom full of engaged and excited readers. I have implemented a system in my classroom using technology and nonfiction texts that has helped create engaged readers.
 
-I first try to head off student reluctance because of a lack of interesting texts. There are many sources where you can find interesting texts that students will find relevant. I have several favorite resources. The first, The Learning Network, is from the New York Times and describes itself as a source that “provides daily resources for teaching and learning.” This blog is a great way to bring contemporary issues into your classroom. Another source of engaging nonfiction texts is Newsela. Newsela is a website that curates nonfiction texts into different genres and lexile levels. My last go-to resource is NPR News. NPR has so many amazing articles that are written in ways that are relevant to teenagers. Check out its topic-specific collections of stories ranging from race relations to medicine to health.
+I first try to head off student reluctance because of a lack of interesting texts. There are many sources where you can find interesting texts that students will find relevant. I have several favorite resources. The first, [The Learning Network](http://learning.blogs.nytimes.com/), is from the New York Times and describes itself as a source that “provides daily resources for teaching and learning.” This blog is a great way to bring contemporary issues into your classroom. Another source of engaging nonfiction texts is [Newsela](https://newsela.com/). Newsela is a website that curates nonfiction texts into different genres and lexile levels. My last go-to resource is [NPR News](http://www.npr.org/sections/news/). NPR has so many amazing articles that are written in ways that are relevant to teenagers. Check out its topic-specific collections of stories ranging from race relations to medicine to health.
 
 Using these online text sources really does solve a huge problem for the reluctant readers in my classroom: providing texts that are actually meaningful and interesting. As teachers, we all have our favorite copy of a Time magazine article from 15 years ago, but we have to remember that our audience might not have a context for the information in the article. This isn’t to say that history isn’t important. In fact, I think that the text sources I’ve mentioned focus on history quite frequently. But, by constantly giving my students access to contemporary texts, I am able to not only find things that have a real-life effect on them but also differentiate and personalize for their individual interests. Thankfully, with the online resources available, it is easy to find high-quality texts that are engaging and relevant to students. As adults, we don’t force ourselves to read things in which we’re not interested. As teachers, we shouldn’t force our students to either.
 
@@ -29,14 +29,3 @@ I also differentiate for students’ lack of background knowledge using DocentED
 With technology integration, reading is no longer a static experience. It is instead is a dynamic one that is adapted to student interest, ability, and background knowledge. Finally, I can head off student reluctance caused by lack of collaborative activities. DocentEDU allows the teacher to directly embed live-updating, full-class discussions. Students can discuss with each other while reading to have a collaborative online experience without leaving the text itself.
 
 To be honest, does every single one of my students jump for joy when we read our nonfiction texts on Monday? No. But, I do have students who say it is their favorite part of my class, and I know that I am differentiating for multiple learning styles and reading levels all while engaging my students in interesting and relevant texts.
-
-
-Bibliography
-
-DocentEDU. Computer software. DocentEDU. N.p., n.d. Web. 26 Mar. 2016.
-
-"Newsela | Nonfiction Literacy and Current Events." Newsela | Nonfiction Literacy and Current Events. N.p., n.d. Web. 26 Mar. 2016.
-
-NPR. NPR, 2016. Web. 26 Mar. 2016.
-
-"The Learning Network - The Learning Network Blog - The New York Times." Web log post. The Learning Network - The Learning Network Blog - The New York Times. Ed. Katherine Schulten and Michael Gonchar. The New York Times, n.d. Web. 26 Mar. 2016.
