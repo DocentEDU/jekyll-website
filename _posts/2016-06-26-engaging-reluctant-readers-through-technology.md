@@ -4,7 +4,7 @@ author: Karin Hogen
 title: "Engaging Reluctant Readers Through Technology"
 published: true
 ---
-<i>This post was published on the [ASCD Inservice blog](http://inservice.ascd.org/engaging-reluctant-readers-through-technology/).</i>
+<i>This post was published on the [ASCD Inservice Blog](http://inservice.ascd.org/engaging-reluctant-readers-through-technology/).</i>
 
 ***
 
