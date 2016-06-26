@@ -4,6 +4,10 @@ author: Karin Hogen
 title: "Engaging reluctant readers through technology"
 published: false
 ---
+<i>This post was published on the [ASCD Inservice blog](http://inservice.ascd.org/engaging-reluctant-readers-through-technology/).</i>
+
+***
+
 Secondary school students are awesome. However, a secondary classroom full of students can be a classroom sprinkled with reluctant readers and one frustrated teacher. What’s more, the students’ reluctance can come from many issues including reading levels, lack of interesting texts, low-level questions, and lack of interactive and collaborative opportunities for learning. 
 
 Although these may seem like overwhelming obstacles, technology can help solve them and create a classroom full of engaged and excited readers. I have implemented a system in my classroom using technology and nonfiction texts which has helped create engaged readers. 
@@ -30,6 +34,7 @@ To be honest, does every single one of my students jump up and down in joy when 
 Bibliography
 
 DocentEDU. Computer software. DocentEDU. N.p., n.d. Web. 26 Mar. 2016.
+
 "Newsela | Nonfiction Literacy and Current Events." Newsela | Nonfiction Literacy and Current Events. N.p., n.d. Web. 26 Mar. 2016.
 
 NPR. NPR, 2016. Web. 26 Mar. 2016.
