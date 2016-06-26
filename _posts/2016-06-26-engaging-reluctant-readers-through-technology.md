@@ -2,7 +2,7 @@
 layout: post
 author: Karin Hogen
 title: "Engaging Reluctant Readers Through Technology"
-published: false
+published: true
 ---
 <i>This post was published on the [ASCD Inservice blog](http://inservice.ascd.org/engaging-reluctant-readers-through-technology/).</i>
 
