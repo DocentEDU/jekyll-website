@@ -2,7 +2,7 @@
 layout: post
 author: Karin Hogen
 title: "Creating Interactive Content from Dusty Old Textbooks"
-published: false
+published: true
 ---
 So, I teach at a school with shared curriculum. Overall I really enjoy what I teach. However, the 6th grade hasn’t been 1:1 so sometimes there are great opportunities for improving the lessons via tech.
 
