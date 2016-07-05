@@ -15,5 +15,11 @@ DocentEDU is also very flexible, so you can adapt its usage to any type of curri
 This is such a great tool that really allows my students to dive deep into whatever they are reading. I recommend you try it today. Below are a couple of videos that show the ins and outs of this web tool.
 
 <iframe width="640" height="360" src="https://www.youtube.com/embed/b94arVANUaU" frameborder="0" allowfullscreen></iframe>
-
 <iframe width="640" height="360" src="https://www.youtube.com/embed/Zq4PBKf-f0Q" frameborder="0" allowfullscreen></iframe>
+<style>
+iframe {
+  display: block;
+  margin: 20px auto 0;
+  max-width: 100%;
+}
+</style>
