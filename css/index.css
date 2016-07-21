@@ -630,8 +630,14 @@ Vertical Tabs
     
 }
 
+.a_grade, .a_role, .a_bio {
+    margin-bottom: 4px;    
+}
+
 .a_bio {
     text-align: left;
+    font-size: 13px;
+    color: #999;
 }
 
 .a_location {
@@ -642,4 +648,5 @@ Vertical Tabs
     border-top: 1px solid #CCC;
     padding-top: 10px;
     margin: 10px 15px 0px 15px;
+    text-align: center;
 }
