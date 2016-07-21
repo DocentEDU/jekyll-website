@@ -595,7 +595,7 @@ Vertical Tabs
 ***************************/
 .ambassador {
     background-color: antiquewhite;
-    padding: 10px;
+    padding: 20px;
 }
 
 .a_name {
@@ -612,6 +612,7 @@ Vertical Tabs
 
 .a_photo {
     width: 100%;
+    border-radius: 20px;
 }
 
 .a_twitter {
