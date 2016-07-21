@@ -637,3 +637,9 @@ Vertical Tabs
 .a_location {
     
 }
+
+.a_connect {
+    border-top: 1px solid #CCC;
+    padding-top: 10px;
+    margin-top: 10px;
+}
