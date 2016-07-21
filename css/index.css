@@ -594,7 +594,6 @@ Vertical Tabs
        Ambassadors
 ***************************/
 .ambassador {
-    background-color: antiquewhite;
     padding: 20px;
 }
 
@@ -632,7 +631,7 @@ Vertical Tabs
 }
 
 .a_bio {
-    
+    text-align: left;
 }
 
 .a_location {
