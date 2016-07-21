@@ -589,3 +589,47 @@ Vertical Tabs
 .force-footer-to-bottom {
     min-height: calc(100vh - 304.5px);
 }
+
+/**************************
+       Ambassadors
+***************************/
+.ambassador {
+    background-color: antiquewhite;
+    padding: 10px;
+}
+
+.a_name {
+    
+}
+
+.a_name a {
+    
+}
+
+.a_name a:hover {
+    
+}
+
+.a_photo {
+    width: 100%;
+}
+
+.a_twitter {
+    
+}
+
+.a_role {
+    
+}
+
+.a_grade {
+    
+}
+
+.a_bio {
+    
+}
+
+.a_location {
+    
+}
