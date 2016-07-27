@@ -38,7 +38,7 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
       <ul>
         <li><a href="https://www.youtube.com/watch?v=b94arVANUaU">Highlights and comments</a></li>
         <li><a href="https://www.youtube.com/watch?v=HkOF-ELub1I">Live class discussions</a></li>
-        <li>Embeds of other <a href="https://www.youtube.com/watch?v=tteupNrsIYA"web 2.0 applications</a></li>
+        <li>Embeds of other <a href="https://www.youtube.com/watch?v=tteupNrsIYA">web 2.0 applications</a></li>
         <li>Students creating their <a href="https://www.youtube.com/watch?v=7vKZnFve-sI">own DocentEDU lessons</a></li>
         <li><a href="https://www.youtube.com/watch?v=b94arVANUaU">Students using DocentEDU annotation tools</a></li>
       </ul>
@@ -50,7 +50,7 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
       <ul>
         <li><a href="https://www.youtube.com/watch?v=fSmgBrMI1Gw">Open-ended questions</a></li>
         <li><a href="https://www.youtube.com/watch?v=hGKtW8Eh2RI">Multiple chioce questions</a></li>
-        <li><a href="https://www.youtube.com/watch?v=HkOF-ELub1I"Live class discussions</a></li>
+        <li><a href="https://www.youtube.com/watch?v=HkOF-ELub1I">Live class discussions</a></li>
       </ul>
     </td>
   </tr>
