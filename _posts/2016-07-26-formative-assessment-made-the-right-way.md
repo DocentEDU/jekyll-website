@@ -49,7 +49,7 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
     <td>
       <ul>
         <li><a href="https://www.youtube.com/watch?v=fSmgBrMI1Gw">Open-ended questions</a></li>
-        <li><a href="https://www.youtube.com/watch?v=hGKtW8Eh2RI">Multiple chioce questions</a></li>
+        <li><a href="https://www.youtube.com/watch?v=hGKtW8Eh2RI">Multiple choice questions</a></li>
         <li><a href="https://www.youtube.com/watch?v=HkOF-ELub1I">Live class discussions</a></li>
       </ul>
     </td>
