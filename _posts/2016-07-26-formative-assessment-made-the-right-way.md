@@ -16,12 +16,10 @@ The formative part of formative assessment is actually based on the creation of 
 
 We here at DocentEDU know that you can use our extension/app to do just that: give formative assessments following best practice. DocentEDU allows you to do the following:
 
-<ul>
-  <li>Have students create their own knowledge of a subject</li>
-  <li>Have students think critically</li>
-  <li>Students can quickly assess their own learning</li>
-  <li>Teachers can quickly assess their students’ learning</li>
-</ul>
+- Have students create their own knowledge of a subject
+- Have students think critically
+- Students can quickly assess their own learning
+- Teachers can quickly assess their students’ learning
 
 Check out this infographic comparing a DocentEDU lesson to a textbook lesson or a Google Doc lesson. 
 
