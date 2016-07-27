@@ -84,6 +84,9 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
     margin: 0;
     padding: 0 15px;
   }
+  table {
+    margin-bottom: 15px;
+  }
 </style>
 
 All in all, DocentEDU is the tool that you can use in any curriculum area to help with high-quality, best practice, formative assessment. 
