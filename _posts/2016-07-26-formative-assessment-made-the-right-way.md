@@ -75,4 +75,15 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
   </tr>
 </table>
 
+<style>
+  td,th {
+    border: 1px solid black;
+    padding: 5px 10px;
+  }
+  td ul {
+    margin: 0;
+    padding: 0 15px;
+  }
+</style>
+
 All in all, DocentEDU is the tool that you can use in any curriculum area to help with high-quality, best practice, formative assessment. 
