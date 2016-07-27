@@ -22,7 +22,6 @@ We here at DocentEDU know that you can use our extension/app to do just that: gi
   <li>Students can quickly assess their own learning</li>
   <li>Teachers can quickly assess their students’ learning</li>
 </ul>
-<br>
 
 Check out this infographic comparing a DocentEDU lesson to a textbook lesson or a Google Doc lesson. 
 
