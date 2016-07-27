@@ -26,20 +26,54 @@ Check out this infographic comparing a DocentEDU lesson to a textbook lesson or 
 
 If you’d like more explanation, this chart shows you how to use DocentEDU to follow best practice. It has linked instructional videos.
 
-| Skill                                | DocentEDU Tool                                              |
-|--------------------------------------|-------------------------------------------------------------|
-| Students creating own knowledge      | Highlights and comments                                     |
-|                                      | Embeds of other web 2.0 applications                        |
-|                                      | Students creating their own DocentEDU lessons               |
-|                                      | Students using DocentEDU annotation tools                   |
-| Critical thinking                    | Open-ended questions                                        |
-|                                      | Multiple choice questions                                   |
-|                                      | Live class discussions                                      |
-| Students assessing own learning      | Multiple choice questions                                   |
-|                                      | Highlights and comments                                     |
-|                                      | Embeds of other web 2.0 applications                        |
-| Teachers assessing student learning  | Teachers see live student answers in their grade dashboard  |
-|                                      | Teachers can change any lesson live while students work     |
-|                                      | Teachers can look at student annotations live in the lesson |
+<table>
+  <tr>
+    <th>Skill</th>
+    <th>DocentEDU Tool</th>
+  </tr>
+  <tr>
+    <td rowspan="4">Students creating own knowledge</td>
+    <td>Highlights and comments</td>
+  </tr
+  <tr>
+    <td>Embeds of other web 2.0 applications</td>
+  </tr>
+  <tr>
+    <td>Students creating their own DocentEDU lessons</td>
+  </tr>
+  <tr>
+    <td>Students using DocentEDU annotation tools</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Critical thinking</td>
+    <td>Open-ended questions</td>
+  </tr>
+  <tr>
+    <td>Multiple chioce questions</td>
+  </tr>
+  <tr>
+    <td>Live class discussions</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Students assessing own learning</td>
+    <td>Multiple choice questions</td>
+  </tr>
+  <tr>
+    <td>Highlights and comments</td>
+  </tr>
+  <tr>
+    <td>Embeds of other web 2.0 applications</td>
+  </tr>
+  <tr>
+    <td rowspan="3">Teachers assessing student learning</td>
+    <td>Teachers see live student answers in their grade dashboard</td>
+  </tr>
+  <tr>
+    <td>Teachers can change any lesson live while students work</td>
+  </tr>
+  <tr>
+    <td>Teachers can look at students annotations live in the lesson</td>
+  </tr>
+</table>
 
 All in all, DocentEDU is the tool that you can use in any curriculum area to help with high-quality, best practice, formative assessment. 
