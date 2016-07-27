@@ -32,47 +32,45 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
     <th>DocentEDU Tool</th>
   </tr>
   <tr>
-    <td rowspan="4">Students creating own knowledge</td>
-    <td>Highlights and comments</td>
+    <td>Students creating own knowledge</td>
+    <td>
+      <ul>
+        <li>Highlights and comments</li>
+        <li>Embeds of other web 2.0 applications</li>
+        <li>Students creating their own DocentEDU lessons</li>
+        <li>Students using DocentEDU annotation tools</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <td>Embeds of other web 2.0 applications</td>
+    <td>Critical thinking</td>
+    <td>
+      <ul>
+        <li>Open-ended questions</li>
+        <li>Multiple chioce questions</li>
+        <li>Live class discussions</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <td>Students creating their own DocentEDU lessons</td>
+    <td>Students assessing own learning</td>
+    <td>
+      <ul>
+        <li>Multiple choice questions</li>
+        <li>Highlights and comments</li>
+        <li>Embeds of other web 2.0 applications</li>
+      </ul>
+    </td>
   </tr>
   <tr>
-    <td>Students using DocentEDU annotation tools</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Critical thinking</td>
-    <td>Open-ended questions</td>
-  </tr>
-  <tr>
-    <td>Multiple chioce questions</td>
-  </tr>
-  <tr>
-    <td>Live class discussions</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Students assessing own learning</td>
-    <td>Multiple choice questions</td>
-  </tr>
-  <tr>
-    <td>Highlights and comments</td>
-  </tr>
-  <tr>
-    <td>Embeds of other web 2.0 applications</td>
-  </tr>
-  <tr>
-    <td rowspan="3">Teachers assessing student learning</td>
-    <td>Teachers see live student answers in their grade dashboard</td>
-  </tr>
-  <tr>
-    <td>Teachers can change any lesson live while students work</td>
-  </tr>
-  <tr>
-    <td>Teachers can look at students annotations live in the lesson</td>
+    <td>Teachers assessing student learning</td>
+    <td>
+      <ul>
+        <li>Teachers see live student answers in their grade dashboard</li>
+        <li>Teachers can change any lesson live while students work</li>
+        <li>Teachers can look at students annotations live in the lesson</li>
+      </ul>
+    </td>
   </tr>
 </table>
 
