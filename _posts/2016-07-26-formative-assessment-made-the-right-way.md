@@ -15,15 +15,66 @@ Most people understand what assessment means. The teacher should get to know as 
 The formative part of formative assessment is actually based on the creation of understanding. You see, formative assessment isn’t just a knowledge checker; no, it is a <b>knowledge creator</b>. Giving a student a worksheet with a paragraph and then a bunch of questions at the end isn’t formative assessment. Matt and Karin (as teachers) know that teaching is so stressful and time consuming, it seems like this is all we have time to make some mornings. But, we also know as professional educators that formative assessment should strive to have students form their own knowledge of a subject, think critically, and finally allow the students themselves as well as the teacher to quickly assess their critical thinking and knowledge formation. That is the ultimate formative assessment.
 
 We here at DocentEDU know that you can use our extension/app to do just that: give formative assessments following best practice. DocentEDU allows you to do the following:
-- Have students create their own knowledge of a subject
-- Have students think critically
-- Students can quickly assess their own learning
-- Teachers can quickly assess their students’ learning
+
+<ul>
+  <li>Have students create their own knowledge of a subject</li>
+  <li>Have students think critically</li>
+  <li>Students can quickly assess their own learning</li>
+  <li>Teachers can quickly assess their students’ learning</li>
+</ul>
 
 Check out this infographic comparing a DocentEDU lesson to a textbook lesson or a Google Doc lesson. 
 
 <img src="http://docentedu.com:3000/images/formative_assessment.png" />
 
 If you’d like more explanation, this chart shows you how to use DocentEDU to follow best practice. It has linked instructional videos.
+
+<table>
+  <tr>
+    <th>Skill</th>
+    <th>DocentEDU Tool</th>
+  </tr>
+  <tr>
+    <td>Students creating own knowledge</td>
+    <td>
+      <ul>
+        <li>Highlights and comments</li>
+        <li>Embeds of other web 2.0 applications</li>
+        <li>Students creating their own DocentEDU lessons</li>
+        <li>Students using DocentEDU annotation tools</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Critical thinking</td>
+    <td>
+      <ul>
+        <li>Open-ended questions</li>
+        <li>Multiple chioce questions</li>
+        <li>Live class discussions</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Students assessing own learning</td>
+    <td>
+      <ul>
+        <li>Multiple choice questions</li>
+        <li>Highlights and comments</li>
+        <li>Embeds of other web 2.0 applications</li>
+      </ul>
+    </td>
+  </tr>
+  <tr>
+    <td>Teachers assessing student learning</td>
+    <td>
+      <ul>
+        <li>Teachers see live student answers in their grade dashboard</li>
+        <li>Teachers can change any lesson live while students work</li>
+        <li>Teachers can look at students annotations live in the lesson</li>
+      </ul>
+    </td>
+  </tr>
+</table>
 
 All in all, DocentEDU is the tool that you can use in any curriculum area to help with high-quality, best practice, formative assessment. 
