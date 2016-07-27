@@ -15,6 +15,7 @@ Most people understand what assessment means. The teacher should get to know as 
 The formative part of formative assessment is actually based on the creation of understanding. You see, formative assessment isn’t just a knowledge checker; no, it is a <b>knowledge creator</b>. Giving a student a worksheet with a paragraph and then a bunch of questions at the end isn’t formative assessment. Matt and Karin (as teachers) know that teaching is so stressful and time consuming, it seems like this is all we have time to make some mornings. But, we also know as professional educators that formative assessment should strive to have students form their own knowledge of a subject, think critically, and finally allow the students themselves as well as the teacher to quickly assess their critical thinking and knowledge formation. That is the ultimate formative assessment.
 
 We here at DocentEDU know that you can use our extension/app to do just that: give formative assessments following best practice. DocentEDU allows you to do the following:
+
 - Have students create their own knowledge of a subject
 - Have students think critically
 - Students can quickly assess their own learning
