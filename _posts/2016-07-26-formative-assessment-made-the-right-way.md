@@ -34,7 +34,7 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
   <tr>
     <td rowspan="4">Students creating own knowledge</td>
     <td>Highlights and comments</td>
-  </tr
+  </tr>
   <tr>
     <td>Embeds of other web 2.0 applications</td>
   </tr>
@@ -75,6 +75,5 @@ If you’d like more explanation, this chart shows you how to use DocentEDU to f
     <td>Teachers can look at students annotations live in the lesson</td>
   </tr>
 </table>
-
 
 All in all, DocentEDU is the tool that you can use in any curriculum area to help with high-quality, best practice, formative assessment. 
