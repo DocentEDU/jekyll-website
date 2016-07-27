@@ -23,8 +23,8 @@ We here at DocentEDU know that you can use our extension/app to do just that: gi
 
 Check out this infographic comparing a DocentEDU lesson to a textbook lesson or a Google Doc lesson. 
 
-<p style="text-align: center;">
-  <img src="http://docentedu.com:3000/images/formative_assessment.png" style="max-width: 100%;" />
+<p>
+  <img src="http://docentedu.com:3000/images/formative_assessment.png" style="max-width: 100%; width: 624px;" />
 </p>
 
 If you’d like more explanation, this chart shows you how to use DocentEDU to follow best practice. It has linked instructional videos.
