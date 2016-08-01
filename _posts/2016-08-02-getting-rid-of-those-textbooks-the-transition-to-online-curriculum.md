@@ -1,7 +1,7 @@
 ---
 layout: post
 author: Karin Hogen
-title: "Getting Rid of Those Textbooks: the Transition to Online Curriculum"
+title: "Getting Rid of Those Textbooks: The Transition to Online Curriculum"
 published: true
 ---
 Many of you may have found yourself in a slightly happy dilemma: your school has bought computers for every student, but you now are expected to (or want to) make content on those computers instead of using textbooks. This, as we said, can be an exciting dilemma. The internet is so endless and full of awesome real-life content that can make our students into the world citizens for the 21st century. However, it can feel overwhelming to feel like you’re starting from scratch on your curriculum materials. We all may be awesome teachers, but we don’t have endless amounts of time! 
