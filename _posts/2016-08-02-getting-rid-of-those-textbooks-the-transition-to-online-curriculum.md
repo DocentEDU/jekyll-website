@@ -40,3 +40,11 @@ These resources have primary sources for you to use with your students.
 - [Project Gutenberg](https://www.gutenberg.org/)
 - [Library of Congress](http://www.loc.gov/teachers/classroommaterials/primarysourcesets/)
 - [Archive.gov](http://www.archives.gov/education/research/primary-sources.html)
+
+<style>
+  p + ul {
+    font-size: 16px;
+    margin-top: -5px;
+    margin-bottom: 20px;
+  }
+</style>
