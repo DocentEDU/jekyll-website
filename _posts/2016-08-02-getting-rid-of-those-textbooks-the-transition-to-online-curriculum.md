@@ -12,27 +12,27 @@ We here at DocentEDU understand your problem. Two of our cofounders found themse
 
 If you’re interested in more of the thinking behind this philosophy of relying on internet-based resources instead of textbooks, head on over to the [Ditchbook](http://ditchthattextbook.com/) website where you can learn more from our friend, Matt Miller. In a nutshell, Ditchbook’s philosophy is, “teaching with less reliance on the textbook with an emphasis on using technology and creative teaching ideas.” In other words, using tech and not the textbook to be awesome. To follow this philosophy, here are some resources below to make it easier!
 
-<u>Text Sources with Texts at Different Reading Levels</u>
+<u>Text Sources with Texts at Different Reading Levels</u><br>
+These text sources focus on creating content that differentiate for reading level.
 
-- These text sources focus on creating content that differentiate for reading level.
-- Tween Tribune (nonfiction current events)
-- Newsela (nonfiction current events, famous speeches)
-- Commonlit (English/language arts and social studies focused fiction and nonfiction texts with Common Core questions)
+- [Tween Tribune](http://tweentribune.com/) (nonfiction current events)
+- [Newsela](https://newsela.com/) (nonfiction current events, famous speeches)
+- [Commonlit](https://www.commonlit.org/) (English/language arts and social studies focused fiction and nonfiction texts with Common Core questions)
 
 <u>Tools to “Simply” Text</u><br>
 These tools will allow you to input a text, and then pop out the same text at an easier reading level.
 
-- Rewordify
-- Text Compactor
+- [Rewordify](http://rewordify.com/)
+- [Text Compactor](http://www.textcompactor.com/)
 
 <u>Text Sources with Pre-Made Questions</u><br>
 These text sources have questions all ready for you to use with DocentEDU!
 
-- Dogonews (nonfiction current events)
-- Commonlit (English/language arts and social studies focused fiction and nonfiction texts with Common Core questions)
-- NYT Learning Blog (based on NYTimes content with pre-made lesson plans)
-- Tween Tribune (nonfiction current events)
-- Achieve the Core (English/language arts focused nonfiction and fiction texts with Common Core lessons plans)
+- [Dogonews](http://www.dogonews.com/) (nonfiction current events)
+- [Commonlit](https://www.commonlit.org/) (English/language arts and social studies focused fiction and nonfiction texts with Common Core questions)
+- [NYT Learning Blog](http://learning.blogs.nytimes.com/) (based on NYTimes content with pre-made lesson plans)
+- [Tween Tribune](http://tweentribune.com/) (nonfiction current events)
+- [Achieve the Core](http://achievethecore.org/category/411/ela-literacy-lessons) (English/language arts focused nonfiction and fiction texts with Common Core lessons plans)
 
 <u>Primary Sources</u><br>
 These resources have primary sources for you to use with your students.
