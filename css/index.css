@@ -246,7 +246,8 @@ a.attribution:hover {
         How it Works
 ***************************/
 #features {
-    
+    padding-top: 50px;
+    margin-top: -30px;
 }
 
 /**************************
@@ -351,7 +352,8 @@ a.attribution:hover {
 ***************************/
 
 #pricing {
-    
+    padding-top: 50px;
+    margin-top: -30px;
 }
 
 .price-teachers, .price-schools {
