@@ -50,7 +50,7 @@ function scrollNav() {
     $('.'+theClass).parent('li').addClass('active');
     //Animate
     $('html, body').stop().animate({
-        scrollTop: $( $(this).attr('href').slice(1) ).offset().top - 30
+        scrollTop: $( $(this).attr('href').slice(1) ).offset().top
     }, 400);
     $('#navbar-collapse-1').collapse('hide');
     //Make sure at least one video is showing
