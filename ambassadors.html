@@ -10,7 +10,7 @@ layout: default
         </div>
     </div>
 {% assign ambassadors = site.data.ambassadors | sort: 'name' %}
-{% for ambassador in site.data.ambassadors %}
+{% for ambassador in ambassadors %}
     {% if ambassador.website %}
         {% assign website = ambassador.website %}
     {% else %}
