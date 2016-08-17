@@ -40,7 +40,8 @@ function switchView(newView) {
 function userSignup() {
     var url = baseURL.api + 'user';
     var data = {
-        user_type: jQuery('#install-container').attr('data-version')
+        user_type: jQuery('#install-container').attr('data-version'),
+        acquisition_source: jQuery('#install-container').attr('data-acquisition-source')
     };
     jQuery.post(url, data, function(response) {
         if (response) {
