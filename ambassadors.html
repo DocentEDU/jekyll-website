@@ -9,7 +9,7 @@ layout: default
             <p>Want to become a DocentEDU Ambassador?  <a href="https://docs.google.com/forms/d/e/1FAIpQLScXgqvu5IWRNMH0Hzz2hLTFl5qCW1ivjG5okbnhR92HRNAdww/viewform">Submit your application.</a></p>
         </div>
     </div>
-{% site.data.ambassadors | sort: 'name' %}
+{% assign ambassadors = site.data.ambassadors | sort: 'name' %}
 {% for ambassador in site.data.ambassadors %}
     {% if ambassador.website %}
         {% assign website = ambassador.website %}
