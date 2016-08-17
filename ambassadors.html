@@ -9,6 +9,40 @@ layout: default
             <p>Want to become a DocentEDU Ambassador?  <a href="https://docs.google.com/forms/d/e/1FAIpQLScXgqvu5IWRNMH0Hzz2hLTFl5qCW1ivjG5okbnhR92HRNAdww/viewform">Submit your application.</a></p>
         </div>
     </div>
+{% for ambassador in site.data.ambassadors %}
+    <div class="col-md-4 col-sm-6 col-xs-12 ambassador">
+        <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
+            <a href="{{ ambassador.webite }}" class="a_photo">
+                <img src="{{ ambassador.photo }}" />
+            </a>
+        </div>
+        <div class="col-md-12 col-xs-12 a_info">
+            <h4 class="a_name">
+                <a href="{{ ambassador.website }}">
+                    {{ ambassador.name }}
+                </a>
+            </h4>
+            <div class="a_location">
+                {{ ambassador.location }}
+            </div>
+            <div class="a_role">
+                {{ ambassador.role }}
+            </div>
+            <div class="a_grade">
+                {{ ambassador.grade }}
+            </div>
+            <div class="a_bio">
+                {{ ambassador.bio }}
+            </div>
+        </div>
+        <div class="col-md-12 col-xs-12 a_connect">
+            Connect: <a href="https://twitter.com/{{ ambassador.twitter }}" class="a_twitter">
+                <i class="fa fa-twitter fa-lg"></i>
+                @{{ ambassador.twitter }}
+            </a>
+        </div>
+    </div>
+{% endfor %}
     <!--
     <div class="col-md-4 col-sm-6 col-xs-12 ambassador">
         <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
