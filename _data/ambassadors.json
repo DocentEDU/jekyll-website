@@ -1,1 +1,9 @@
-
+[{
+  name: "Kate Baker",
+  photo: "KBaker.jpg",
+  website: "http://kbakerbyodlit.blogspot.com/",
+  location: "Manahawkin, NJ",
+  role: "Teacher",
+  grade: "k-12",
+  bio: "17+ years HS ELA classroom experience; Contributing author of Flipping 2.0: Practical Strategies for Flipping Your Class; Edmodo Certified Trainer; PBS Digital Innovator; presenter at ISTE 2014-16, Flipcon 2014-15, NCTE-CEL 2013-16, and other local conferences."
+}]
