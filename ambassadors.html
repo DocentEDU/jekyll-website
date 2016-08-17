@@ -11,7 +11,7 @@ layout: default
     </div>
 {% assign ambassadors = site.data.ambassadors | sort: 'name' %}
 {% for ambassador in ambassadors %}
-    {% assign loopindex = forloop.index | modulo: 3 %}
+    {% assign loopindex = forloop.index0 | modulo: 3 %}
     {% if ambassador.website %}
         {% assign website = ambassador.website %}
     {% else %}
@@ -49,7 +49,7 @@ layout: default
             </a>
         </div>
     </div>
-    {% if loopindex == 0 %}
+    {% if loopindex == 2 %}
     <div class="clearfix visible-md-block visible-lg-block"></div>
     {% endif %}
 {% endfor %}
