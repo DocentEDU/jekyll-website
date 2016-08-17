@@ -10,12 +10,14 @@ layout: default
         </div>
     </div>
 {% for ambassador in site.data.ambassadors %}
-    {% if !ambassador.website %}
-        {% assign ambassador.website = 'https://twitter.com/' | append: ambassador.twitter %}
+    {% if ambassador.website %}
+        {% assign website = ambassador.website %}
+    {% else %}
+        {% assign website = 'https://twitter.com/' | append: ambassador.twitter %}
     {% endif %}
     <div class="col-md-4 col-sm-6 col-xs-12 ambassador">
         <div class="col-md-8 col-md-offset-2 col-xs-6 col-xs-offset-3">
-            <a href="{{ ambassador.website }}" class="a_photo">
+            <a href="{{ website }}" class="a_photo">
                 <img src="images/ambassadors/{{ ambassador.photo }}" />
             </a>
         </div>
