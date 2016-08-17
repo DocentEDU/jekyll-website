@@ -16,4 +16,23 @@
   "grade": "k-12",
   "bio": "Reading Specialist K-12 - Administration Certification K-12",
   "twitter": "ReadersLeadPD"
+},
+{
+  "name": "Brady Baxter",
+  "photo": "BradyBaxter.jpg",
+  "website": "http://www.bradybaxter.com",
+  "location": "Detroit Lakes, MN",
+  "role": "Teacher",
+  "grade": "Middle School",
+  "bio": "Brady has been a social studies instructor since 2007 and he is a Certified Digital Citizenship Educator. He has spoken to hundreds of educators and administrators across the State of Minnesota on a number of topics related to effective technology use in the classroom",
+  "twitter": "bbaxtech"
+},
+{
+  "name": "Jess Bedford",
+  "photo": "jessica.jpg",
+  "website": "https://twitter.com/BedfordJA",
+  "location": "Newington, CT",
+  "role": "Teacher",
+  "grade": "k-12",
+  "twitter": "BedfordJA"
 }]
