@@ -10,7 +10,7 @@
   "twitter": "KtBkr4"
 },
 {
-  "name": "Catherine",
+  "name": "Catherine Barrett",
   "lastName": "Barrett",
   "photo": "catherine_barrett.jpg",
   "role": "Teacher",
@@ -19,7 +19,7 @@
   "twitter": "ReadersLeadPD"
 },
 {
-  "name": "Brady",
+  "name": "Brady Baxter",
   "lastName": "Baxter",
   "photo": "BradyBaxter.jpg",
   "website": "http://www.bradybaxter.com",
@@ -30,7 +30,7 @@
   "twitter": "bbaxtech"
 },
 {
-  "name": "Jess",
+  "name": "Jess Bedford",
   "lastName": "Bedford",
   "photo": "jessica.jpg",
   "location": "Newington, CT",
@@ -39,7 +39,7 @@
   "twitter": "BedfordJA"
 },
 {
-  "name": "Davidson (Dave)",
+  "name": "Davidson (Dave) Blanchard",
   "lastName": "Blanchard",
   "photo": "dave_blanchard.jpg",
   "location": "Cambridge, MN",
@@ -50,7 +50,7 @@
     "website": "http://blog.000dave.com/"
 },
 {
-  "name": "Eric",
+  "name": "Eric Cameron",
   "lastName": "Cameron",
   "photo": "eric_cameron.jpg",
   "location": "Lakeville, MN",
@@ -61,7 +61,7 @@
   "website": ""
 },
 {
-  "name": "Gloria Canales",
+  "name": "Gloria Canales McCabe",
   "lastName": "McCabe",
   "photo": "gloria_canales.jpg",
   "location": "New York, NY",
@@ -72,7 +72,7 @@
   "website": ""
 },
 {
-  "name": "Lisa",
+  "name": "Lisa Drumm",
   "lastName": "Drumm",
   "photo": "lisa.jpg",
   "location": "Memphis, TN",
@@ -83,7 +83,7 @@
   "website": ""
 },
 {
-  "name": "Brenda",
+  "name": "Brenda Dzwil",
   "lastName": "Dzwil",
   "photo": "brenda.jpg",
   "location": "Kensington, CT",
@@ -94,7 +94,7 @@
   "website": ""
 },
 {
-  "name": "Kelly",
+  "name": "Kelly Fitzgerald",
   "lastName": "Fitzgerald",
   "photo": "kelly_fitzgerald.jpg",
   "location": "Georgetown, TX",
@@ -105,7 +105,7 @@
   "website": "http://www.edtechnut.com/"
 },
 {
-  "name": "Brian S.",
+  "name": "Brian S. Friedlander, Ph.D.",
   "lastName": "Friedlander, Ph.D.",
   "photo": "brian_friedlander.jpeg",
   "location": "Port Murray, NJ",
@@ -116,7 +116,7 @@
   "website": "http://www.assistivetek.blogspot.com/"
 },
 {
-  "name": "Michael",
+  "name": "Michael Gannon",
   "lastName": "Gannon",
   "photo": "gannon.jpg",
   "location": "Atlantic Highlands, NJ",
@@ -127,7 +127,7 @@
   "website": ""
 },
 {
-  "name": "Adam R",
+  "name": "Adam R Goebel",
   "lastName": "Goebel",
   "photo": "adam_goebel.jpg",
   "location": "Mesquite, TX",
@@ -138,7 +138,7 @@
   "website": "http://www.mesquiteisd.org/agnew/home/"
 },
 {
-  "name": "Carla",
+  "name": "Carla Hedstrom",
   "lastName": "Hedstrom",
   "photo": "carla.jpg",
   "location": "Hastings, NE",
@@ -149,7 +149,7 @@
   "website": ""
 },
 {
-  "name": "Darin",
+  "name": "Darin Johnston",
   "lastName": "Johnston",
   "photo": "darin_johnston.jpg",
   "location": "Clermont, IA",
@@ -160,7 +160,7 @@
   "website": "https://iowaconflictedteacher.wordpress.com/"
 },
 {
-  "name": "Kathi",
+  "name": "Kathi Kersznowski",
   "lastName": "Kersznowski",
   "photo": "kathi.jpg",
   "location": "Williamstown, NJ",
@@ -171,7 +171,7 @@
   "website": "http://www.kerszi.wordpress.com/"
 },
 {
-  "name": "Caitlin",
+  "name": "Caitlin Lamour",
   "lastName": "Lamour",
   "photo": "caitlin.jpg",
   "location": "Sydney, Australia",
@@ -182,7 +182,7 @@
   "website": ""
 },
 {
-  "name": "Travis",
+  "name": "Travis Lape",
   "lastName": "Lape",
   "photo": "travis.jpg",
   "location": "Sioux Falls, SD",
@@ -193,7 +193,7 @@
   "website": "http://www.lensintolearning.com/"
 },
 {
-  "name": "Tracey",
+  "name": "Tracey Nangle",
   "lastName": "Nangle",
   "photo": "tracey_nangle.jpg",
   "location": "North Smithfield, RI",
@@ -204,7 +204,7 @@
   "website": "https://tnangle.wordpress.com/"
 },
 {
-  "name": "Kim",
+  "name": "Kim Luiz",
   "lastName": "Luiz",
   "photo": "kimberley.jpg",
   "location": "Newington, CT",
@@ -215,7 +215,7 @@
   "website": ""
 },
 {
-  "name": "Keith",
+  "name": "Keith Pedzich",
   "lastName": "Pedzich",
   "photo": "keith_pedzich.jpg",
   "location": "Canandaigua, NY",
@@ -226,29 +226,18 @@
   "website": "https://keithpedzich.wordpress.com/"
 },
 {
-  "name": "",
-  "lastName": "",
-  "photo": "",
-  "location": "",
-  "role": "",
+  "name": "Melissa Rousseau",
+  "lastName": "Rousseau",
+  "photo": "melissa.jpg",
+  "location": "Lexington, NC",
+  "role": "Teacher",
   "grade": "k-12",
   "bio": "English Teacher",
   "twitter": "mrousseau73",
   "website": ""
 },
 {
-  "name": "Melissa",
-  "lastName": "Rousseau",
-  "photo": "melissa.jpg",
-  "location": "Lexington, NC",
-  "role": "Teacher",
-  "grade": "k-12",
-  "bio": "",
-  "twitter": "mrousseau73",
-  "website": ""
-},
-{
-  "name": "John (Jay)",
+  "name": "John (Jay) Salerno",
   "lastName": "Salerno",
   "photo": "jay.jpg",
   "location": "Newington, CT",
@@ -259,7 +248,7 @@
   "website": "http://www.techudemic.com/"
 },
 {
-  "name": "Phil",
+  "name": "Phil Spivey",
   "lastName": "Spivey",
   "photo": "phil.jpg",
   "location": "Mount Gilead, NC",
@@ -271,7 +260,7 @@
   "email": "Phil.Spivey@montgomery.k12.nc.us"
 },
 {
-  "name": "Chris",
+  "name": "Chris Turnbull",
   "lastName": "Turnbull",
   "photo": "chris_turnbull.jpg",
   "location": "St. Paul, MN",
@@ -282,7 +271,7 @@
   "website": "http://playlearnteach.blogspot.com/"
 },
 {
-  "name": "Don",
+  "name": "Don Vallera",
   "lastName": "Vallera",
   "photo": "mrvallera.jpg",
   "location": "Newington, CT",
@@ -293,7 +282,7 @@
   "website": "http://valleraedtech.blogspot.com/"
 },
 {
-  "name": "Kate",
+  "name": "Kate Wakefield",
   "lastName": "Wakefield",
   "photo": "kate.jpg",
   "location": "Newington, CT",
@@ -304,7 +293,7 @@
   "website": "http://www.techudemic.com/"
 },
 {
-  "name": "Jessica",
+  "name": "Jessica Moore",
   "lastName": "Moore",
   "photo": "jessicamoore.jpg",
   "location": "St. Cloud, MN",
@@ -315,7 +304,7 @@
   "website": "http://isd742.org/"
 },
 {
-  "name": "Rachelle",
+  "name": "Rachelle Dene Poth",
   "lastName": "Dene Poth",
   "photo": "rachelle.jpg",
   "location": "Huntingdon, PA",
@@ -326,7 +315,7 @@
   "website": "https://rdene915.wordpress.com/"
 },
 {
-  "name": "Jeff",
+  "name": "Jeff Krapels",
   "lastName": "Krapels",
   "photo": "jeff.jpg",
   "location": "Park Ridge, NJ",
@@ -337,7 +326,7 @@
   "website": "https://3greatideas.wordpress.com/"
 },
 {
-  "name": "Regina",
+  "name": "Regina Schaffer",
   "lastName": "Schaffer",
   "photo": "regina.jpg",
   "location": "St Eatontown, NJ",
@@ -348,7 +337,7 @@
   "website": "http://Reginalschaffer.com"
 },
 {
-  "name": "Kathy",
+  "name": "Kathy Nichols",
   "lastName": "Nichols",
   "photo": "kathy_nichols.jpg",
   "location": "",
@@ -359,7 +348,7 @@
   "website": ""
 },
 {
-  "name": "Scott",
+  "name": "Scott Fernholz",
   "lastName": "Fernholz",
   "photo": "scott_fernholz.jpg",
   "location": "Stoughton, WI",
@@ -370,7 +359,7 @@
   "website": ""
 },
 {
-  "name": "Katie",
+  "name": "Katie Aquino",
   "lastName": "Aquino",
   "photo": "",
   "location": "Chicago, IL",
@@ -381,7 +370,7 @@
   "website": "www.edukatied.com"
 },
 {
-  "name": "Becky",
+  "name": "Becky Fritz",
   "lastName": "Fritz",
   "photo": "holder.jpg",
   "location": "St. Paul, MN",
@@ -392,7 +381,7 @@
   "website": "http://techno-logical-teaching.blogspot.com/"
 },
 {
-  "name": "Evan",
+  "name": "Evan OBranovic",
   "lastName": "OBranovic",
   "photo": "evan.jpg",
   "location": "Aspen, CO",
@@ -403,7 +392,7 @@
   "website": "http://evanobranovic.weebly.com/"
 },
 {
-  "name": "Gareth",
+  "name": "Gareth Shaw",
   "lastName": "Shaw",
   "photo": "gareth_shaw.jpg",
   "location": "The English Academy, Kuwait",
@@ -414,7 +403,7 @@
   "website": "tea.edu.kw"
 },
 {
-  "name": "Lori",
+  "name": "Lori Baylock",
   "lastName": "Baylock",
   "photo": "lori_baylock.jpg",
   "location": "Farmington, CT",
@@ -425,7 +414,7 @@
   "website": ""
 },
 {
-  "name": "Samara",
+  "name": "Samara Silverman",
   "lastName": "Silverman",
   "photo": "sarama_silverman.jpg",
   "location": "Chicago, IL",
@@ -436,7 +425,7 @@
   "website": ""
 },
 {
-  "name": "Cindy",
+  "name": "Cindy Arthur",
   "lastName": "Arthur",
   "photo": "cindy_arthur.jpg",
   "location": "Galesburg, IL",
@@ -447,7 +436,7 @@
   "website": "www.sandburg.edu"
 },
 {
-  "name": "Jonathon",
+  "name": "Jonathon Karrels",
   "lastName": "Karrels",
   "photo": "jonathan_karrels.jpg",
   "location": "Sheboygan, WI",
@@ -458,7 +447,7 @@
   "website": ""
 },
 {
-  "name": "Joseph",
+  "name": "Joseph Benvenga",
   "lastName": "Benvenga",
   "photo": "joebenvenga.jpg",
   "location": "Racine, WI",
