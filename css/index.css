@@ -109,6 +109,24 @@ video {
         position: absolute;
         right: 0;
     }
+    #dashboard {
+        padding: 10px;
+        margin: 5px;
+        border-radius: 5px;
+        background-color: #559;
+        color: #fff;
+    }
+}
+@media (min-width: 820px){
+    #dashboard:before {
+        font-family: FontAwesome;
+        font-size: 22px;
+        content: '\f0e4';
+        position: relative;
+        top: 2px;
+        margin-right: 8px;
+        line-height: 14px;
+    }
 }
 
 /** Scrolling Nav **/
@@ -148,13 +166,6 @@ video {
   color: #333;
 }
 
-#dashboard {
-    padding: 10px;
-    margin: 5px;
-    border-radius: 5px;
-    background-color: #559;
-    color: #fff;
-}
 
 // scrollTop Styles
 .nav-top ul li.scrollTop {
