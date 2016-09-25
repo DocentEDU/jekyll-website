@@ -148,6 +148,14 @@ video {
   color: #333;
 }
 
+#dashboard {
+    padding: 10px;
+    margin: 5px;
+    border-radius: 5px;
+    background-color: #559;
+    color: #fff;
+}
+
 // scrollTop Styles
 .nav-top ul li.scrollTop {
 float: right;
