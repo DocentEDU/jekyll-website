@@ -131,6 +131,7 @@ function installExtension() {
             }
         };
         InstallTrigger.install(xpi);
+        jQuery('<button id="extension-installed">').hide().on('click', onExtensionInstalled).appendTo('body');
     }
     else {
         showBookmarklet();
