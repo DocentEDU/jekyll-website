@@ -11,9 +11,9 @@ tags: [technology]
   width: 720px;
 }
 </style>
-This wraps up our 3 part update to Google Classroom.
+This wraps up our 3 part update to our Google Classroom integration.
 
-To submit grades to Google Classroom, first go to the Grades section of the DocentEDU Dashboard. Then select a class and a docent from the drop-down menus. Once you do, a green button will appear at the top right of the screen:
+To submit grades to Google Classroom, first go to the Grades section of the [DocentEDU Dashboard](https://docentedu.com/beta/dashboard/#/grades). Then select a class and a docent from the drop-down menus. Once you do, a green button will appear at the top right of the screen:
 
 <img class="screen-img" src="https://docentedu.com/images/submit-grades-to-classroom-1.png" />
 
@@ -23,8 +23,12 @@ Here's what things look like in Google Classroom once the grades get submitted:
 
 <img class="screen-img" src="https://docentedu.com/images/submit-grades-to-classroom-2.png" />
 
-Note: those scores are for the entire docent and they are out of 100
+Note: those scores are percentages for the entire docent.
 
-Student will also be able to see their grades without you having to take any other action in Google Classroom. Here's what that looks like:
+Students will also be able to see their grades without you having to take any other action in Google Classroom. Here's what that looks like:
 
 <img class="screen-img" src="https://docentedu.com/images/submit-grades-to-classroom-3.png" />
+
+Nice!
+
+If you have any questions or feedback about this update, send them to us via [email](mailto:support@docentedu.com), [Facebook](https://www.facebook.com/docentedu), or [Twitter](https://twitter.com/docentedu).
