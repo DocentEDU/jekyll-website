@@ -13,7 +13,7 @@ tags: [technology]
 </style>
 This wraps up our 3 part update to Google Classroom.
 
-Here are a couple screenshots:
+Here are some screenshots:
 
 <img class="screen-img" src="https://docentedu.com/images/submit-grades-to-classroom-1.png" />
 
