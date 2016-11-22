@@ -16,6 +16,7 @@ Ready to go Sub Lessons
 - [“The Road Not Taken” by Robert Frost](https://docentedu.com/beta/share/kw39sqko) (Google doc)
 - Many more [here](https://docs.google.com/document/d/1trUUHsVzz5YU9bRalTJdFp6qApjpUK0BGk_pRJvzcLI/view)
 
+<br>
 
 **What happens to my docents and student responses after this promotion?**
 
@@ -31,5 +32,6 @@ YES!  Share with your colleagues and collaborate on new innovative lessons.  Doc
 
 DocentEDU is only $40 per teacher for a year.  There is no limit on students, classes, or docents.
 
+<br>
 
 If you have any questions or feedback about this update, send them to us via [email](mailto:support@docentedu.com), [Facebook](https://www.facebook.com/docentedu), or [Twitter](https://twitter.com/docentedu).
