@@ -9,6 +9,7 @@ The holiday season is here and to celebrate we’re giving free trial users the 
 Make your life a little easier by putting instructions, video, and questions into a digital lesson you already use.  Or, even easier, use one of these teacher made docents.
 
 Ready to go Sub Lessons 
+
 - [Teens Try Life without Phones](https://docentedu.com/beta/share/3rrpxh4c) (NPR)
 - [“Words We Live By” An analysis of the Constitution](https://docentedu.com/beta/share/itn2no1y) (Google Doc)
 - [Would you upload your mind to live forever?](https://docentedu.com/beta/share/5c28ejmk) (KQED)
