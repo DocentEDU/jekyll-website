@@ -1,354 +1,450 @@
----
-layout: home
----
 
-<div class="jumbotron" id="banner">
-    <div class="container">
-        <h1 class="text-center">
-            <img src="images/wordmark.png" alt="DocentEDU Logo, three orange overlapping squares" width="239" height="64"><br>
-            <small>Make the Internet Your Lesson</small>
-        </h1>
-        <div class="row">
-            <div class="col-xs-12 text-center">
-                <a class="signup btn btn-lg" href="http://docentedu.com/beta/" role="button">Sign Up and Get the Browser Extension</a>
-            </div>
-        </div>
-        <a class="attribution" href="https://www.flickr.com/photos/mrpetersononline/7754784154/in/set-72157631006615138/">Photo Attribution: Jeff Peterson</a>
-    </div>
-</div>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0, user-scalable=no"/>
+  <title>InsertLearning</title>
+  <title>InsertLearning</title>
 
+  <!-- CSS  -->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+  <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
 
-
-
-
-<!-- How DocentEDU Works -->
- <div class="container" id="features">
-        
-    <div class="row">
-        <div class="tabbable tabs-right">
-            <div class="col-md-5 col-md-push-7" style="padding-bottom: 20px;">
-                <h2 class="text-uppercase">How DocentEDU Works</h2>
-                <p>Turn almost any website into an engaging lesson by adding questions, discussions, insight, and more into the text.</p>
-                <p>See it in action:</p>
-                <ul class="nav nav-tabs hidden-xs hidden-sm nav-stacked">
-                    <li class="active video1"><a href="#1" id="play-button" data-toggle="tab">Questions</a></li>
-                    <li class="video2"><a href="#2" data-toggle="tab">Discussions</a></li>
-                    <li class="video3"><a href="#3" data-toggle="tab">Insight</a></li>
-                </ul>
-                <div class="col-sm-12 visible-xs visible-sm">
-                    <ul class="nav nav-pills nav-justified">
-                      <li class="active video1"><a href="#1" data-toggle="tab">Questions</a></li>
-                      <li class="video2"><a href="#2" data-toggle="tab">Discussions</a></li>
-                      <li class="video3"><a href="#3" data-toggle="tab">Insight</a></li>
-                    </ul>
-
-                </div>
-                <div class="clearfix visible-sm-block"></div>
-            </div>
-            
-            <div class="col-md-7 col-md-pull-5 tab-content text-center">
-                <div class="tab-pane active" id="1">
-                    <div id='videoPlayer1'> </div>
-                </div>
-                <div class="tab-pane" id="2">
-                    <div id='videoPlayer2'> </div>
-                </div>
-                <div class="tab-pane" id="3">
-                    <div id='videoPlayer3'> </div>
-                </div>
-            </div>
-
-        </div>
-    </div>
-</div>   
-
-
+    <link rel="shortcut icon" href="/images/insertlearning_fav.png">
+    
+  <link rel="canonical" href="http://insertlearning.com/">
+  <link rel="alternate" type="application/rss+xml" title="InsertLearning" href="http://insertlearning.com/feed.xml" />
   
-<!-- Google Integration -->
-    <div class="container divider-top" id="google">
-        
-        
-            <div class="row">
-                <h2 class="text-uppercase">Google Integration</h2>
-            
-            <div class="row">
-                
-                <div class="col-sm-6 col-md-4 text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="fa-stack fa-3x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
-                            </span>
-                            
-                        </div>
-                        <div class="col-md-12">
-                            <h4>YouTube</h4>
-                            <p>Add Youtube videos anywhere by pasting a link to the video and DocentEDU will automatically load the video for you and students.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="fa-stack fa-3x googleRed">
-                              <i class="fa fa-square-o fa-stack-2x"></i>
-                              <i class="fa fa-users fa-stack-1x"></i>
-                            </span>
-                        </div>
-                        <div class="col-md-12">
-                            <h4>Classroom</h4>
-                            <p>Easy to assign, fast and efficient to grade.  We're a great addition to Google Classroom</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="fa-stack fa-3x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-key fa-stack-1x fa-inverse"></i>
-                            </span>
-                            
-                        </div>
-                        <div class="col-md-12">
-                            <h4>Google Sign-In</h4>
-                            <p>Teachers and Students sign in with their School’s Google Account.  No need to remember another password!</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 text-center">
-                    <div class="row">
-                        <span class="fa-stack fa-3x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-file fa-stack-1x fa-inverse"></i>
-                            </span>
-                        <div class="col-md-12">
-                            <h4>Google Docs</h4>
-                            <p>Enhance published Google Docs with videos and interactive content.  Turn digital worksheets into a richer learning experience.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                              <span class="fa-stack fa-3x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-chrome fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </div>
-                        <div class="col-md-12">
-                            <h4>Chrome</h4>
-                            <p>Chromebook or browser, our extension follows students wherever they log in, making setup simple.</p>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="col-sm-6 col-md-4 text-center">
-                    <div class="row">
-                        <div class="col-md-12">
-                            <span class="fa-stack fa-3x">
-                              <i class="fa fa-circle fa-stack-2x"></i>
-                              <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
-                            </span>
-                        </div>
-                        <div class="col-md-12">
-                            <h4>Secure</h4>
-                            <p>Protected behind Google’s sign-in, student data is private and only accessible to their teacher.</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-                
-                
+  <!-- Open Graph -->
+  <meta property="og:url" content="http://insertlearning.com/">
+  <meta property="og:title" content="InsertLearning">
+  <meta property="og:description" content="Turn any online text into an interactive, engaging, and rich learning experience with only a few clicks.
+">
+  <meta property="og:image" content="https://insertlearning.com/images/og4.jpg">
+  <meta property="twitter:card" content="summary_large_image">
 
-
-                
-            
-            </div>
-        
-    </div>
- 
-
-<!-- CTA 1 -->
-<div class="container-fluid" id="cta1">
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-3 col-sm-offset-3 text-center">
-                <h4 style="font-size: 24px; line-height: 20px;">Get started now</h4>
-            </div>
-            <div class="col-sm-2 text-center">
-                <a href="https://docentedu.com/beta/" class="btn btn-success btn-lg" >Sign up for Free</a>
-            </div>
-        </div>
-    </div>
-</div>
-        
-        <!-- Pricing -->
-          <div class="container" id="pricing">
-              
-        <div class="row">
-            <div class="col-md-12">
-                <h2 class="text-uppercase">Pricing</h2>
-            </div>
-            <div class="col-xs-6 col-md-3 col-md-offset-3 text-center price-teachers">
-                <h3>Teachers</h3>
-                <p>unlimited everything</p>
-                <p>$40 / Year</p>
-                <p>$8 / month</p>
-            </div>
-            <div class="col-xs-6 col-md-3 col-md-offset-0 text-center price-schools">
-                <h3>Schools</h3>
-                <p>We offer discounts and training for schools and districts.</p>
-                <a class="btn btn-default" href="mailto:support@docentedu.com" role="button">Contact Us</a>
-            </div>
-        </div>
-<div class="row">
-    <div class="col-md-6 col-lg-4 col-lg-offset-1 text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <i class="fa fa-cubes fa-4x"></i>
-            </div>
-            <div class="col-md-12">
-                <h4>Unlimited Lessons</h4>
-                <p>The Internet is limitless and you have a lot of topics to teach, that’s why you get unlimited lessons.</p>
-            </div>
-        </div>
-    </div>
+  <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj">
     
-    <div class="col-md-6 col-lg-4 col-lg-offset-2 text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <i class="fa fa-user-plus fa-4x"></i>
-            </div>
-            <div class="col-md-12">
-                <h4>Unlimited Students</h4>
-                <p>No need to guess how many students you’ll have during the school year.</p>
-            </div>
+</head>
+<body>
+
+
+<!-- Banner 1 
+<nav class="" role="navigation">
+    <div class="nav-wrapper container">
+      <a id="logo-container" href="#!" class="brand-logo">InsertLearning</a>
+      <ul class="right hide-on-med-and-down">
+        <li><a href="#" class="white-text">Dashboard</a></li>
+      </ul>
+
+      <ul id="nav-mobile" class="side-nav">
+        <li><a href="#">Dashboard</a></li>
+      </ul>
+      <a href="#" data-activates="nav-mobile" class="button-collapse"><i class="material-icons">menu</i></a>
+    </div>
+  </nav>
+
+<div id="index-banner" class="container">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <h1 class="header center teal-text text-lighten-2">
+            <img src="images/insertlearning_logo_text.png" style="width:400px;" alt="InsertLearning logo and name" />
+        </h1>
+        <div class="row center">
+          <h5 class="header col s12 light">Insert instructional content into any web page or online textbook.</h5>
         </div>
-    </div>
-            
+        <div class="row center">
+            <div class="col s12">
+                <img class="responsive-img" src="images/chromebook_mockup.png">
             </div>
-            <div class="row">
-    
-    <div class="col-md-6 col-lg-4 col-lg-offset-1 text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <i class="fa fa-money fa-4x"></i>
+          </div>
+          <video autoplay="autoplay" loop="loop" class="responsive-video" >
+                    <source src="video/check%20for%20extension_test1.mp4" type="video/mp4" />
+                    <img src="images/mockup%203.png" width="400" height="300" alt="InsertLearning being used to insert a question and a video into text on a website" />
+                </video>
+          <div class="row center">
+            <a href="#!" id="download-button" class="btn-large waves-effect waves-light teal lighten-1">Get Started</a>
             </div>
-            <div class="col-md-12">
-                <h4>Free Trial</h4>
-                <p>Try us for free.  Create and assign up to 5 docents before paying anything.</p>
-            </div>
-        </div>
-    </div>
-    
-    <div class="col-md-6 col-lg-4 col-lg-offset-2 text-center">
-        <div class="row">
-            <div class="col-md-12">
-                <i class="fa fa-life-ring fa-4x"></i>
-            </div>
-            <div class="col-md-12">
-                <h4>Support and Training</h4>
-                <p>We want to empower you to make amazing lessons. Personal support and training is included. </p>
-            </div>
-        </div>
-    </div>
-            
-           
-
-    </div>
-</div>
-
-
-        
-
-      <!-- Testimonials 1 -->
-      <div class="container divider-top divider-bottom" id="testimonial1">
           
-        
-        <div class="row">
-            <h2 class="text-uppercase">What Educators are Saying</h2>
-            <div class="col-xs-12 col-md-4">
-                <a href="https://twitter.com/SKwikkel/status/629698882570711040"><img class="img-responsive center-block" src="images/testimonial_steve.jpg" alt="Steve Kwikkel: @SKwikkel, Aug 7, Another tool to flip my PD and staff meetings using @DocentEDU! Thanks @KarinHogen this IS a game changer! #edcampSEMN"></a>
-            </div>
-            
-            <div class="col-xs-12 col-md-4">
-                <a href="https://twitter.com/eduappsandmore/status/627582571514343425"><img class="img-responsive center-block" src="images/testimonial_eduapps.jpg" alt="Goodgame EduApps: @eduappsandmore  Aug 1 Extension more than an app @docentedu is the bombdigity. Use anything on the web as teachable material #ecg1to1" width="483" height="216"></a>
-            </div>
-            
-            <div class="col-xs-12 col-md-4">
-                <a href="https://twitter.com/kati_varela/status/627408760613416961"><img class="img-responsive center-block" src="images/testimonial_kati.jpg" alt="Kati ‏@kati_varela  Aug 1 Just discovered @DocentEDU extension! Amazing for #flippedlearning and #classdiscussions on websites!!! great for #authres use #langchat"></a>
-            </div>
-            
-            
-        </div>
-              
+        <br><br>
+
+      </div>
     </div>
     
-        <!-- Mission and our Team -->
-          <div class="container" id="mission">
-              
+  </div>
+-->
+   
+<!-- Banner 2 --> 
+<div class="row">
+    <div class="right align">
+        <a class="btn btn-default" href="#!" role="button" style="margin: 20px 20px 0 0;"><i class="fa fa-dashboard fa-1x" style="padding-right:10px;"></i>Dashboard</a>
+    </div>
+</div>
+<div id="index-banner" class="row">
+    <div class="col m5 s12">
         <div class="row">
-            <h2>About Us</h2>
-            <div class="col-xs-12 col-md-5">
-                <h2>Our Mission</h2>
-                <p>Our mission is to help teachers turn the unlimited but unwieldy information of the Internet into engaging and coherent lessons that meet their lesson objectives, teaching style, and most importantly student’s needs. </p>
-                <h2>Our Story</h2>
-                <p>DocentEDU was created by two teachers to solve one of the biggest problems they faced. Creating quality online assignments required too many steps and was still difficult to make sure students were understanding the information.
-                </p>
-                <p>
-The idea of having text, questions, discussions, and guidance as separate parts of a lesson was outdated and cumbersome. So we created a modern tool that let teachers guide students through online material just as if the teacher was sitting right next to the student. DocentEDU combines the essential ingredients of a good lesson in a natural and easy to use way never before possible.
-</p>
+            <div class="col l8 offset-l3 m10 offset-m3 hide-on-small-only">
+                <img class="responsive-img" src="images/InsertLearning_wordmark.png">
             </div>
-            <div class="col-xs-12 col-md-5 col-md-offset-1">
-                <h2>Our Team</h2>
-                <div class="row profile">
-                    <div class="col-xs-8 col-xs-offset-2 col-sm-2 col-sm-offset-0 col-md-3 text-center profile-name">
-                        <img src="images/team/karin.png" class="img-circle img-responsive center-block" width="200">
-                        
-                        <p>Karin Hogen</p>
-                    </div>
-                    <div class="clearfix visible-xs-block"></div>
-                    <div class="col-xs-12 col-sm-10 col-md-9 profile-bio">
-                        <h4>Community Manager<br>Curriculum Advisor</h4>
-                        <p>
-                            Karin brings her years of teaching experience and never ending pursuit of finding teaching best practices to DocentEDU’s team. You’ll find her sending out new tweets and working with teachers to get the most out DocentEDU.
+            <div class="col l4 offset-l5 m6 offset-m6 hide-on-small-only" style="margin-top: 20px;">
+                <img class="responsive-img" src="images/512logo.png">
+            </div>
+            <div class="col s12 hide-on-med-and-up	">
+                <img class="responsive-img" src="images/insertlearning_logo_textmark.png">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col m10 offset-m1">
+                <p class="flow-text center-align">Insert instructional content into any webpage or online textbook.</p>
+            </div>
+            <div class="col m12 center-align">
+                <a class="btn btn-default" href="https://chrome.google.com/webstore/detail/docentedu/dehajjkfchegiinhcmoclkfbnmpgcahj" role="button">+ Add to Chrome</a>
+            </div>
+            
+        </div>
 
-                        </p>
-                    </div>
-                </div>
-                <div class="row profile">
-                    <div class="col-xs-8 col-xs-offset-2 col-sm-2 col-sm-offset-0 col-md-3 text-center profile-name">
-                        <img src="images/team/ben.png" class="img-circle img-responsive center-block" width="200">
-                        
-                        <p>Ben Pedersen</p>
-                    </div>
-                    <div class="clearfix visible-xs-block"></div>
-                    <div class="col-sm-10 col-md-9 profile-bio">
-                        <h4>CTO</h4>
-                        <p>
-                            Ben is our lead developer who is turning DocentEDU into the tool teachers and students love to use.
+    </div>
+    <div class="col m7 s12" style="background: url('images/chromebook_mockup.png') no-repeat 0px 0px; height:400px;">
+        &nbsp;
+    </div>
+    
+    
+</div>
+    
+<!-- Demo -->
+<div class="row blue" style="position: relative;" id="demo">
+    <a class="arrow-wrap teal darken-1" href="#demo">
+        <span class="arrow-text">Try Now</span><span class="arrow"><i class="fa fa-arrow-down"></i></span>
+    </a>
+    <div class="container divider-top">
+        <h3 class="text-white center-align" style="padding: 20px 0 10px 0"><span style="color: #FFF; padding-right: 55px; padding-bottom: 30px; background: url('images/Line.png') right 20px no-repeat">Try it now</span></h3>
+        <div class="row">
+            <div class="col m12">
+                <div style="height: 600px; width: 100%; background-color: #FFF;">Demo here</div>
+            </div>
+        </div>
+    </div>
+</div>
 
-                        </p>
-                    </div>
-                    </div>
-                <div class="row profile">
-                    <div class="col-xs-8 col-xs-offset-2 col-sm-2 col-sm-offset-0 col-md-3 text-center profile-name">
-                        <img src="images/team/matt.png" class="img-circle img-responsive center-block" width="200">
-                        <p>Matt Nupen</5>
-                    </div>
-                <div class="clearfix visible-xs-block"></div>
-                    <div class="col-sm-10 col-md-9 profile-bio">
-                        <h4>CEO<br>Training, Science Advisor</h4>
-                        <p>Matt thought of DocentEDU when he first started teaching high school science 8 years ago. In addition to still teaching, he is in charge of marketing, training, and buying post-its for DocentEDU.</p>
-                    </div>
+<!-- Google Integration -->
+<div class="">
+    <div class="container divider-top" id="google">
+        <div class="row">
+            <div class="col s12 center-align">
+                <h3 class="text-uppercase">Google Integration</h3>
+            </div>
+        </div>
+        
+        <div class="row">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="red-text center">
+                        <span class="fa-stack fa-1x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-youtube fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </h2>
+                    <h5 class="center">YouTube</h5>
+                    <p class="light">Add Youtube videos anywhere by pasting a link to the video and DocentEDU will automatically load the video for you and students.</p>
                 </div>
+            </div>
+            
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="red-text center">
+                        <span class="fa-stack fa-1x">
+                            <i class="fa fa-square-o fa-stack-2x"></i>
+                            <i class="fa fa-users fa-stack-1x"></i>
+                        </span>
+                    </h2>
+                    <h5 class="center">Classroom</h5>
+                    <p class="light">Easy to assign, fast and efficient to grade.  We're a great addition to Google Classroom</p>
+                </div>
+            </div>
+
+            
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="red-text center">
+                        <span class="fa-stack fa-1x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-key fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </h2>
+                    <h5 class="center">Google Sign-In</h5>
+                    <p class="light">Teachers and Students sign in with their School’s Google Account.  No need to remember another password!</p>
+                </div>
+            </div>
+            
+        </div>
+        <div class="row">
+            
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="red-text center">
+                        <span class="fa-stack fa-1x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-file fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </h2>
+                    <h5 class="center">Google Docs</h5>
+                    <p class="light">Enhance published Google Docs with videos and interactive content.  Turn digital worksheets into a richer learning experience.</p>
+                </div>
+            </div>
+            
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="red-text center">
+                        <span class="fa-stack fa-1x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-chrome fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </h2>
+                    <h5 class="center">Chromebook</h5>
+                    <p class="light">Chromebook or browser, our extension follows students wherever they log in, making setup simple.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="red-text center">
+                        <span class="fa-stack fa-1x">
+                            <i class="fa fa-circle fa-stack-2x"></i>
+                            <i class="fa fa-lock fa-stack-1x fa-inverse"></i>
+                        </span>
+                    </h2>
+                    <h5 class="center">Secure</h5>
+                    <p class="light">Protected behind Google’s sign-in, student data is private and only accessible to their teacher.</p>
+                </div>
+            </div>
+  
+        </div>  
+    </div>
+</div>
+
+<!-- Sign Up -->
+  <div class="container">
+    <div class="section">
+
+
+    </div>
+  </div>
+
+
+<!-- Testimonials -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section">
+      <div class="container">
+        <div class="row center">
+          <h5 class="header col s12 light">What Educators Are Saying</h5>
+
+
+            <div class="row">
+              
+                <div class="col s12 m4">
+                    <div class="card-panel teal">
+                        <p class="white-text">Extension more than an app @docentedu is the bomdigity. Use anything on the web as teachable material
+                        </p>    
+                    <div class="chip">
+                        <img src="images/eShoA49D_bigger.jpeg" alt="Contact Person">@eduappsandmore
+                    </div>
+                </div>    
+              </div>
+                
+                <div class="col s12 m4">
+                    <div class="card-panel teal darken-2">
+                        <p class="white-text">Extension more than an app @docentedu is the bomdigity. Use anything on the web as teachable material
+                        </p>    
+                    <div class="chip">
+                        <img src="images/eShoA49D_bigger.jpeg" alt="Contact Person">@eduappsandmore
+                    </div>
+                </div>    
+              </div>
+                
+                <div class="col s12 m4">
+                    <div class="card-panel teal lighten-2">
+                        <p class="white-text">Extension more than an app @docentedu is the bomdigity. Use anything on the web as teachable material
+                        </p>    
+                    <div class="chip">
+                        <img src="images/eShoA49D_bigger.jpeg" alt="Contact Person">@eduappsandmore
+                    </div>
+                </div>    
+              </div>
+                
+            </div>
+        </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="parallax-template/background2.jpg" alt="Unsplashed background img 2"></div>
+  </div>
+
+<!-- Pricing -->
+<div class="container" id="pricing">
+              
+    <div class="row">
+        <h3 class="center">Pricing</h3>
+        <div class="col s12 m4 offset-m2 center-align price-teachers">
+            <h4>Teachers</h4>
+            <h5>$29.99 for a Year*</h5>
+            <p>or $8/month<br>unlimited everything</p>
+            <a class="btn btn-default" href="mailto:support@docentedu.com" role="button">Subscribe</a>
+        </div>
+        <div class="col s12 m4 offset-m1 center-align price-schools">
+            <h4>Schools</h4>
+            <h5>$2/student*</h5>
+            <p>Volume pricing<br>Training for schools and districts.</p>
+            <a class="btn btn-default" href="mailto:support@docentedu.com" role="button">Get Quote</a>
+        </div>
+        <div class="col s12 center-align" style="padding:10px;">
+            <p><strong>*</strong> purchase multiple years and save 10% for 2 years or 15% for 3 years.</p>
+        </div>
+    </div>
+    
+    <div class="row">
+
+        <div class="col s12 m4">
+            <div class="icon-block">
+                <h2 class="center">
+                    <i class="fa fa-cubes fa-1x"></i>
+                </h2>
+                <h5 class="center">Unlimited Lessons</h5>
+                <p class="light">The Internet is limitless and you have a lot of topics to teach, that’s why you get unlimited lessons.</p>
+            </div>
+        </div>
+        
+        <div class="col s12 m4">
+            <div class="icon-block">
+                <h2 class="center">
+                    <i class="fa fa-user-plus fa-1x"></i>
+                </h2>
+                <h5 class="center">Unlimited Students</h5>
+                <p class="light">No need to guess how many students you’ll have during the school year.</p>
+            </div>
+        </div>
+        <!--
+        <div class="col s12 m4">
+            <div class="icon-block">
+                <h2 class="center">
+                    <i class="fa fa-money fa-1x"></i>
+                </h2>
+                <h5 class="center">Free Trial</h5>
+                <p class="light">Try us for free.  Create and assign up to 5 docents before paying anything.</p>
+            </div>
+        </div>
+        -->
+        <div class="col s12 m4">
+            <div class="icon-block">
+                <h2 class="center">
+                    <i class="fa fa-life-saver fa-1x"></i>
+                </h2>
+                <h5 class="center">Support and Training</h5>
+                <p class="light">We want to empower you to make amazing lessons. Personal support and training is included.</p>
+            </div>
+        </div>
+        
+    </div>
+</div>
+    
+
+<!-- Achievements -->
+  <div class="parallax-container valign-wrapper">
+    <div class="section no-pad-bot">
+      <div class="container">
+        <div class="row center">
+          <!--<h5 class="header col s12 light">A modern responsive front-end framework based on Material Design</h5>-->
+            <h5>Achievements</h5>
+            <div class="col s12 m3">
+                <div class="card-panel white">
+                    <a href="https://www.commonsense.org/education/blog/best-edtech-of-2016"><img class="responsive-img" src="images/commonsense.png"></a>
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card-panel white">
+                    <img class="responsive-img" src="images/izone.png">
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card-panel white">
+                    <img class="responsive-img" src="images/mncup.png">
+                </div>
+            </div>
+            <div class="col s12 m3">
+                <div class="card-panel white">
+                    <img class="responsive-img" src="images/swedu.png">
                 </div>
             </div>
         </div>
+      </div>
+    </div>
+    <div class="parallax"><img src="parallax-template/background3.jpg"></div>
+  </div>
 
+  <footer class="page-footer teal">
+    <div class="container">
+      <div class="row">
+        <div class="col l5 s12">
+          <h5 class="white-text">About</h5>
+          <p class="grey-text text-lighten-4">DocentEDU was founded by two high school teachers who wanted to create a richer learning experience for their students.<br /><a class="white-text" href="#!">Our Story</a> - <a class="white-text" href="#!">Blog</a></p>
+            
+
+
+        </div>
+        <div class="col l2 s12 offset-l1">
+          <h5 class="white-text">Support</h5>
+          <ul>
+            <li><a class="white-text" href="/ambassadors.html">Ambassadors</a></li>
+            <li><a class="white-text" href="/support.html">Resources & Help</a></li>
+              <li><a class="white-text" href="/contact.html">Contact Us</a></li>
+              <li><a class="white-text" href="/resources/accessibility.html">Accessibility</a></li>
+              <li><a class="white-text" href="/blog">Blog</a></li>
+          </ul>
+        </div>
+        <div class="col l2 s12">
+          <h5 class="white-text">Connect</h5>
+          <ul>
+            <li><a class="white-text" href="https://twitter.com/DocentEDU">Twitter</a></li>
+            <li><a class="white-text" href="https://www.facebook.com/docentedu">Facebook</a></li>
+            <li><a class="white-text" href="https://plus.google.com/u/0/b/117522766094305117240/117522766094305117240/posts">Google+</a></li>
+            <li><a class="white-text" href="https://www.linkedin.com/company/docentedu">LinkedIn</a></li>
+            <li><a class="white-text" href="mailto:support@docentedu.com">Email</a></li>
+          </ul>
+        </div>
+        <div class="col l2 s12">
+            <h5 class="white-text">Legal</h5>
+            <ul>
+                <li><a class="white-text" href="/policies/">Privacy Policy</a></li>
+                <li><a class="white-text" href="/policies/">FERPA Compliance</a></li>
+                <li><a class="white-text" href="/policies/">Copyright Policy</a></li>
+                <li><a class="white-text" href="/policies/">Terms of Service</a></li>
+            </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-copyright">
+      <div class="container">
+          <div class="row">
+              <div class="col s6 left-align">
+                  <img src="http://docentedu.com/images/mn.svg" width="22">Made in Minnesota
+              </div>
+              <div class="col s6 right-align">
+                  &copy; 2017 DocentEDU
+              </div>
+          </div>
+      </div>
+    </div>
+  </footer>
+
+
+  <!--  Scripts-->
+  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+  <script src="js/materialize.js"></script>
+  <script src="js/init.js"></script>
+<script src="js/main.js"></script>
+
+  </body>
+</html>
