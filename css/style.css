@@ -46,11 +46,23 @@ p {
 }
 
 .icon-block {
-  padding: 0 15px;
+  padding: 0 20px;
 }
-.icon-block .material-icons {
-  font-size: inherit;
+
+
+.icon-block .icon {
+    font-size: 2.5em;
 }
+
+#google .icon {
+    color: red;
+}
+
+.icon-block h5 {
+    font-size: 2em;
+    font-weight: lighter;
+}
+
 
 footer.page-footer {
   margin: 0;
@@ -65,30 +77,31 @@ footer.page-footer {
   top:-30px;
   margin-left:-5em;
   //background:#FFF;
-  width: 180px;
-  height: 60px;
+  //width: 180px;
+  //height: 60px;
   //padding: 4em 2em;
-  border-radius: .2em;
-  font-size: 1.8em;
-  display:block;
-  box-shadow:0px 1px 2px 0px #333;
-    border-color: #CCC;
-    border-width: 2px;
-    color:#FFF;
+  //border-radius: .2em;
+  //font-size: 1.8em;
+  //display:block;
+  //box-shadow:0px 1px 2px 0px #333;
+    //border-color: #CCC;
+    //border-width: 2px;
+    color:#000;
 }
 
 .arrow-text {
-    position:absolute;
-    top: 10px;
-    left: 15px;
+    //position:absolute;
+    //top: 10px;
+    //left: 15px;
+    padding-right: 10px;
 }
 
 .arrow {
     //float:left;
-    position:absolute;
-    font-size: 2rem;
-    left: 130px;
-    top: 10px;
+    //position:absolute;
+    //font-size: 2rem;
+    //left: 130px;
+    //top: 10px;
     //width: 0px;
     //height: 0px;
     //border-style: solid;
