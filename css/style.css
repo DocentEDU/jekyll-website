@@ -68,6 +68,26 @@ footer.page-footer {
   margin: 0;
 }
 
+.topLinks {
+    font-size: 1.4em;
+    font-weight: 400;
+    font-family: futura;
+    padding: 20px;
+}
+
+.topLinks a {
+    color: #999;
+    padding-right: 10px;
+}
+
+.topLinks a:last-child {
+    padding-right: 0px;
+}
+
+.topLinks a:hover {
+    color: #555;
+}
+
 
 /** Scroll down arrow **/
 .arrow-wrap {
@@ -76,6 +96,9 @@ footer.page-footer {
   left:50%;
   top:-30px;
   margin-left:-5em;
+    font-size: 24px;
+    //background-color: #4A90E2;
+    color:#FFF;
   //background:#FFF;
   //width: 180px;
   //height: 60px;
@@ -86,7 +109,6 @@ footer.page-footer {
   //box-shadow:0px 1px 2px 0px #333;
     //border-color: #CCC;
     //border-width: 2px;
-    color:#000;
 }
 
 .arrow-text {
