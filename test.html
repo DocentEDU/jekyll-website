@@ -11,7 +11,7 @@
   <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
   <link href="css/materialize.css" type="text/css" rel="stylesheet" media="screen,projection"/>
   <link href="css/style.css" type="text/css" rel="stylesheet" media="screen,projection"/>
-    
+    <link href="css/animation.css" type="text/css" rel="stylesheet" media="screen,projection"/>
     
     <!-- Font Awesome -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
@@ -163,6 +163,7 @@
         <div class="row">
             <div class="col s12 m4">
                 <div class="icon-block">
+                    <div id="trigger2" class="spacer s0"></div>
                     <div class="icon center">
                         <span class="fa-stack fa-1x">
                             <i class="fa fa-circle fa-stack-2x"></i>
@@ -170,7 +171,14 @@
                         </span>
                     </div>
                     <h5 class="center">YouTube</h5>
-                    <p class="light">Insert Youtube videos at the right moment in the text.  Differentiate and help students stay focused on the learning.</p>
+                    <div id="trigger1" class="spacer s0"></div>
+<div id="animate1" class="box1">
+	<p>Zap.</p>
+	<a href="#" class="viewsource">view source</a>
+</div>
+                    <p class="light"  id="animate2">Insert Youtube videos at the right moment in the text.  Differentiate and help students stay focused on the learning.
+                    </p>
+                
                 </div>
             </div>
             
@@ -478,10 +486,15 @@ Embedding content within a website with @DocentEDU keeps students on task and he
 
 
   <!--  Scripts-->
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="js/materialize.js"></script>
-  <script src="js/init.js"></script>
-<script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="js/materialize.js"></script>
+    <script src="js/init.js"></script>
+    <script src="js/main.js"></script>
+    <!--ScrollMagic-->
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/plugins/debug.addIndicators.min.js"></script>
+    <script src="js/animation.js"></script>
+
 
   </body>
 </html>
