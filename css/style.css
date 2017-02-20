@@ -195,7 +195,13 @@ border-color: #111 transparent transparent transparent;
     -webkit-animation-delay: 3s;
   }
 
+.pricingTable .col {
+    padding: 0 20px;
+}
 
+.divider {
+    margin: 60px 0;
+}
 
 /****************
     Footer
@@ -214,4 +220,8 @@ footer ul a:hover {
 */
 footer a:hover {
     text-decoration: underline;
+}
+
+footer img {
+    vertical-align: middle;
 }
