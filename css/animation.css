@@ -1,7 +1,0 @@
-#animate1 {
-	transition: transform 0.3s ease-out;
-}
-.zap {
-	transform: scale(2.5, 0);
-    background-color: aliceblue;
-}
