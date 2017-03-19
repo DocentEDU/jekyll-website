@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="100"
+   height="38"
+   id="svg2"
+   version="1.1"
+   inkscape:version="0.48.5 r10040"
+   sodipodi:docname="wordmark.svg"
+   inkscape:export-filename="/Users/ben/Desktop/InsertLearning/wordmark.png"
+   inkscape:export-xdpi="360"
+   inkscape:export-ydpi="360">
+  <defs
+     id="defs4" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="8.2672413"
+     inkscape:cx="58.732953"
+     inkscape:cy="15.729579"
+     inkscape:document-units="px"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:window-width="1440"
+     inkscape:window-height="851"
+     inkscape:window-x="0"
+     inkscape:window-y="1"
+     inkscape:window-maximized="1" />
+  <metadata
+     id="metadata7">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <g
+     inkscape:label="Layer 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(-46.40625,-35.487044)">
+    <path
+       style="fill:#555599;fill-opacity:1;stroke:none"
+       d="m 46.40625,40.487044 32,0 0,10 4,4 -4,4 0,10 -32,0 z"
+       id="rect2985"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="cccccccc" />
+    <path
+       id="rect3772"
+       d="m 50.40625,60.487044 3,0 0,-12 -3,0 0,-4 10,0 0,4 -3,0 0,12 3,0 0,4 -10,0 z"
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccccccccc" />
+    <path
+       style="fill:#ffffff;fill-opacity:1;stroke:none"
+       d="m 64.40625,44.487044 4,0 0,16 6,0 0,4 -10,0 z"
+       id="rect3776"
+       inkscape:connector-curvature="0"
+       sodipodi:nodetypes="ccccccc" />
+    <text
+       xml:space="preserve"
+       style="font-size:40.17216492px;font-style:normal;font-weight:normal;line-height:93.99999976%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="84.515617"
+       y="52.438263"
+       id="text3020"
+       sodipodi:linespacing="94%"><tspan
+         sodipodi:role="line"
+         id="tspan3022"
+         x="84.515617"
+         y="52.438263"
+         style="font-size:17.07317162px;font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;line-height:93.99999976%;letter-spacing:-0.17762364px;fill:#666666;fill-opacity:1;font-family:Cabin;-inkscape-font-specification:Cabin Bold">Insert</tspan><tspan
+         sodipodi:role="line"
+         x="84.515617"
+         y="68.487045"
+         id="tspan3024"
+         style="font-size:17.07317162px;font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;line-height:93.99999976%;letter-spacing:-0.17762364px;fill:#666666;fill-opacity:1;font-family:Cabin;-inkscape-font-specification:Cabin">Learning</tspan></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="113.13708"
+       y="35.071068"
+       id="text3028"
+       sodipodi:linespacing="125%"
+       transform="translate(46.40625,41.21875)"><tspan
+         sodipodi:role="line"
+         id="tspan3030"
+         x="113.13708"
+         y="35.071068" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="93.125"
+       y="48.875"
+       id="text3813"
+       sodipodi:linespacing="125%"
+       transform="translate(46.40625,41.21875)"><tspan
+         sodipodi:role="line"
+         id="tspan3815"
+         x="93.125"
+         y="48.875" /></text>
+    <text
+       xml:space="preserve"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"
+       x="180.2997"
+       y="62.896713"
+       id="text3027"
+       sodipodi:linespacing="125%"
+       transform="translate(46.40625,41.21875)"><tspan
+         sodipodi:role="line"
+         id="tspan3029"
+         x="180.2997"
+         y="62.896713" /></text>
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot3031"
+       style="font-size:40px;font-style:normal;font-weight:normal;line-height:125%;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;font-family:Sans"><flowRegion
+         id="flowRegion3033"><rect
+           id="rect3035"
+           width="140.07091"
+           height="81.768509"
+           x="-11.128259"
+           y="35.983315" /></flowRegion><flowPara
+         id="flowPara3037"></flowPara></flowRoot>  </g>
+</svg>
