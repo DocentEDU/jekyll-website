@@ -486,6 +486,12 @@ a.attribution:hover {
     padding-bottom: 5px;
 }
 
+#legalFooter img {
+    position: relative;
+    top: -2px;
+    margin-right: 5px;
+}
+
 #legalFooter a {
     color: #DDD;
     text-decoration: underline;
