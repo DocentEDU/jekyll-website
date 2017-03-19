@@ -472,12 +472,11 @@ a.attribution:hover {
 #legalFooter {
     background-color: #222;
     color: #DDD;
-    line-height: 24px;
+    line-height: 28px;
 }
 @media (max-width: 361px) {
     #legalFooter {
         font-size: 12px;
-        line-height: 26px;
     }
 }
 
