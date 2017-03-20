@@ -39,6 +39,12 @@ body {
     border: 0;
     height: 810px;
 }
+#demo iframe.responsive.laptop {
+    padding: 3.95vw 11.63vw 7.1vw;
+    height: 56vw;
+    margin: 0 calc(50% - 47.5vw);
+    width: 95vw;   
+}
 
 /*
 .subPage .container {
