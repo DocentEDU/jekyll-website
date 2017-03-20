@@ -158,7 +158,7 @@ video {
         position: absolute;
         right: 0;
     }
-    #dashboard {
+    .navbar #dashboard {
         padding: 10px;
         margin: 5px;
         border-radius: 5px;
@@ -167,7 +167,7 @@ video {
     }
 }
 @media (min-width: 820px){
-    #dashboard:before {
+    .navbar #dashboard:before {
         font-family: FontAwesome;
         font-size: 22px;
         content: '\f0e4';
