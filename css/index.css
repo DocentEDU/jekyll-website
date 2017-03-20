@@ -6,6 +6,15 @@ body {
     position: relative; //for scoll-spy
 }
 
+#home > #dashboard {
+    position: absolute;
+    top: 0;
+    right: 15px;
+    font-size: 14px;
+    line-height: 1;
+    padding: 15px;
+}
+
 #add-to-chrome {
     float: right;
     color: white;
