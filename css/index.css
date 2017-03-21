@@ -113,6 +113,9 @@ video {
     font-size: 30px;
     margin-bottom: 50px;
 }
+h4 {
+    font-size: 20px;
+}
 
 #demo ~ .container {
     padding-top: 50px;
