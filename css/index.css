@@ -37,7 +37,7 @@ body {
     height: 720px; 
     box-sizing: border-box;
     border: 40px solid #555;
-    border-radius: 40px 30px 0 0;
+    border-radius: 40px 40px 0 0;
 }
 #demo iframe.laptop {
     background-image: url(https://d1zw7v9lpbbx9f.cloudfront.net/static/files/54f69a419134f74c3ab7678ace3f7f25/laptop@2x.png);
