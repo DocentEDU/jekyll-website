@@ -159,11 +159,7 @@ video {
         right: 0;
     }
     .navbar #dashboard {
-        padding: 10px;
-        margin: 5px;
-        border-radius: 5px;
-        background-color: #559;
-        color: #fff;
+        padding: 15px;
     }
 }
 
