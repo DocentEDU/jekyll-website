@@ -507,6 +507,7 @@ a.attribution:hover {
     background-color: #222;
     color: #DDD;
     line-height: 28px;
+    white-space: nowrap;
 }
 @media (max-width: 361px) {
     #legalFooter {
