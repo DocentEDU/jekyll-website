@@ -114,6 +114,11 @@ video {
     margin-bottom: 35px;
 }
 
+#demo ~ .container {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
 .btn-clear {
     border: 1px solid #FFF;
     color: #FFF;
