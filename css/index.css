@@ -40,20 +40,15 @@ body {
     border: 40px solid #555;
     border-radius: 40px 40px 0 0;
 }
-#demo iframe.laptop {
-    background-image: url(https://d1zw7v9lpbbx9f.cloudfront.net/static/files/54f69a419134f74c3ab7678ace3f7f25/laptop@2x.png);
-    background-position: 0 0;
-    background-size: 100%;
-    background-repeat: no-repeat;
-    padding: 48px 139px 222px;
-    border: 0;
-    height: 810px;
+@media (max-width: 1199px) {
+    #demo iframe {
+        height: 600px;
+    }
 }
-#demo iframe.responsive.laptop {
-    padding: 3.95vw 11.63vw 7.1vw;
-    height: 56vw;
-    margin: 0 calc(50% - 47.5vw);
-    width: 95vw;   
+@media (max-width: 991px) {
+    #demo iframe {
+        height: 460px;
+    }
 }
 
 /*
