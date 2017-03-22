@@ -388,10 +388,10 @@ a.attribution:hover {
     
 }
 .card {
-    padding-top: 20px;
-    padding-bottom: 20px;
-    box-shadow: 0 1px 3px 0 rgba(100,100,100,0.25);
-    border-radius: 2px;
+    padding: 25px;
+    box-shadow: 0 1px 3px 1px rgba(100,100,100,0.25);
+    border-radius: 4px;
+    margin: 15px;
 }
 
 /**************************
