@@ -418,6 +418,16 @@ a.attribution:hover {
 }
 
 /**************************
+        ACHIEVEMENTS
+***************************/
+#achievements {
+    
+}
+#achievements img {
+    max-width: 100%;
+}
+
+/**************************
         GOOGLE
 ***************************/
 #google {
