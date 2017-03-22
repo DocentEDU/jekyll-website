@@ -483,11 +483,15 @@ a.attribution:hover {
 ***************************/
 
 #pricing {
-    
+    margin-bottom: 50px;
 }
 
 #pricing h3 {
     text-decoration: underline;
+}
+
+#pricing .btn {
+    margin-top: 20px;
 }
 
 .price-teachers, .price-schools {
