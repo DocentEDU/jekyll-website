@@ -1,5 +1,4 @@
 $(window).on('message', function(event) {
-	console.log('Message:', event);
 	event = event.originalEvent;
 	if (event.origin === 'https://insertlearning.com') {
 		if (event.data == 'showArrow') {
@@ -9,4 +8,25 @@ $(window).on('message', function(event) {
 			$('#arrow').hide();
 		}
 	}
+});
+$(document).ready(function() {
+	function installExtension() {
+		if (window.chrome && chrome.webstore && chrome.webstore.install) {
+			chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', onExtensionInstalled);
+		}
+		else if (window.InstallTrigger) {
+			var xpi = {
+				InsertLearning: 'https://insertlearing.com/v1/firefox/?src=signup'
+			};
+			InstallTrigger.install(xpi);
+			$('<button id="extension-installed">').hide().on('click', onExtensionInstalled).appendTo('body');
+		}
+		else {
+			window.open('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', '_blank');
+		}
+	}
+	function onExtensionInstalled() {
+		location.href = 'https://insertlearning.com/v1/';	
+	}
+	$('#add-to-chrome').on('click', installExtension);
 });
