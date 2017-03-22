@@ -393,6 +393,26 @@ a.attribution:hover {
     border-radius: 4px;
     margin: 15px;
 }
+.chip {
+    display: inline-block;
+    height: 32px;
+    font-size: 13px;
+    font-weight: 500;
+    color: rgba(0, 0, 0, 0.6);
+    line-height: 32px;
+    background-color: rgb(228, 228, 228);
+    margin-bottom: 5px;
+    margin-right: 5px;
+    padding: 0px 12px;
+    border-radius: 16px;
+}
+.chip img {
+    float: left;
+    height: 32px;
+    width: 32px;
+    margin: 0px 8px 0px -12px;
+    border-radius: 50%;
+}
 
 /**************************
         GOOGLE
