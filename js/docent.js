@@ -16,7 +16,7 @@ $(document).ready(function() {
 		}
 		else if (window.InstallTrigger) {
 			var xpi = {
-				InsertLearning: 'https://insertlearing.com/v1/firefox/?src=signup'
+				InsertLearning: 'https://insertlearning.com/v1/firefox/?src=signup'
 			};
 			InstallTrigger.install(xpi);
 			$('<button id="extension-installed">').hide().on('click', onExtensionInstalled).appendTo('body');
