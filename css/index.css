@@ -499,6 +499,9 @@ a.attribution:hover {
 .price-teachers {
     border-right: 1px dotted #CCC;
 }
+.margin-bottom {
+    margin-bottom: 50px;
+}
 
 
 /**************************
