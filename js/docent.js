@@ -5,3 +5,4 @@ $(window).on('message', function(event) {
 		$('#arrow').hide();
 	}
 });
+console.log('hi');
