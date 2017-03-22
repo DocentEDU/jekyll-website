@@ -486,6 +486,10 @@ a.attribution:hover {
     
 }
 
+#pricing h3 {
+    text-decoration: underline;
+}
+
 .price-teachers, .price-schools {
     padding: 0px 20px 0px 20px;
     margin-top: 10px;
