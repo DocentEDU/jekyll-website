@@ -483,7 +483,7 @@ a.attribution:hover {
 ***************************/
 
 #pricing {
-    margin-bottom: 50px;
+    
 }
 
 #pricing h3 {
@@ -509,6 +509,9 @@ a.attribution:hover {
 }
 .margin-bottom {
     margin-bottom: 80px;
+}
+.margin-bottom-less {
+    margin-bottom: 50px;
 }
 
 
