@@ -1,3 +1,9 @@
+---
+layout: post
+author: Matt Nupen
+title: "DocentEDU is now InsertLearning"
+tags: [questions]
+---
 Big news!
 
 DocentEDU is now changing our name to InsertLearning!
