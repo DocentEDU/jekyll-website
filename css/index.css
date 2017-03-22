@@ -392,6 +392,10 @@ a.attribution:hover {
     box-shadow: 0 1px 3px 1px rgba(100,100,100,0.25);
     border-radius: 4px;
     margin: 15px;
+    text-align: center;
+}
+.card p {
+    text-align: left;
 }
 .chip {
     display: inline-block;
@@ -401,8 +405,7 @@ a.attribution:hover {
     color: rgba(0, 0, 0, 0.6);
     line-height: 32px;
     background-color: rgb(228, 228, 228);
-    margin-bottom: 5px;
-    margin-right: 5px;
+    margin-top: 5px;
     padding: 0px 12px;
     border-radius: 16px;
 }
