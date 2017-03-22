@@ -13,4 +13,4 @@ Q: Does my school tech department need to know about the change?<br>
 A: Possibly. Make sure that the website https://insertlearning.com is unblocked for teachers and students.
 
 
-If you have any questions or feedback about this update, send them to us via [email](mailto:support@insertlearning.com)or [Twitter](https://twitter.com/insertlearning).
+If you have any questions or feedback about this update, send them to us via [email](mailto:support@insertlearning.com) or [Twitter](https://twitter.com/insertlearning).
