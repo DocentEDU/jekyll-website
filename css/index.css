@@ -43,6 +43,14 @@ body {
         width: 210px;
         font-size: 21px;
     }
+    #welcome:after {
+        content: 'Insert instructional content on any web page.';
+        font-size: 20px;
+        margin: 40px auto;
+    }
+    #demo {
+        display: none;
+    }
 }
 @media (max-width: 567px) {
     body {
@@ -55,7 +63,21 @@ body {
     #add-to-chrome {
         float: none;
         display: block;
-        margin: 0 auto 50px;
+        margin: 36px auto 50px;
+        transform: none;
+    }
+    #welcome:after {
+        content: 'Insert instructional content \A on any web page.';
+        white-space: pre;
+        text-align: center;
+        font-size: 24px;
+        display: block;
+    }
+    #welcome {
+        padding-bottom: 50px;
+    }
+    #demo {
+        display: none;
     }
 }
 
