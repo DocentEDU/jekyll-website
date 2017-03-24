@@ -33,6 +33,31 @@ body {
     #add-to-chrome .fa-chrome {
         margin-right: 10px;    
     }
+@media (min-width:568px) and (max-width: 719px) {
+    #welcome img {
+        width: 300px;
+    }
+    #add-to-chrome {
+        transform: translatey(22px);
+        height: 60px;
+        width: 210px;
+        font-size: 21px;
+    }
+}
+@media (max-width: 567px) {
+    body {
+        padding-top: 30px;
+    }
+    #welcome img {
+        display: block;
+        margin: 0 auto;
+    }
+    #add-to-chrome {
+        float: none;
+        display: block;
+        margin: 0 auto 50px;
+    }
+}
 
 #demo iframe {
     width: 100%;
@@ -49,6 +74,15 @@ body {
 @media (max-width: 991px) {
     #demo iframe {
         height: 460px;
+    }
+}
+@media (max-width: 567px) {
+    #demo iframe {
+        border-width: 20px;
+        border-radius: 20px;
+    }
+    #demo #arrow {
+        left: 110px;
     }
 }
 #demo {
