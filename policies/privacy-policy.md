@@ -1,14 +1,14 @@
-DocentEDU Privacy Policy
+InsertLearning Privacy Policy
 
 Created: April 14, 2015
 
-This Privacy Policy explains how DocentEDU, Inc., ("we" or “DocentEDU”) uses, protects, and discloses the information we collect when you use the DocentEDU services (the “Services”) through our website (http://docentedu.com) (“Site”), browser extensions (“Extensions”), applications on Devices (“Apps”), through APIs, and through third parties.  A “Device” is any computer used to access the Services, including (without limitation to) a desktop, laptop, smartphone, tablet, or other consumer electronic device.
+This Privacy Policy explains how InsertLearning, Inc., ("we" or “InsertLearning”) uses, protects, and discloses the information we collect when you use the InsertLearning services (the “Services”) through our website (http://insertlearning.com) (“Site”), browser extensions (“Extensions”), applications on Devices (“Apps”), through APIs, and through third parties.  A “Device” is any computer used to access the Services, including (without limitation to) a desktop, laptop, smartphone, tablet, or other consumer electronic device.
 
 We reserve the right to modify this Privacy Policy effective immediately following posting of the modified version on the Site.  Your use of our Services following posting will constitute your acceptance of the modified version.  If you do not accept the terms of this Privacy Policy, please do not use the Services.
 
 THE INFORMATION WE COLLECT AND STORE
 
-DocentEDU may collect and store the following information when running our Services.
+InsertLearning may collect and store the following information when running our Services.
 
 Information You Provide
 
@@ -20,7 +20,7 @@ Depending on how you use the Services, you may be required to provide certain pe
 
 You may choose not to provide your Personal Information; however, if you do not provide your Personal Information you may not be able to use all the functions offered by the Services.
 
-For questions about your Personal Information on our Services, please contact support@docentedu.com
+For questions about your Personal Information on our Services, please contact support@insertlearning.com
 
 We also collect and store information you generate while using the Services ("User Content"). User Content may include, but is not limited to:
 
@@ -48,9 +48,9 @@ If you submit Personal Information to us, we will only use it for the purpose yo
 
 When you submit Feedback, it will include information necessary to identify you as a user and to help us identify any problems you are having.  This includes the website you are on when submitting the Feedback.
 
-You grant DocentEDU an irrevocable, perpetual, royalty-free right and license to use the anonymous information we collect in any way.
+You grant InsertLearning an irrevocable, perpetual, royalty-free right and license to use the anonymous information we collect in any way.
 
-DocentEDU does not access your contact information or address book within your mobile device.  Nor does DocentEDU have any access to any of the personal information or credit card information that you have provided to Apple or Google to register for their services.
+InsertLearning does not access your contact information or address book within your mobile device.  Nor does InsertLearning have any access to any of the personal information or credit card information that you have provided to Apple or Google to register for their services.
 
 
 
@@ -58,33 +58,33 @@ DocentEDU does not access your contact information or address book within your m
 
 INFORMATION SHARING AND DISCLOSURE
 
-Further, you agree that DocentEDU may transfer the anonymous information we collect in the event of any corporate restructuring or any sale, assignment or transfer of substantially all of its rights in the Apps.
+Further, you agree that InsertLearning may transfer the anonymous information we collect in the event of any corporate restructuring or any sale, assignment or transfer of substantially all of its rights in the Apps.
 
 We may disclose information about you if we become subject to a subpoena or court order, or if we are otherwise legally required to disclose information.  We may also use and disclose information about you to establish or exercise our legal rights, to enforce the Terms of Use, to assert and defend against legal claims, or if we believe such disclosure is necessary to investigate, prevent, or take other action regarding actual or suspected illegal or fraudulent activities or potential threats to the physical safety or well-being of any person.   If we are involved in a merger, acquisition, or sale of all or a portion of our assets, your information may be transferred as part of that transaction, but we will notify you (for example, via email and/or a prominent notice on our website) of any change in control or use of your Personal Information or User Content, or if either become subject to a different Privacy Policy. We will also notify you of choices you may have regarding the information.
 
-DocentEDU will display your Personal Information in your profile page and elsewhere on our Services according to the preferences you set in your account. Any information you choose to provide should reflect how much you want others to know about you. Please consider carefully what information you disclose in your profile page and your desired level of anonymity. You can review and revise your profile information at any time. We do not sell your personal information to third parties. We may also share or disclose your information with your consent, for example if you use a third party application to access your account. Through certain features of our Services, you may also have the ability to make some of your information public. Public information may be broadly and quickly disseminated.
+InsertLearning will display your Personal Information in your profile page and elsewhere on our Services according to the preferences you set in your account. Any information you choose to provide should reflect how much you want others to know about you. Please consider carefully what information you disclose in your profile page and your desired level of anonymity. You can review and revise your profile information at any time. We do not sell your personal information to third parties. We may also share or disclose your information with your consent, for example if you use a third party application to access your account. Through certain features of our Services, you may also have the ability to make some of your information public. Public information may be broadly and quickly disseminated.
 
-Service Providers, Business Partners and Others.   DocentEDU may use certain trusted third party companies and individuals to help us provide, analyze, and improve our Services (including but not limited to data storage, maintenance services, database management, web analytics, email communication, payment processing, and improvement of the Service’s features). These third parties may have access to your information only for purposes of performing these tasks on our behalf and under obligations similar to those in this Privacy Policy. As of the date this policy went into effect, we use:
+Service Providers, Business Partners and Others.   InsertLearning may use certain trusted third party companies and individuals to help us provide, analyze, and improve our Services (including but not limited to data storage, maintenance services, database management, web analytics, email communication, payment processing, and improvement of the Service’s features). These third parties may have access to your information only for purposes of performing these tasks on our behalf and under obligations similar to those in this Privacy Policy. As of the date this policy went into effect, we use:
 
 - Linode’s virtual private server platform to host our web server
 - MailChimp’s marketing platform to perform personalized email communication
 
 
-Third-Party Applications.   DocentEDU may share your Information with a third party application with your consent, for example when you choose to embed such an application into a lesson with our Services. We are not responsible for what those parties do with your information, so you should make sure you trust the application and that it has a privacy policy acceptable to you.
+Third-Party Applications.   InsertLearning may share your Information with a third party application with your consent, for example when you choose to embed such an application into a lesson with our Services. We are not responsible for what those parties do with your information, so you should make sure you trust the application and that it has a privacy policy acceptable to you.
 
-Non-private or Non-Personal Information.   DocentEDU may disclose your non-private, aggregated, or otherwise non-personal information, such as usage statistics of our Services. However, in such cases, your usage data is aggregated with the usage data of others and does not identify you individually.
+Non-private or Non-Personal Information.   InsertLearning may disclose your non-private, aggregated, or otherwise non-personal information, such as usage statistics of our Services. However, in such cases, your usage data is aggregated with the usage data of others and does not identify you individually.
 
 CHANGING OR DELETING YOUR INFORMATION
 
-To delete your account, please email support@docentedu.com.
+To delete your account, please email support@insertlearning.com.
 
 LINKED SITES
 
-Our Services may contain links to other Web sites whose privacy practices may differ from those of DocentEDU. If you submit personal Information to any of those sites, your Information is governed by their privacy statements. We encourage you to carefully read the privacy statement of any Web site you visit.
+Our Services may contain links to other Web sites whose privacy practices may differ from those of InsertLearning. If you submit personal Information to any of those sites, your Information is governed by their privacy statements. We encourage you to carefully read the privacy statement of any Web site you visit.
 
 SECURITY
 
-DocentEDU takes reasonable steps to help protect Information against loss, misuse, unauthorized access or disclosure.  DocentEDU expressly disclaims any representation or warranty, whether express or implied, with respect to offering any definitive promise of security in connection with The anonymous information we collect.
+InsertLearning takes reasonable steps to help protect Information against loss, misuse, unauthorized access or disclosure.  InsertLearning expressly disclaims any representation or warranty, whether express or implied, with respect to offering any definitive promise of security in connection with The anonymous information we collect.
 
 OUR POLICY TOWARD CHILDREN
 
@@ -100,8 +100,8 @@ If a Parent chooses to prohibit any future collection, use or disclosure of the 
 
 YOUR CONSENT
 
-If you reside outside the U.S., the anonymous information we collect will be transferred to the U.S. and processed and stored there under U.S. privacy standards.  By using the Services and providing Information to DocentEDU, you consent to the use, transfer and processing of the anonymous information we collect as set forth in this Privacy Policy, all of which activities will take place in the U.S.
+If you reside outside the U.S., the anonymous information we collect will be transferred to the U.S. and processed and stored there under U.S. privacy standards.  By using the Services and providing Information to InsertLearning, you consent to the use, transfer and processing of the anonymous information we collect as set forth in this Privacy Policy, all of which activities will take place in the U.S.
 
 HOW TO CONTACT US
 
-If you have any questions about this Privacy Policy, please contact us at support@docentedu.com.
+If you have any questions about this Privacy Policy, please contact us at support@insertlearning.com.
