@@ -26,7 +26,7 @@ $(document).ready(function() {
 		}
 	}
 	function onExtensionInstalled() {
-		location.href = 'https://insertlearning.com/v1/';	
+		location.href = 'https://insertlearning.com/v1/' + location.search;	
 	}
 	$('#add-to-chrome').on('click', installExtension);
 });
