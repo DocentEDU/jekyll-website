@@ -24,6 +24,9 @@ $(document).ready(function() {
 		else {
 			window.open('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', '_blank');
 		}
+		if (window.ga) {
+			ga('send', 'event', 'Buttons', 'click', 'Add to Chrome');	
+		}
 	}
 	function onExtensionInstalled() {
 		location.href = 'https://insertlearning.com/v1/' + location.search;	
