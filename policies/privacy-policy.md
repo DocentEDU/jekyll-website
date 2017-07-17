@@ -1,10 +1,10 @@
 InsertLearning Privacy Policy
 
-Created: April 14, 2015
+Created: July 17, 2017
 
 This Privacy Policy explains how InsertLearning, Inc., ("we" or “InsertLearning”) uses, protects, and discloses the information we collect when you use the InsertLearning services (the “Services”) through our website (http://insertlearning.com) (“Site”), browser extensions (“Extensions”), applications on Devices (“Apps”), through APIs, and through third parties.  A “Device” is any computer used to access the Services, including (without limitation to) a desktop, laptop, smartphone, tablet, or other consumer electronic device.
 
-We reserve the right to modify this Privacy Policy effective immediately following posting of the modified version on the Site.  Your use of our Services following posting will constitute your acceptance of the modified version.  If you do not accept the terms of this Privacy Policy, please do not use the Services.
+We reserve the right to modify this Privacy Policy effective immediately following posting of the modified version on the Site.  Your use of our Services following posting will constitute your acceptance of the modified version.  If you do not accept the terms of this Privacy Policy, please do not use the Services.  Changes to this privacy policy must be accepted by users before they can continue using our service.
 
 THE INFORMATION WE COLLECT AND STORE
 
@@ -48,7 +48,7 @@ If you submit Personal Information to us, we will only use it for the purpose yo
 
 When you submit Feedback, it will include information necessary to identify you as a user and to help us identify any problems you are having.  This includes the website you are on when submitting the Feedback.
 
-You grant InsertLearning an irrevocable, perpetual, royalty-free right and license to use the anonymous information we collect in any way.
+You grant InsertLearning an irrevocable, perpetual, royalty-free right and license to use the anonymous information we collect in any way. InsertLearning will not use anonymous information for behavioral targeting of advertisements or build a personal profile of a student for use other than supporting authorized educational/school purpose.
 
 InsertLearning does not access your contact information or address book within your mobile device.  Nor does InsertLearning have any access to any of the personal information or credit card information that you have provided to Apple or Google to register for their services.
 
@@ -68,6 +68,7 @@ Service Providers, Business Partners and Others.   InsertLearning may use certai
 
 - Linode’s virtual private server platform to host our web server
 - MailChimp’s marketing platform to perform personalized email communication
+- Intercom to provide chat and email customer support
 
 
 Third-Party Applications.   InsertLearning may share your Information with a third party application with your consent, for example when you choose to embed such an application into a lesson with our Services. We are not responsible for what those parties do with your information, so you should make sure you trust the application and that it has a privacy policy acceptable to you.
