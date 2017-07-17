@@ -50,9 +50,7 @@ When you submit Feedback, it will include information necessary to identify you 
 
 You grant InsertLearning an irrevocable, perpetual, royalty-free right and license to use the anonymous information we collect in any way. InsertLearning will not use anonymous information for behavioral targeting of advertisements or build a personal profile of a student for use other than supporting authorized educational/school purpose.
 
-InsertLearning does not access your contact information or address book within your mobile device.  Nor does InsertLearning have any access to any of the personal information or credit card information that you have provided to Apple or Google to register for their services.
-
-
+InsertLearning does not access your contact information or address book within your mobile device.  Nor does InsertLearning have any access to any of the personal information or credit card information that you have provided to Apple or Google to register for their services. You may choose to grant InsertLearning access to their google account contacts list for use in InsertLearning's referral system.  Contacts recieved in this way will not be used for purposes other than to send messages you initiate.
 
 
 
