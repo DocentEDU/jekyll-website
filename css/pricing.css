@@ -104,7 +104,8 @@
 .pricing-action a:hover {
     text-decoration: none;
     cursor: pointer;
-    background: #0DFF9D;
+    background: #56cc52;
+    color: #fff;
 }
 
 .pricing-subnote {
