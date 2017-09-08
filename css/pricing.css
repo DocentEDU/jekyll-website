@@ -1,0 +1,113 @@
+.pricing-table {
+    font-family: lato;
+    padding: 0px
+}
+
+.pricing-border {
+    border: 2px solid #CFCFCF;
+    border-radius: 2px;
+    margin: 20px 10px;
+    padding: 0px 10px;
+}
+
+.pricing-title h5 {
+    color: #000;
+    font-size: 20px;
+    margin-top: 25px;
+    margin-bottom: 15px;
+}
+
+.pricing-cost {
+    color: #000;
+    font-size: 60px;
+    line-height: 60px;
+    padding: 0px;
+    margin: 0px;
+    position: relative;
+    display: inline-block;
+}
+
+.pricing-dollar {
+    color: #949494;
+    font-size: 30px;
+    position: absolute;
+    top: -6px;
+    left: -25px;
+}
+
+.pricing-currency {
+    color: #949494;
+    font-size: 18px;
+    position: absolute;
+    top: -10px;
+    right: -40px;
+}
+
+.pricing-note {
+    color: #A5A5A5;
+    font-size: 14px;
+    padding: 5px 0 15px 0;
+}
+
+.pricing-note-small {
+    font-size: 12px;
+    font-style: italic;
+}
+
+.pricing-details {
+    border-bottom: 1px solid #D0D0D0;
+    margin: auto 0px;
+    font-size: 16px;
+}
+
+.pricing-details .fa {
+    color: #4AAF46;
+    font-size: 25px;
+}
+
+.pricing-details .fa.red {
+    color: #FF0003;
+}
+
+.pricing-details div {
+    padding: 4px 0px;
+}
+
+.pricing-details-item {
+    color: #555555;
+}
+
+.pricing-tier {
+    border-bottom: 1px dotted #D4D4D4;
+    margin: auto 0px;
+    color: #9E9E9E;
+    font-size: 15px;
+}
+
+.pricing-tier div {
+    padding: 4px 0px;
+}
+
+
+.pricing-action a {
+    background: #4AAF46;
+    color: #FAFDFA;
+    padding: 8px 30px;
+    font-size: 15px;
+    font-weight: 300;
+    border: none;
+    border-radius: 4px;
+    margin: 20px 0 20px 0;
+}
+
+.pricing-action a:hover {
+    text-decoration: none;
+    cursor: pointer;
+    background: #0DFF9D;
+}
+
+.pricing-subnote {
+    color: #949494;
+    font-size: 14px;
+    margin: 20px 0 20px 0;
+}
