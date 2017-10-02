@@ -14,7 +14,7 @@ $(document).ready(function() {
 		if (window.chrome && chrome.webstore && chrome.webstore.install) {
 			chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', onExtensionInstalled, function(error) {
 				console.log('Error installing extension:', error);
-				window.open('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', '_blank');
+				delete chrome.webstore;
 			});
 		}
 		else if (window.InstallTrigger) {
