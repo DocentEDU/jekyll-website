@@ -56,6 +56,9 @@ body {
     #demo {
         display: none;
     }
+    #video {
+        display: block;
+    }
 }
 @media (max-width: 567px) {
     body {
