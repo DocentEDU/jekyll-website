@@ -22,7 +22,7 @@ div#video.container {
     padding-top: 0;
     text-align: center;
 }
-div#video.container {
+div#video.container iframe {
     width: 480px;
     height: 270px;
 }
