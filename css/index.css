@@ -79,6 +79,12 @@ body {
     #demo {
         display: none;
     }
+    #video {
+        display: block;
+    }
+}
+#video {
+    display: none;
 }
 
 #demo iframe {
