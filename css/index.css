@@ -16,6 +16,11 @@ body {
     padding: 15px;
 }
 
+
+#video {
+    display: none;
+}
+
 #add-to-chrome {
     float: right;
     color: white;
@@ -82,9 +87,6 @@ body {
     #video {
         display: block;
     }
-}
-#video {
-    display: none;
 }
 
 #demo iframe {
