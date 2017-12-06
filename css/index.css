@@ -97,6 +97,12 @@ div#video.container iframe {
         display: block;
     }
 }
+@media (max-width: 519px) {
+    div#video.container iframe {
+        width: 320px;
+        height: 180px;
+    }
+}
 
 #demo iframe {
     width: 100%;
