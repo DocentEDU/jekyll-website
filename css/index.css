@@ -99,8 +99,8 @@ div#video.container iframe {
 }
 @media (max-width: 519px) {
     div#video.container iframe {
-        width: 320px;
-        height: 180px;
+        width: calc(100vw - 40px);
+        height: calc(56.25vw - 22.5px);
     }
 }
 
