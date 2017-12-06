@@ -19,6 +19,8 @@ body {
 
 #video {
     display: none;
+    padding-top: 0;
+    text-align: center;
 }
 
 #add-to-chrome {
