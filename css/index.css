@@ -22,6 +22,10 @@ div#video.container {
     padding-top: 0;
     text-align: center;
 }
+div#video.container {
+    width: 480px;
+    height: 270px;
+}
 
 #add-to-chrome {
     float: right;
