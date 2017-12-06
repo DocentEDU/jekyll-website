@@ -17,7 +17,7 @@ body {
 }
 
 
-#video {
+div#video.container {
     display: none;
     padding-top: 0;
     text-align: center;
@@ -58,7 +58,7 @@ body {
     #demo {
         display: none;
     }
-    #video {
+    div#video.container {
         display: block;
     }
 }
@@ -89,7 +89,7 @@ body {
     #demo {
         display: none;
     }
-    #video {
+    div#video.container {
         display: block;
     }
 }
