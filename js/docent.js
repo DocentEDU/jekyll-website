@@ -32,6 +32,9 @@ $(document).ready(function() {
 		}
 	}
 	function onExtensionInstalled() {
+		if (typeof(window.goog_report_conversion) == 'function') {
+			goog_report_conversion();
+		}
 		location.href = 'https://insertlearning.com/v1/' + location.search;	
 	}
 	$('#add-to-chrome').on('click', installExtension);
