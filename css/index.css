@@ -55,15 +55,6 @@ body {
         margin-right: 10px;    
     }
 
-@media (max-width: 567px) {
-    body {
-        padding-top: 30px;
-    }
-    #welcome {
-        padding-bottom: 50px;
-    }
-}
-
 .nav-justified > li {
     display: table-cell;
     width: 1%;
