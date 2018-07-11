@@ -7,7 +7,7 @@ body {
     position: relative; //for scoll-spy
 }
 
-#home > #dashboard {
+#home #dashboard {
     position: absolute;
     top: 12px;
     right: 15px;
@@ -16,7 +16,7 @@ body {
     padding: 15px;
 }
 
-#home > #logo {
+#home #logo {
     position: absolute;
     top: 16px;
     left: 24px;
