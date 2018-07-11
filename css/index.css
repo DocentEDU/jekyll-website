@@ -108,6 +108,7 @@ video {
 }
 h4 {
     font-size: 20px;
+    line-height: 160%;
 }
 
 #demo ~ .container {
