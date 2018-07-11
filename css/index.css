@@ -24,8 +24,19 @@ body {
     width: 100px;
 }
 
+#welcome h1 {
+    text-align: center;
+}
+
+#welcome video {
+    margin: 55px auto;
+    display: block;
+    width: 525px;
+    box-shadow: 0px 1px 5px 0 rgba(0,0,0,0.4);
+    border-radius: 3px;
+}
+
 #add-to-chrome {
-    float: right;
     color: white;
     background-color: #36AE4F;
     font-family: Lato;
@@ -35,7 +46,6 @@ body {
     border-radius: 10px;
     border: 0;
     box-shadow: 0 1px 3px rgba(100,100,100,0.25);
-    transform: translatey(36px);
     padding: 0;
 }
     #add-to-chrome .fa-chrome {
