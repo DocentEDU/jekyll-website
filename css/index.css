@@ -24,17 +24,6 @@ body {
     width: 100px;
 }
 
-
-div#video.container {
-    display: none;
-    padding-top: 0;
-    text-align: center;
-}
-div#video.container iframe {
-    width: 480px;
-    height: 270px;
-}
-
 #add-to-chrome {
     float: right;
     color: white;
@@ -52,134 +41,16 @@ div#video.container iframe {
     #add-to-chrome .fa-chrome {
         margin-right: 10px;    
     }
-@media (min-width:568px) and (max-width: 719px) {
-    #add-to-chrome {
-        transform: translatey(22px);
-        height: 60px;
-        width: 210px;
-        font-size: 21px;
-    }
-    #welcome:after {
-        content: 'Insert instructional content on any web page.';
-        font-size: 20px;
-        margin: 40px auto;
-    }
-    #demo {
-        display: none;
-    }
-    div#video.container {
-        display: block;
-    }
-}
+
 @media (max-width: 567px) {
     body {
         padding-top: 30px;
     }
-    #welcome img {
-        display: block;
-        margin: 0 auto;
-    }
-    #add-to-chrome {
-        float: none;
-        display: block;
-        margin: 36px auto 50px;
-        transform: none;
-    }
-    #welcome:after {
-        content: 'Insert instructional content \A on any web page.';
-        white-space: pre;
-        text-align: center;
-        font-size: 24px;
-        display: block;
-    }
     #welcome {
         padding-bottom: 50px;
     }
-    #demo {
-        display: none;
-    }
-    div#video.container {
-        display: block;
-    }
-}
-@media (max-width: 519px) {
-    div#video.container iframe {
-        width: calc(100vw - 40px);
-        height: calc(56.25vw - 22.5px);
-    }
 }
 
-#demo iframe {
-    width: 100%;
-    height: 720px; 
-    box-sizing: border-box;
-    border: 40px solid #555;
-    border-radius: 40px 40px 0 0;
-}
-@media (max-width: 1199px) {
-    #demo iframe {
-        height: 600px;
-    }
-}
-@media (max-width: 991px) {
-    #demo iframe {
-        height: 460px;
-    }
-}
-@media (max-width: 567px) {
-    #demo iframe {
-        border-width: 20px;
-        border-radius: 20px;
-    }
-    #demo #arrow {
-        left: 110px;
-    }
-}
-#demo {
-    position: relative;
-}
-#arrow {
-    position: absolute;
-    color: white;
-    background-color: #3498DB;
-    font-size: 22px;
-    font-weight: 400;
-    -webkit-font-smoothing: antialiased;
-    padding: 12px 16px 12px 8px;
-    border-radius: 0 4px 4px 0;
-    top: 49%;
-    left: 133px;
-    line-height: 1;
-    box-shadow: 0 1px 3px 0 rgba(100,100,100,0.25);
-    pointer-events: none;
-    display: none;
-}
-#arrow:before {
-    content: '';
-    width: 0;
-    height: 0;
-    border-top: 23px solid transparent;
-    border-bottom: 23px solid transparent;
-    border-right: 23px solid #3498DB;
-    position: absolute;
-    top: 0;
-    left: -23px;
-    display: block;
-}
-#arrow:after {
-    content: 'Try Now';
-}
-
-/*
-.subPage .container {
-    padding-left: 100px;
-    padding-right: 100px;
-}
-*/
-video {
-    width: 100%    !important;
-    height: auto   !important;
-}
 .nav-justified > li {
     display: table-cell;
     width: 1%;
