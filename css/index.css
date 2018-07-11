@@ -9,7 +9,7 @@ body {
 
 #home > #dashboard {
     position: absolute;
-    top: 0;
+    top: 12px;
     right: 15px;
     font-size: 14px;
     line-height: 1;
