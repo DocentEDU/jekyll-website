@@ -28,7 +28,7 @@ body {
     text-align: center;
 }
 
-#welcome video {
+video {
     margin: 55px auto;
     display: block;
     width: 525px;
