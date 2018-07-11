@@ -16,6 +16,14 @@ body {
     padding: 15px;
 }
 
+#home > #logo {
+    position: absolute;
+    top: 16px;
+    left: 24px;
+    height: auto;
+    width: 100px;
+}
+
 
 div#video.container {
     display: none;
@@ -45,9 +53,6 @@ div#video.container iframe {
         margin-right: 10px;    
     }
 @media (min-width:568px) and (max-width: 719px) {
-    #welcome img {
-        width: 300px;
-    }
     #add-to-chrome {
         transform: translatey(22px);
         height: 60px;
