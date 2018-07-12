@@ -83,6 +83,7 @@ video {
     width: 525px;
     max-width: 100%;
     margin: 55px auto;
+    display: block;
 }
 
 h4 {
