@@ -94,6 +94,16 @@ h4 {
     padding-bottom: 50px;
 }
 
+@media (min-width: 992px) {
+    .vertical-align {
+        display: flex;
+        align-items: center;
+    }
+    .float-right {
+        flex-direction: row-reverse;
+    }
+}
+
 .btn-clear {
     border: 1px solid #FFF;
     color: #FFF;
