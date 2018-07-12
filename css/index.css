@@ -7,6 +7,16 @@ body {
     position: relative; //for scoll-spy
 }
 
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 70px;
+    z-index: 1;
+    background-color: hsla(0,0%,100%,97%);
+}
+
 #home #dashboard {
     position: absolute;
     top: 12px;
