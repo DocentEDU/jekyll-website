@@ -7,7 +7,7 @@ body {
     position: relative; //for scoll-spy
 }
 
-header {
+#home header {
     position: fixed;
     left: 0;
     top: 0;
