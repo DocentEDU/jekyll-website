@@ -79,9 +79,10 @@ video {
     margin-bottom: 50px;
 }
 
-.container img {
+.img {
     width: 525px;
     max-width: 100%;
+    margin: 55px auto;
 }
 
 h4 {
