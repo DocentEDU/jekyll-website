@@ -58,6 +58,7 @@ video {
     border-radius: 1em;
     border: 0;
     padding: 0;
+    outline: 0;
     display: block;
     margin: 55px auto;
     opacity: 1;
