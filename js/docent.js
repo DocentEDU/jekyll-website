@@ -42,10 +42,10 @@ $(document).ready(function() {
 	$(window).on('scroll', function(event) {
 		var $button = $('header .add-to-chrome');
 		if ($(window).scrollTop() == 0) {
-			$button.addClass('invisible');
+			$button.addClass('zero-opacity');
 		}
 		else {
-			$button.removeClass('invisible');
+			$button.removeClass('zero-opacity');
 		}
 	});
 });
