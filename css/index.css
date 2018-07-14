@@ -48,7 +48,7 @@ video {
     max-width: 100%;
 }
 
-#add-to-chrome {
+.add-to-chrome {
     color: white;
     background-color: #36AE4F;
     font-family: Lato;
@@ -61,10 +61,28 @@ video {
     padding: 0;
     display: block;
     margin: 55px auto;
+    opacity: 1;
 }
-    #add-to-chrome .fa-chrome {
+    .add-to-chrome .fa-chrome {
         margin-right: 10px;    
     }
+
+header .add-to-chrome {
+    margin: 0;
+    height: 40px;
+    width: 160px;
+    font-size: 16px;
+    border-radius: 8px;
+    box-shadow: none;
+    position: absolute;
+    top: 15px;
+    right: 100px;
+    transition: opacity 0.4s ease;
+}
+
+.invisible {
+    opacity: 0;
+}
 
 .divider-top {
     border-top: 1px solid #CCC;
