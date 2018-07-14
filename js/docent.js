@@ -41,7 +41,7 @@ $(document).ready(function() {
 	
 	$(window).on('scroll', function(event) {
 		var $button = $('header .add-to-chrome');
-		if ($(window).scrollTop() == 0) {
+		if ($(window).scrollTop() <= 0) {
 			$button.addClass('zero-opacity');
 		}
 		else {
