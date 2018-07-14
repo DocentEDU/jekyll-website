@@ -62,6 +62,11 @@ video {
     margin: 55px auto;
     opacity: 1;
 }
+    .add-to-chrome .small {
+        opacity: 0.85;
+        font-size: 0.8125em;
+        margin-left: 0.3em;
+    }
 
 header .add-to-chrome {
     margin: 0;
