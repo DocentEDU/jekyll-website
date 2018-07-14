@@ -53,27 +53,19 @@ video {
     background-color: #36AE4F;
     font-family: Lato;
     font-size: 25px;
-    width: 250px;
-    height: 65px;
-    border-radius: 10px;
+    width: 13em;
+    height: 2.5em;
+    border-radius: 0.5em;
     border: 0;
-    box-shadow: 0 1px 3px rgba(100,100,100,0.25);
     padding: 0;
     display: block;
     margin: 55px auto;
     opacity: 1;
 }
-    .add-to-chrome .fa-chrome {
-        margin-right: 10px;    
-    }
 
 header .add-to-chrome {
     margin: 0;
-    height: 40px;
-    width: 160px;
     font-size: 16px;
-    border-radius: 8px;
-    box-shadow: none;
     position: absolute;
     top: 15px;
     right: 100px;
