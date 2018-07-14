@@ -80,7 +80,7 @@ header .add-to-chrome {
     transition: opacity 0.4s ease;
 }
 
-.invisible {
+.zero-opacity {
     opacity: 0;
 }
 
