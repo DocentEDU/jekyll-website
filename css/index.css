@@ -86,6 +86,7 @@ header .add-to-chrome {
 
 .zero-opacity {
     opacity: 0;
+    pointer-events: none;
 }
 
 .divider-top {
