@@ -37,5 +37,15 @@ $(document).ready(function() {
 		}
 		location.href = 'https://insertlearning.com/v1/' + location.search;	
 	}
-	$('#add-to-chrome').on('click', installExtension);
+	$('.add-to-chrome').on('click', installExtension);
+	
+	$(window).on('scroll', function(event) {
+		var $button = $('header .add-to-chrome');
+		if ($(window).scrollTop() == 0) {
+			$button.addClass('invisible');
+		}
+		else {
+			$button.removeClass('invisible');
+		}
+	});
 });
