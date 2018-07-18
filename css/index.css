@@ -39,19 +39,19 @@ body {
     font-size: 38px;
 }
 
-#welcome {
-    height: calc(100vh - 100px);
-    min-height: 590px;
-    display: flex;
-    align-items: center;
-}
-
-.wrapper {
-    margin: 0 auto;
-}
-
-#welcome video {
-    max-height: 300px;
+@media (max-width: 992px) {
+    #welcome {
+        height: calc(100vh - 100px);
+        min-height: 590px;
+        display: flex;
+        align-items: center;
+    }
+    .wrapper {
+        margin: 0 auto;
+    }
+    #welcome video {
+        max-height: 300px;
+    }
 }
 
 video {
