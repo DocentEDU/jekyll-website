@@ -152,6 +152,15 @@ h4 {
     }
 }
 
+#cta-1 {
+    margin: 50px auto;
+    text-align: center;
+}
+#cta-1 h1 {
+    margin-top: 50px;
+    margin-bottom: 25px;
+}
+
 .btn-clear {
     border: 1px solid #FFF;
     color: #FFF;
