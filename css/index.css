@@ -50,6 +50,10 @@ body {
     margin: 0 auto;
 }
 
+#welcome video {
+    height: 300px;
+}
+
 video {
     margin: 55px auto;
     display: block;
