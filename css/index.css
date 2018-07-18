@@ -51,7 +51,7 @@ body {
 }
 
 #welcome video {
-    height: 300px;
+    max-height: 300px;
 }
 
 video {
