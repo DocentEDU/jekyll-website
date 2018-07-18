@@ -39,7 +39,7 @@ body {
     font-size: 38px;
 }
 
-@media (max-width: 992px) {
+@media (min-width: 992px) {
     #welcome {
         height: calc(100vh - 100px);
         min-height: 590px;
