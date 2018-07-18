@@ -48,4 +48,10 @@ $(document).ready(function() {
 			$button.removeClass('zero-opacity');
 		}
 	});
+	
+	if (window.InstallTrigger) {
+		$('.add-to-chrome').html(function() {
+			return $(this).html().replace('Chrome', 'Firefox');
+		});
+	}
 });
