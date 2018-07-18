@@ -49,9 +49,6 @@ body {
     .wrapper {
         margin: 0 auto;
     }
-    #welcome video {
-        max-height: 300px;
-    }
 }
 
 video {
