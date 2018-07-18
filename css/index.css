@@ -40,7 +40,10 @@ body {
 }
 
 #welcome {
-    
+    height: calc(100vh - 100px);
+    min-height: 590px;
+    display: flex;
+    align-items: center;
 }
 
 .wrapper {
