@@ -39,6 +39,14 @@ body {
     font-size: 38px;
 }
 
+#welcome {
+    
+}
+
+.wrapper {
+    margin: 0 auto;
+}
+
 video {
     margin: 55px auto;
     display: block;
