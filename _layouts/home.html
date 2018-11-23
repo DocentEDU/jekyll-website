@@ -6,7 +6,7 @@ image: og.png
 
   {% include head.html %}
 
-  <body data-spy="scroll" data-target="#navbar" id="home">
+  <body data-spy="scroll" data-target="#navbar" data-acquisition-source="<?= $_GET['source'] ?>" id="home">
     <header>
       <img id="logo" src="images/wordmark@2x.png" width="100" height="38" />
       <button class="add-to-chrome zero-opacity">Add to Chrome <span class="small">It's free</span></button>
