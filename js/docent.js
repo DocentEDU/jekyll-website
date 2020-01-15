@@ -57,4 +57,4 @@ $(document).ready(function() {
 			return $(this).html().replace('Chrome', 'Firefox');
 		});
 	}
-});//
+});
