@@ -11,23 +11,29 @@ $(window).on('message', function(event) {
 });
 $(document).ready(function() {
 	function installExtension() {
-		if (window.InstallTrigger) {
+		/* if (window.chrome && chrome.webstore && chrome.webstore.install) {
+			chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', onExtensionInstalled, function(error) {
+				console.log('Error installing extension:', error);
+				delete chrome.webstore;
+			});
+		}
+		else */ if (window.InstallTrigger) {
 			var xpi = {
 				InsertLearning: 'https://insertlearning.com/v1/firefox/?src=signup'
 			};
 			InstallTrigger.install(xpi);
 			$('<button id="extension-installed">').hide().on('click', onExtensionInstalled).appendTo('body');
 		}
-		else if (document.body.dataset.extensionVersion) {
-			location.href = 'https://insertlearning.com/v1/' + location.search;
-		}
+        else if (document.body.dataset.extensionVersion) {
+            location.href = 'https://insertlearning.com/v1/' + location.search;
+        }
 		else {
-			try {
-				sessionStorage.setItem('acquisitionSource', document.body.dataset.acquisitionSource || '');
-			}
-			catch (error) {
-				console.log(error.message);
-			}
+            try {
+                sessionStorage.setItem('acquisitionSource', document.body.dataset.acquisitionSource || '');
+            }
+            catch (error) {
+                console.log(error.message);
+            }
 			window.open('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', '_blank');
 		}
 		if (window.ga) {
