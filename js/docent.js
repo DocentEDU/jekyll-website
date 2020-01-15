@@ -11,13 +11,7 @@ $(window).on('message', function(event) {
 });
 $(document).ready(function() {
 	function installExtension() {
-		/* if (window.chrome && chrome.webstore && chrome.webstore.install) {
-			chrome.webstore.install('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', onExtensionInstalled, function(error) {
-				console.log('Error installing extension:', error);
-				delete chrome.webstore;
-			});
-		}
-		else */ if (window.InstallTrigger) {
+		if (window.InstallTrigger) {
 			var xpi = {
 				InsertLearning: 'https://insertlearning.com/v1/firefox/?src=signup'
 			};
