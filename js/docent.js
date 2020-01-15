@@ -19,15 +19,15 @@ $(document).ready(function() {
 			$('<button id="extension-installed">').hide().on('click', onExtensionInstalled).appendTo('body');
 		}
 		else if (document.body.dataset.extensionVersion) {
-		    location.href = 'https://insertlearning.com/v1/' + location.search;
+			location.href = 'https://insertlearning.com/v1/' + location.search;
 		}
 		else {
 			try {
 				sessionStorage.setItem('acquisitionSource', document.body.dataset.acquisitionSource || '');
-		    }
-		    catch (error) {
+			}
+			catch (error) {
 				console.log(error.message);
-		    }
+			}
 			window.open('https://chrome.google.com/webstore/detail/dehajjkfchegiinhcmoclkfbnmpgcahj', '_blank');
 		}
 		if (window.ga) {
