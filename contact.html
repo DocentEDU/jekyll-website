@@ -32,11 +32,11 @@ layout: default
         
         
        
-        <iframe src="https://www.okeebo.com/docent-dev/contact-form/" width="760" height="760" frameborder="0" marginheight="0" marginwidth="0" style="max-width: 100%;">Loading...</iframe>
+        <iframe src="https://www.okeebo.com/docent-dev/contact-form/" width="760" height="600" frameborder="0" marginheight="0" marginwidth="0" style="max-width: 100%;">Loading...</iframe>
         <script>
             window.addEventListener('message', function(message) {
 	            if (message.data.type == 'resizeIframe') {
-		            document.querySelector('iframe').height = Math.max(message.data.height, 760);
+		            document.querySelector('iframe').height = Math.max(message.data.height, 600);
                 }
             });
         </script>
