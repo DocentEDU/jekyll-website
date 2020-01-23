@@ -144,7 +144,7 @@ function showBookmarklet() {
     var f = function(doc) {
         var t = (new Date()).valueOf();
         var s = doc.createElement('script');
-        s.src = baseURL.domain + baseURL. version + '/toolbar/docent.js?t=' + t;
+        s.src = baseURL.domain + baseURL.version + '/toolbar/docent.js?t=' + t;
         s.async = true;
         doc.getElementsByTagName('head')[0].appendChild(s);
     };
