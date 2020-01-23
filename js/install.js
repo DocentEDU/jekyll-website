@@ -1,6 +1,6 @@
 var baseURL = {
-    domain: 'https://docentedu.com/',
-    version: 'beta'
+    domain: 'https://insertlearning.com/',
+    version: 'v1'
 };
 baseURL.api = baseURL.domain + baseURL.version + '/api/';
 
