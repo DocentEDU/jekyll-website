@@ -157,6 +157,8 @@ function showBookmarklet() {
         $input.select();
         document.execCommand('copy');
         $input.blur();
+        event.preventDefault();
+        return false;
     });
     
     jQuery('.extension-wrapper').hide();
