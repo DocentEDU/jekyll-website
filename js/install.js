@@ -156,6 +156,7 @@ function showBookmarklet() {
         $input.select();
         document.execCommand('copy');
         $input.blur();
+        statusMessage('Copied code', 1500);
         event.preventDefault();
         return false;
     });
