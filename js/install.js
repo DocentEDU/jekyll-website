@@ -163,3 +163,13 @@ function showBookmarklet() {
     jQuery('.extension-wrapper').hide();
     jQuery('.bookmarklet-wrapper').show();
 }
+function statusMessage(msg, delay) {
+    delay = delay || 3000;
+    var $msg = $('.status-message').html(msg).fadeIn();
+    if (statusMessage.timer) {
+        clearTimeout(statusMessage.timer);
+    }
+    statusMessage.timer = setTimeout(function() {
+        $msg.fadeOut();
+    }, delay);
+}
