@@ -152,6 +152,13 @@ function showBookmarklet() {
     jQuery('.bookmarklet').attr('href', href);
     window.location.hash = href;
     
+    var $input = jQuery('input').val(href);
+    jQuery('.bookmarklet').on('click', function(event) {
+        $input.select();
+        document.execCommand('copy');
+        $input.blur();
+    });
+    
     jQuery('.extension-wrapper').hide();
     jQuery('.bookmarklet-wrapper').show();
 }
