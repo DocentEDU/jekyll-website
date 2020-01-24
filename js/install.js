@@ -157,6 +157,7 @@ function showBookmarklet() {
         document.execCommand('copy');
         $input.blur();
         event.preventDefault();
+        alert('Copied code');
         return false;
     });
     
