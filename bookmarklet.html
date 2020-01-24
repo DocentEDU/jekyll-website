@@ -38,4 +38,25 @@ permalink: /bookmarklet/
 <script src="/js/install.js"></script>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script>showBookmarklet();</script>
+<style>
+    .status-message {
+        position: fixed;
+        border-radius: 5px;
+        color: #fff;
+        background-color: rgba(0, 0, 0, 0.8);
+        font-family: Lato, sans-serif;
+        font-size: 16px;
+        font-weight: 400;
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        padding: 5px 10px;
+        left: 50%;
+        text-align: center;
+        top: 33%;
+        display: none;
+        transform: translate(-50%, -33%);
+        -webkit-transform: translate(-50%, -33%);
+        z-index: 5;
+    }
+</style>
 <p class="status-message"></p>
