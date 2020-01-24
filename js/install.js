@@ -150,7 +150,6 @@ function showBookmarklet() {
     };
     var href = encodeURI('javascript:(' + f.toString().replace(/\s{2,}/g, '') + ')(document)');
     jQuery('.bookmarklet').attr('href', href);
-    window.location.hash = href;
     
     var $input = jQuery('input').val(href);
     jQuery('.bookmarklet').on('click', function(event) {
