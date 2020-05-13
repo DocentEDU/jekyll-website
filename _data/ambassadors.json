@@ -1,4 +1,14 @@
 [{
+  "name": "Reginald Matthews",
+  "lastName": "Matthews",
+  "website": "https://www.krimsynntech.com/",
+  "location": "Liberty, MS",
+  "role": "Administrator",
+  "grade": "Higher Ed",
+  "bio": "Director of Information Technology at Southwest MS Community College. Outside of being a tech director, also does educational technology professional development for K-12 staff.",
+  "twitter": "krimsynntech"
+ },
+ {
   "name": "Kate Baker",
   "lastName": "Baker",
   "photo": "KBaker.jpg",
