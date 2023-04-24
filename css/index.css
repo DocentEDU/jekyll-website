@@ -746,7 +746,7 @@ Vertical Tabs
 
 /*** PATCH FIX ***/
 .force-footer-to-bottom {
-    min-height: calc(100vh - 304.5px);
+    min-height: calc(100vh - 314px);
 }
 
 /**************************
