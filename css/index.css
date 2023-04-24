@@ -744,9 +744,13 @@ Vertical Tabs
     background-color: #ddd;
 }
 
-/*** PATCH FIX ***/
+body {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
 .force-footer-to-bottom {
-    min-height: calc(100vh - 314px);
+    flex: 1;
 }
 
 /**************************
